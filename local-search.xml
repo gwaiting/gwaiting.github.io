@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>GitHub 的地址域名解析</title>
+    <link href="/2022/01/05/Github%20pages%20%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/"/>
+    <url>/2022/01/05/Github%20pages%20%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/</url>
+    
+    <content type="html"><![CDATA[<h1 id="GitHub-的地址域名解析"><a href="#GitHub-的地址域名解析" class="headerlink" title="GitHub 的地址域名解析"></a>GitHub 的地址域名解析</h1><blockquote><p>将 GitHub 上面部署的 Page 的域名更换到自己定义的域名</p></blockquote><h2 id="1、在阿里云的域名控制台添加解析记录"><a href="#1、在阿里云的域名控制台添加解析记录" class="headerlink" title="1、在阿里云的域名控制台添加解析记录"></a>1、在阿里云的域名控制台添加解析记录</h2><p><a href="https://dns.console.aliyun.com/?spm=5176.100251.111252.17.72014f15ybmxxo#/dns/setting/xdtx.xyz">解析地址</a></p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051618726.png"></p><p>这里的记录纸最好填写 ip 地址，这样加载会更快，可以在一下<a href="https://ip.chinaz.com/gwaiting.github.io">网址</a>查看域名的 ip。</p><h2 id="2、GitHub-绑定自己的域名"><a href="#2、GitHub-绑定自己的域名" class="headerlink" title="2、GitHub 绑定自己的域名"></a>2、GitHub 绑定自己的域名</h2><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051621865.png"></p><p>参考</p><p> <a href="https://segmentfault.com/a/1190000011203711">绑定个人域名https://segmentfault.com/a/1190000011203711</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+      <category>GitHub</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>GitHub</tag>
+      
+      <tag>域名</tag>
+      
+      <tag>Blog</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>iPic 图床配置 GitHub 图床</title>
+    <link href="/2022/01/05/ipic%20%E9%85%8D%E7%BD%AE/"/>
+    <url>/2022/01/05/ipic%20%E9%85%8D%E7%BD%AE/</url>
+    
+    <content type="html"><![CDATA[<h1 id="iPic-图床配置-GitHub图床"><a href="#iPic-图床配置-GitHub图床" class="headerlink" title="iPic 图床配置 GitHub图床"></a>iPic 图床配置 GitHub图床</h1><h2 id="1、GitHub-仓库新建图床"><a href="#1、GitHub-仓库新建图床" class="headerlink" title="1、GitHub 仓库新建图床"></a>1、GitHub 仓库新建图床</h2><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051414727.png"></p><h2 id="2、GitHub-生成-token"><a href="#2、GitHub-生成-token" class="headerlink" title="2、GitHub 生成 token"></a>2、GitHub 生成 token</h2><p><a href="https://github.com/settings/tokens">地址</a></p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051425122.png"></p><p>注意勾选 repo 和仓库名称</p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051425122.png"></p><h2 id="3、iPic-配置填写"><a href="#3、iPic-配置填写" class="headerlink" title="3、iPic 配置填写"></a>3、iPic 配置填写</h2><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051425381.png"></p><h1 id="jsdelivr-CDN-加速"><a href="#jsdelivr-CDN-加速" class="headerlink" title="jsdelivr CDN 加速"></a>jsdelivr CDN 加速</h1><figure class="highlight javascript"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></div></td><td class="code"><pre><code class="hljs javascript">https:<span class="hljs-comment">//cdn.jsdelivr.net/gh/GitHub 用户名/仓户名/文件夹</span><br>例如 我的配置 <br>(https:<span class="hljs-comment">//cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051425381.png</span><br></code></pre></td></tr></table></figure><p>参考</p><p><a href="https://iknow.fun/2021/07/21/shi-yong-jsdelivr-jia-su-github-zi-yuan-jia-kuai-bo-ke-da-kai-su-du/">使用 jsDelivr 加速 Github 资源，加快博客打开速度</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>教程</category>
+      
+      <category>GitHub</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>GitHub</tag>
+      
+      <tag>图床</tag>
+      
+      <tag>CDN</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>OpenWrt 无法进入后台解决方案</title>
+    <link href="/2022/01/05/OpenWrt%20%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E5%90%8E%E5%8F%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <url>/2022/01/05/OpenWrt%20%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E5%90%8E%E5%8F%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
+    
+    <content type="html"><![CDATA[<h1 id="OpenWrt-无法进入后台解决方案"><a href="#OpenWrt-无法进入后台解决方案" class="headerlink" title="OpenWrt 无法进入后台解决方案"></a>OpenWrt 无法进入后台解决方案</h1><blockquote><p>取消桥接后，导致无法通过 ip 来进入管理器。我们通过物理方法修改内存卡的文件，加入桥接设置。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051621865.png"></p><h2 id="1、内存卡插入电脑"><a href="#1、内存卡插入电脑" class="headerlink" title="1、内存卡插入电脑"></a>1、内存卡插入电脑</h2><p>把内存卡取出来，插到 PC 上，通过修改文件的方式，我们来恢复桥接。这里的内存卡的根目录 Mac 和 PC 都不能读取，PC 上采用 Disk Ginues 这款软件。Mac 上？Mac 砸了换 PC。</p><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></div></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment">#先切换到根目录</span><br><span class="hljs-built_in">cd</span> /<br><span class="hljs-comment">#然后打开network配置文件</span><br> vi etc/config/network<br></code></pre></td></tr></table></figure><h2 id="2、修改文件"><a href="#2、修改文件" class="headerlink" title="2、修改文件"></a>2、修改文件</h2><figure class="highlight vbnet"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><code class="hljs vbnet"><span class="hljs-string">&quot;etc/config/network&quot;</span><br><br>config <span class="hljs-keyword">interface</span> <span class="hljs-comment">&#x27;loopback&#x27;</span><br>        <span class="hljs-keyword">option</span> ifname <span class="hljs-comment">&#x27;lo&#x27;</span><br>        <span class="hljs-keyword">option</span> proto <span class="hljs-comment">&#x27;static&#x27;</span><br>        <span class="hljs-keyword">option</span> ipaddr <span class="hljs-comment">&#x27;127.0.0.1&#x27;</span><br>        <span class="hljs-keyword">option</span> netmask <span class="hljs-comment">&#x27;255.0.0.0&#x27;</span><br><br>config globals <span class="hljs-comment">&#x27;globals&#x27;</span><br>        <span class="hljs-keyword">option</span> ula_prefix <span class="hljs-comment">&#x27;fdb1:fe5a:1c5d::/48&#x27;</span><br><br>config <span class="hljs-keyword">interface</span> <span class="hljs-comment">&#x27;lan&#x27;</span><br>        <span class="hljs-keyword">option</span> proto <span class="hljs-comment">&#x27;static&#x27;</span><br>        <span class="hljs-keyword">option</span> ipaddr <span class="hljs-comment">&#x27;192.168.1.100&#x27;</span><br>        <span class="hljs-keyword">option</span> netmask <span class="hljs-comment">&#x27;255.255.255.0&#x27;</span><br>        <span class="hljs-keyword">option</span> ip6assign <span class="hljs-comment">&#x27;60&#x27;</span><br>        <span class="hljs-keyword">option</span> dns <span class="hljs-comment">&#x27;192.168.1.1 8.8.4.4&#x27;</span><br>        <span class="hljs-keyword">option</span> gateway <span class="hljs-comment">&#x27;192.168.1.1&#x27;</span><br>        <span class="hljs-keyword">option</span> _orig_ifname <span class="hljs-comment">&#x27;eth0&#x27;</span><br>        <span class="hljs-keyword">option</span> _orig_bridge <span class="hljs-comment">&#x27;false&#x27;</span><br>        <span class="hljs-keyword">option</span> ifname <span class="hljs-comment">&#x27;eth0&#x27;  #添加此项</span><br>        <span class="hljs-keyword">option</span> <span class="hljs-keyword">delegate</span> <span class="hljs-comment">&#x27;0&#x27;</span><br>        <span class="hljs-keyword">option</span> force_link <span class="hljs-comment">&#x27;0&#x27;</span><br><br>config <span class="hljs-keyword">interface</span> <span class="hljs-comment">&#x27;vpn0&#x27;</span><br>        <span class="hljs-keyword">option</span> ifname <span class="hljs-comment">&#x27;tun0&#x27;</span><br>        <span class="hljs-keyword">option</span> proto <span class="hljs-comment">&#x27;none&#x27;</span><br><br></code></pre></td></tr></table></figure><blockquote><p>然后就可以正常进入Openwrt后台了</p><p>此次需要注意的是,取消桥接之后,一定要在接口-勾选以太网适配器:eth0(lan).</p></blockquote><p>我从小到大没有什么梦想,一直在路上不问远方,只是衷心希望自己成为一个很厉害的人。你问我什么算厉害,大概就是能有朝一日,保护好我爱的人，赡养好家人。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>OpenWrt</category>
+      
+      <category>路由器</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>OpenWrt</tag>
+      
+      <tag>路由器</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Python 库安装</title>
+    <link href="/2022/01/04/python%E5%BA%93%E5%AE%89%E8%A3%85/"/>
+    <url>/2022/01/04/python%E5%BA%93%E5%AE%89%E8%A3%85/</url>
+    
+    <content type="html"><![CDATA[<blockquote><p>1、有时候安装会遇到很多问题，有时候是网络问题，有时候是代码输入问题（ 问题二： Microsoft Visual C++ 14.0 is required.（一般我们的win电脑都会缺这玩意） ）</p><p>2、新方法：下载下来<code> whl</code>文件或者<code>zip、gz、rar</code>压缩包文件，放入到本地，然后启动安装即可</p></blockquote><h2 id="Python库下载网站"><a href="#Python库下载网站" class="headerlink" title="Python库下载网站"></a>Python库下载网站</h2><p>1、 <a href="https://pypi.org/">https://pypi.org/</a> </p><p><img src="https://gitee.com/lemon0828/tuchuang/raw/master/img/20200515232120.png"></p><p>在上面的网站搜索框写入即可</p><p>2、 <a href="https://www.lfd.uci.edu/~gohlke/pythonlibs/">https://www.lfd.uci.edu/~gohlke/pythonlibs/</a> （这个网站里面使用Ctrl+F搜索）来自知乎 <a href="https://zhuanlan.zhihu.com/p/37995301">https://zhuanlan.zhihu.com/p/37995301</a> </p><p><img src="https://gitee.com/lemon0828/tuchuang/raw/master/img/20200515232733.png"></p><h2 id="安装历程（以pyaudia为例）"><a href="#安装历程（以pyaudia为例）" class="headerlink" title="安装历程（以pyaudia为例）"></a>安装历程（以pyaudia为例）</h2><p>1、以pip install pyaudio安装的话会出现下面问题</p><p><img src="https://gitee.com/lemon0828/tuchuang/raw/master/img/20200515232713.png"></p><p>2、我们下载whl文件如下</p><p><img src="https://gitee.com/lemon0828/tuchuang/raw/master/img/20200515232909.png"></p><h4 id="38是指python版本，win32指的是系统型号"><a href="#38是指python版本，win32指的是系统型号" class="headerlink" title="38是指python版本，win32指的是系统型号"></a>38是指python版本，win32指的是系统型号</h4><p><img src="https://gitee.com/lemon0828/tuchuang/raw/master/img/20200515233146.png"></p><p>3、下载下来之后，安装代码如下</p><figure class="highlight shell"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs shell">pip install PyAudio-0.2.11-cp38-cp38-win32.whl<br></code></pre></td></tr></table></figure><p>至此安装完毕！</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>C开发环境 适用于VS CODE 编辑器</title>
+    <link href="/2022/01/04/C%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    <url>/2022/01/04/C%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</url>
+    
+    <content type="html"><![CDATA[<h1 id="C开发环境-适用于VS-CODE-编辑器"><a href="#C开发环境-适用于VS-CODE-编辑器" class="headerlink" title="C开发环境 适用于VS CODE 编辑器"></a><a href="https://zhuanlan.zhihu.com/p/77074009">C开发环境 适用于VS CODE 编辑器</a></h1><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123019.png"></p><blockquote><p>写在前面。本文是<strong>小白启蒙文</strong>，但并不能保证每词每句都极度通俗，仍然<strong>有些专业概念因限于篇幅不能详解</strong>。</p><p>细节在编程这项活计中极具影响力，小白因背景知识薄弱而经常踩坑实属难免，但<strong>错误也是学习的重要途经</strong>，学会从错误中反省与学习是非常优秀的品质，与诸君共勉。</p></blockquote><hr><p>所需文件：<a href="https://xxgn.lanzous.com/ijSNAe79mmj%EF%BC%88%E9%80%9F%E5%BA%A6%E5%BE%88%E5%BF%AB%E4%B8%8D%E9%9C%80%E8%A6%81%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%EF%BC%89">https://xxgn.lanzous.com/ijSNAe79mmj（速度很快不需要科学上网）</a></p><h3 id="1、安装MinGW-w64编译器套件"><a href="#1、安装MinGW-w64编译器套件" class="headerlink" title="1、安装MinGW-w64编译器套件"></a>1、安装MinGW-w64编译器套件</h3><p>要编写C/C++这样的静态语言程序，<strong>必备工具</strong>是一套可用的<strong>编译器</strong>。</p><blockquote><p>编译器：它是能<strong>将你的源代码翻译成计算机可直接执行的程序文件</strong>（Windows上即.exe文件）的<strong>程序</strong>。高级程序语言的一大特点是代码具有跨平台性，但不同的硬件和操作系统底层可直接执行的指令显然各不相同，这就决定了我们需要不同的编译器。</p></blockquote><p>本文提到的<strong>MinGW-w64</strong>是一个著名项目为<strong>Windows 64位</strong>平台提供的一套编译器，它也<strong>受到了微软官方文档的推荐</strong>，相关文件托管在SourceForge的网站上，下载地址为<a href="https://sourceforge.net/projects/mingw-w64/files/">https://sourceforge.net/projects/mingw-w64/files/</a></p><blockquote><p>至于Linux和Mac，这里限于篇幅不可能详解，但它们安装编译器都可以直接利用命令行中的包管理器完成，可自行百度“Linux 安装gcc”“Mac 安装clang”。</p></blockquote><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123320.png"></p><p>下载下来是个几十MB的压缩文件，后缀名为”.7z”，需要支持该格式的压缩软件进行解压。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123445.png"></p><p>打开bin文件夹你可以看到很多应用程序，其中就有<strong>gcc</strong>、**g++**等著名的编译器。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123506.png"></p><h3 id="2、环境变量添加"><a href="#2、环境变量添加" class="headerlink" title="2、环境变量添加"></a>2、环境变量添加</h3><p><strong>为使外部程序或用户（也就是你）能访问到这些编译器</strong>，需要<strong>把它们所在的目录</strong>（我这里就是<code>C:\mingw64\bin</code>，可在上图中点击地址栏进行复制）<strong>添加到环境变量Path中</strong>。按快捷键【Windows徽标】+【S】打开Win10搜索框，输入“环境变量”，在弹出的两个匹配结果中，选择“编辑<strong>账户</strong>的环境变量”（两个匹配项很相似别点错了！之所以选它是防止你误改系统变量损害系统）。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123557.png"></p><p>点击上面的用户变量Path，选择“编辑”，或者直接双击（不要去动下面的系统变量！）</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123613.png"></p><p>然后<strong>点击下方空白处</strong>，把刚才那堆应用程序所在的目录（我的是<code>C:\mingw64\bin\</code>）添加进去（建议添加在下面，<strong>不要覆盖或修改已有内容</strong>，然后选中它将其上移至顶），<strong>注意结尾是bin，别输掉了</strong>；或者选择“浏览”找到bin文件夹，然后一路确定退出。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123621.png"></p><h3 id="3、验证操作"><a href="#3、验证操作" class="headerlink" title="3、验证操作"></a>3、验证操作</h3><p>最后为了验证之前操作是否正确，我们需要实际访问一下那些编译器。还是在搜索框中，输入“cmd”，启动“命令提示符”，在命令窗口中输入以下命令并回车</p><figure class="highlight powershell"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs powershell">gcc -<span class="hljs-literal">-version</span><br></code></pre></td></tr></table></figure><p>如果结果如图所示，你的编译器就安装成功了。如果失败，请<strong>回头检查你添加的路径是否生效且与实际相符</strong>；或者请卸载你参考其他教程安装的老式MinGW编译器并清除其添加在Path中的路径。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123724.png"></p><h3 id="4、Vs-Code-配置"><a href="#4、Vs-Code-配置" class="headerlink" title="4、Vs Code 配置"></a>4、Vs Code 配置</h3><blockquote><p>文本编辑器是写代码的<strong>辅助工具</strong>，它原则上不是必需品，也不为特定编程语言服务。原则上只要是能编写<strong>纯文本文件</strong>的软件（最简单如Windows记事本），都可以编写<strong>任何语言</strong>的代码。但考虑到实际的编程体验，众多专用的编辑器被开发出来，以提供<strong>代码高亮</strong>（根据特定语言的语法给代码染色，便于阅读）、<strong>语法错误检查</strong>（在编译前提示错字漏字、不合规的语句等错误）、<strong>断点调试</strong>、<strong>多文件的管理</strong>等辅助功能。</p></blockquote><p>注意VS Code跟VS (Visual Studio)只是同属一家、名称相近，但不是一类软件别搞错了。</p><p>这里要区分集成开发环境和开发环境</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123843.png"></p><p>修改完环境变量、安装或更新完插件后，务必<strong>重启VS Code</strong>。这类属于编辑器环境的东西，大都需重启软件才能生效。</p><h2 id="配置C-C-的简单环境（重启VS-Code后进行！）"><a href="#配置C-C-的简单环境（重启VS-Code后进行！）" class="headerlink" title="配置C/C++的简单环境（重启VS Code后进行！）"></a>配置C/C++的简单环境（重启VS Code后进行！）</h2><p>这里实际上就是VS Code的具体用法，原则上并无固定章法，但几个基本点有必要提及一下：</p><ol><li>脑子里要有<strong>源代码文件</strong>这个概念。写程序不是说就在框框里写一堆代码然后就能跑了！代码都要<strong>写成文件保存起来（到硬盘里）</strong>，然后才有后续的工作；</li><li>VS Code是支持多语言的编辑器，并不只为C/C++服务，所以还要<strong>确保把代码文件的后缀名写对</strong>，C语言的后缀名是<code>.c</code>，C++的是<code>.cpp</code>。这是VS Code区分你代码类型的标志；</li><li>上面安装的”C/C++”插件提供了对这两门语言的基本支持。C跟C++是<strong>两门不同的语言</strong>，请<strong>向你的老师问清楚学的是哪一门</strong>。无论是在.c文件里敲C++代码，还是在.cpp文件里敲C代码，都是自掘天坑的行为。</li><li>编写C/C++程序有两个基本步骤，一是把代码文件变成程序文件，这叫<strong>编译</strong>或<strong>生成</strong>，是调用最开始安装的编译器做的事；二才是把刚刚生成的程序跑起来，这叫<strong>执行</strong>，是操作系统做的事；</li><li>这两个基本步骤，一般都是在<strong>命令行</strong>的环境下进行，输入输出也是在这里面。VS Code的优势之一，就是把系统的命令行集成进了软件内部，名唤“<strong>终端</strong>”，从而不必再开新窗口。</li></ol><p>进入正题，在VS Code中编写C/C++程序，<strong>不要直接新建个代码文件就开始写</strong>，应该先选择左侧“资源管理器”（两页纸的图标）后按下图操作，</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123956.png"></p><p>或者选择菜单项【文件】→【打开文件夹…】，来<strong>打开一个工作文件夹</strong>，这样做的好处包括</p><ul><li><strong>VS Code中打开的一个文件夹下可以包含你一个项目或一段时期内的各种文件</strong>，便于我们分门别类、有序地组织代码；</li><li><strong>这个文件夹内可以保存独立的配置</strong>（自动创建子目录<code>.vscode</code>保存配置文件，能随工作文件夹一起移动），仅在这个区域内生效而不修改用户个人的全局配置，也不会与其他文件夹的配置相冲突。对于”C/C++”插件这是必需的；</li><li><strong>VS Code的集成终端在打开的文件夹内自动以该文件夹为启动目录</strong>，这样在里面编译和执行程序时可以方便地使用<strong>相对路径</strong>。</li></ul><blockquote><p><strong>路径</strong>是对计算机中文件和文件夹的指示，是编译和执行程序的<strong>必备基础知识</strong>，如有疑问请参阅以下<a href="https://zhuanlan.zhihu.com/p/85455028">扫盲贴，</a></p></blockquote><p>找到一个你觉得合适的<strong>文件夹</strong>打开后，你的侧边栏会变成这样</p><blockquote><p>注意！请务必确定选择的是“打开文件夹”而非“打开工作区”，工作区具备更强的独立特性，本文的配置方法是不适用的！<br>第一次打开时可能会自动下载”C/C++”插件的额外组件（3个），请务必确认它们下载安装成功。</p></blockquote><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124122.png"></p><h3 id="4、UI配置"><a href="#4、UI配置" class="headerlink" title="4、UI配置"></a>4、UI配置</h3><p>接下来，是要利用”C/C++”插件预定义好了的配置，稍作修改以满足我们的需要。按快捷键【Ctrl】【Shift】+【P】，打开命令面板，输入关键词”C/C++”，在弹出的诸命令中选择**编辑配置 (UI)<strong>或者</strong>Edit Configurations (UI)**，将弹出”C/C++”给我们的默认配置（JSON那个操作难度较大，有兴趣的可自行研究）。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124154.png"></p><p>诸配置中最重要的是<strong>编译器路径</strong>和<strong>IntelliSense模式</strong>这两项，两者在右侧都有下拉三角。如果前面你正确配置了环境变量，路径的待选项中就会包含几个正确的编译器路径，<strong>编写C程序请选择gcc.exe，C++则选择g++.exe</strong>；模式选择<strong>gcc-x64</strong>。</p><blockquote><p>配置完成后你可以看到一个<code>c_cpp_properties.json</code>文件被自动保存在了<code>.vscode</code>子目录中，它只在你这个工作文件夹中生效。如果你使用一个新的工作文件夹，就重新配置一下。</p></blockquote><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124212.png"></p><blockquote><p>注意<code>.vscode</code>是你工作文件夹的子目录，下次打开时注意打开的是上一级工作文件夹（比如我上面的MYCLANG，别开到<code>.vscode</code>里面去了！</p></blockquote><p>至此配置工作已基本完成</p><h3 id="5、编译测试（建议重启PC）"><a href="#5、编译测试（建议重启PC）" class="headerlink" title="5、编译测试（建议重启PC）"></a>5、编译测试（建议重启PC）</h3><h2 id="编写”Hello-World”程序"><a href="#编写”Hello-World”程序" class="headerlink" title="编写”Hello World”程序"></a>编写”Hello World”程序</h2><p>到工作文件夹中添加一个源代码文件，命名为hello**.c**（或者任意你喜欢的名字，但注意后缀名.c别忘了打上），</p><blockquote><p>我这里的示例是C语言的，要试用C++的请注意后缀名为.cpp，并求教你的老师或自行编写相应代码。</p></blockquote><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124350.png"></p><p>输完你的代码后，按快捷键【Ctrl】+【S】</p><h3 id="保存、"><a href="#保存、" class="headerlink" title="保存、"></a><strong>保</strong>存、</h3><h3 id="保存、-1"><a href="#保存、-1" class="headerlink" title="保存、"></a>保存、</h3><h3 id="保存！"><a href="#保存！" class="headerlink" title="保存！"></a>保存！</h3><p>保存后按快捷键【Ctrl】+【`】（主键盘区左上角Esc键下面那个）即可打开嵌入式终端（命令行环境），<strong>编译代码的命令</strong>为（如果是C++则将gcc替换为g++）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">gcc˽-o˽目标文件路径˽源代码文件路径<br></code></pre></td></tr></table></figure><p>我用符号<code>˽</code>标记了空格，“目标文件”即你要生成的程序文件，起名和加不加.exe都随意（因为它会自动加）。在我们这，由于已经在打开的文件夹里，可以使用相对路径，</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">gcc -o .\myhello .\hello.c<br></code></pre></td></tr></table></figure><p>回车，就能编译你刚刚的hello.c文件，如果成功，则在相同目录下生成一个myhello.exe程序文件。<strong>执行程序</strong>的命令为</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">程序文件路径<br></code></pre></td></tr></table></figure><p>是的形式上就是这样，只是路径可以是绝对或相对的，当然相对的一般更方便，这里要执行上面的程序就是</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">.\myhello.exe<br></code></pre></td></tr></table></figure><p>注意VS Code的默认终端实际上是<strong>PowerShell，需要使用<code>.\</code>显式地指明它是当前目录下的可执行文件</strong>，如果省略它出于安全原因会拒绝你程序的执行。</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>董晨乐</category>
+      
+      <category>小董同学</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>小董同学</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>测试标签页 用于列表样式测试</title>
+    <link href="/2019/10/10/hello-world/"/>
+    <url>/2019/10/10/hello-world/</url>
+    
+    <content type="html"><![CDATA[<h3 id=""><a href="#" class="headerlink" title=""></a></h3><figure class="highlight bash"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
