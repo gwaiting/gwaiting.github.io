@@ -82,7 +82,7 @@
 
   <script id="fluid-configs">
     var Fluid = window.Fluid || {};
-    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
   </script>
   <script  src="/js/utils.js" ></script>
   <script  src="/js/color-schema.js" ></script>
@@ -259,7 +259,7 @@
               </p>
             
             <div class="markdown-body">
-              <h1 id="C开发环境-适用于VS-CODE-编辑器"><a href="#C开发环境-适用于VS-CODE-编辑器" class="headerlink" title="C开发环境 适用于VS CODE 编辑器"></a><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/77074009">C开发环境 适用于VS CODE 编辑器</a></h1><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123019.png" srcset="/img/loading.gif" lazyload></p>
+              <h1 id="C开发环境-适用于VS-CODE-编辑器"><a href="#C开发环境-适用于VS-CODE-编辑器" class="headerlink" title="C开发环境 适用于VS CODE 编辑器"></a><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/77074009">C开发环境 适用于VS CODE 编辑器</a></h1><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123019.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <blockquote>
 <p>写在前面。本文是<strong>小白启蒙文</strong>，但并不能保证每词每句都极度通俗，仍然<strong>有些专业概念因限于篇幅不能详解</strong>。</p>
 <p>细节在编程这项活计中极具影响力，小白因背景知识薄弱而经常踩坑实属难免，但<strong>错误也是学习的重要途经</strong>，学会从错误中反省与学习是非常优秀的品质，与诸君共勉。</p>
@@ -274,28 +274,28 @@
 <blockquote>
 <p>至于Linux和Mac，这里限于篇幅不可能详解，但它们安装编译器都可以直接利用命令行中的包管理器完成，可自行百度“Linux 安装gcc”“Mac 安装clang”。</p>
 </blockquote>
-<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123320.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123320.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <p>下载下来是个几十MB的压缩文件，后缀名为”.7z”，需要支持该格式的压缩软件进行解压。</p>
-<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123445.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123445.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <p>打开bin文件夹你可以看到很多应用程序，其中就有<strong>gcc</strong>、**g++**等著名的编译器。</p>
-<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123506.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123506.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <h3 id="2、环境变量添加"><a href="#2、环境变量添加" class="headerlink" title="2、环境变量添加"></a>2、环境变量添加</h3><p><strong>为使外部程序或用户（也就是你）能访问到这些编译器</strong>，需要<strong>把它们所在的目录</strong>（我这里就是<code>C:\mingw64\bin</code>，可在上图中点击地址栏进行复制）<strong>添加到环境变量Path中</strong>。按快捷键【Windows徽标】+【S】打开Win10搜索框，输入“环境变量”，在弹出的两个匹配结果中，选择“编辑<strong>账户</strong>的环境变量”（两个匹配项很相似别点错了！之所以选它是防止你误改系统变量损害系统）。</p>
-<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123557.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123557.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <p>点击上面的用户变量Path，选择“编辑”，或者直接双击（不要去动下面的系统变量！）</p>
-<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123613.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123613.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <p>然后<strong>点击下方空白处</strong>，把刚才那堆应用程序所在的目录（我的是<code>C:\mingw64\bin\</code>）添加进去（建议添加在下面，<strong>不要覆盖或修改已有内容</strong>，然后选中它将其上移至顶），<strong>注意结尾是bin，别输掉了</strong>；或者选择“浏览”找到bin文件夹，然后一路确定退出。</p>
-<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123621.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123621.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <h3 id="3、验证操作"><a href="#3、验证操作" class="headerlink" title="3、验证操作"></a>3、验证操作</h3><p>最后为了验证之前操作是否正确，我们需要实际访问一下那些编译器。还是在搜索框中，输入“cmd”，启动“命令提示符”，在命令窗口中输入以下命令并回车</p>
 <figure class="highlight powershell"><table><tr><td class="gutter"><div class="code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><pre><code class="hljs powershell">gcc -<span class="hljs-literal">-version</span><br></code></pre></td></tr></table></figure>
 
 <p>如果结果如图所示，你的编译器就安装成功了。如果失败，请<strong>回头检查你添加的路径是否生效且与实际相符</strong>；或者请卸载你参考其他教程安装的老式MinGW编译器并清除其添加在Path中的路径。</p>
-<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123724.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123724.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <h3 id="4、Vs-Code-配置"><a href="#4、Vs-Code-配置" class="headerlink" title="4、Vs Code 配置"></a>4、Vs Code 配置</h3><blockquote>
 <p>文本编辑器是写代码的<strong>辅助工具</strong>，它原则上不是必需品，也不为特定编程语言服务。原则上只要是能编写<strong>纯文本文件</strong>的软件（最简单如Windows记事本），都可以编写<strong>任何语言</strong>的代码。但考虑到实际的编程体验，众多专用的编辑器被开发出来，以提供<strong>代码高亮</strong>（根据特定语言的语法给代码染色，便于阅读）、<strong>语法错误检查</strong>（在编译前提示错字漏字、不合规的语句等错误）、<strong>断点调试</strong>、<strong>多文件的管理</strong>等辅助功能。</p>
 </blockquote>
 <p>注意VS Code跟VS (Visual Studio)只是同属一家、名称相近，但不是一类软件别搞错了。</p>
 <p>这里要区分集成开发环境和开发环境</p>
-<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123843.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123843.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <p>修改完环境变量、安装或更新完插件后，务必<strong>重启VS Code</strong>。这类属于编辑器环境的东西，大都需重启软件才能生效。</p>
 <h2 id="配置C-C-的简单环境（重启VS-Code后进行！）"><a href="#配置C-C-的简单环境（重启VS-Code后进行！）" class="headerlink" title="配置C/C++的简单环境（重启VS Code后进行！）"></a>配置C/C++的简单环境（重启VS Code后进行！）</h2><p>这里实际上就是VS Code的具体用法，原则上并无固定章法，但几个基本点有必要提及一下：</p>
 <ol>
@@ -306,7 +306,7 @@
 <li>这两个基本步骤，一般都是在<strong>命令行</strong>的环境下进行，输入输出也是在这里面。VS Code的优势之一，就是把系统的命令行集成进了软件内部，名唤“<strong>终端</strong>”，从而不必再开新窗口。</li>
 </ol>
 <p>进入正题，在VS Code中编写C/C++程序，<strong>不要直接新建个代码文件就开始写</strong>，应该先选择左侧“资源管理器”（两页纸的图标）后按下图操作，</p>
-<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123956.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123956.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <p>或者选择菜单项【文件】→【打开文件夹…】，来<strong>打开一个工作文件夹</strong>，这样做的好处包括</p>
 <ul>
 <li><strong>VS Code中打开的一个文件夹下可以包含你一个项目或一段时期内的各种文件</strong>，便于我们分门别类、有序地组织代码；</li>
@@ -320,14 +320,14 @@
 <blockquote>
 <p>注意！请务必确定选择的是“打开文件夹”而非“打开工作区”，工作区具备更强的独立特性，本文的配置方法是不适用的！<br>第一次打开时可能会自动下载”C/C++”插件的额外组件（3个），请务必确认它们下载安装成功。</p>
 </blockquote>
-<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124122.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124122.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <h3 id="4、UI配置"><a href="#4、UI配置" class="headerlink" title="4、UI配置"></a>4、UI配置</h3><p>接下来，是要利用”C/C++”插件预定义好了的配置，稍作修改以满足我们的需要。按快捷键【Ctrl】【Shift】+【P】，打开命令面板，输入关键词”C/C++”，在弹出的诸命令中选择**编辑配置 (UI)<strong>或者</strong>Edit Configurations (UI)**，将弹出”C/C++”给我们的默认配置（JSON那个操作难度较大，有兴趣的可自行研究）。</p>
-<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124154.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124154.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <p>诸配置中最重要的是<strong>编译器路径</strong>和<strong>IntelliSense模式</strong>这两项，两者在右侧都有下拉三角。如果前面你正确配置了环境变量，路径的待选项中就会包含几个正确的编译器路径，<strong>编写C程序请选择gcc.exe，C++则选择g++.exe</strong>；模式选择<strong>gcc-x64</strong>。</p>
 <blockquote>
 <p>配置完成后你可以看到一个<code>c_cpp_properties.json</code>文件被自动保存在了<code>.vscode</code>子目录中，它只在你这个工作文件夹中生效。如果你使用一个新的工作文件夹，就重新配置一下。</p>
 </blockquote>
-<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124212.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124212.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <blockquote>
 <p>注意<code>.vscode</code>是你工作文件夹的子目录，下次打开时注意打开的是上一级工作文件夹（比如我上面的MYCLANG，别开到<code>.vscode</code>里面去了！</p>
 </blockquote>
@@ -336,7 +336,7 @@
 <blockquote>
 <p>我这里的示例是C语言的，要试用C++的请注意后缀名为.cpp，并求教你的老师或自行编写相应代码。</p>
 </blockquote>
-<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124350.png" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124350.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload></p>
 <p>输完你的代码后，按快捷键【Ctrl】+【S】</p>
 <h3 id="保存、"><a href="#保存、" class="headerlink" title="保存、"></a><strong>保</strong>存、</h3><h3 id="保存、-1"><a href="#保存、-1" class="headerlink" title="保存、"></a>保存、</h3><h3 id="保存！"><a href="#保存！" class="headerlink" title="保存！"></a>保存！</h3><p>保存后按快捷键【Ctrl】+【`】（主键盘区左上角Esc键下面那个）即可打开嵌入式终端（命令行环境），<strong>编译代码的命令</strong>为（如果是C++则将gcc替换为g++）</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">gcc˽-o˽目标文件路径˽源代码文件路径<br></code></pre></td></tr></table></figure>
@@ -517,7 +517,7 @@
           >
             
               <span style="visibility: hidden; width: 0">|</span>
-              <img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051453383.png" srcset="/img/loading.gif" lazyload alt="police-icon"/>
+              <img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051453383.png" srcset="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051922668.jpeg" lazyload alt="police-icon"/>
             
             <span>京公网安备审核中</span>
           </a>
@@ -613,6 +613,9 @@
 <!-- 主题的启动项 保持在最底部 -->
 <script  src="/js/boot.js" ></script>
 
+
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/love.js"></script>
 
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/z16.model.json"},"display":{"position":"left","width":230,"height":300},"mobile":{"show":true},"log":false});</script></body>
 </html>
