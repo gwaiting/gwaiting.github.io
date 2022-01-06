@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-06T11:44:04.480Z</updated>
+  <updated>2022-01-06T12:08:16.797Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,93 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GitHub Page 缓存分析</title>
+    <link href="http://example.com/2022/01/06/GitHub%20Page%20%E7%BC%93%E5%AD%98%E5%88%86%E6%9E%90%20copy%203/"/>
+    <id>http://example.com/2022/01/06/GitHub%20Page%20%E7%BC%93%E5%AD%98%E5%88%86%E6%9E%90%20copy%203/</id>
+    <published>2022-01-06T12:08:16.797Z</published>
+    <updated>2022-01-06T12:08:16.797Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="GitHub-Page-缓存分析"><a href="#GitHub-Page-缓存分析" class="headerlink" title="GitHub Page 缓存分析"></a>GitHub Page 缓存分析</h1><blockquote><p>文章通不过去之后，页面刷新不过来。</p></blockquote><h2 id="1、如果-Active-是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。"><a href="#1、如果-Active-是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。" class="headerlink" title="1、如果 Active 是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。"></a>1、如果 Active 是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。</h2><h2 id="2、还要注意有时候是编译错误，错误的话-GitHub-会给你的邮件发信息，目前我没有复现过。"><a href="#2、还要注意有时候是编译错误，错误的话-GitHub-会给你的邮件发信息，目前我没有复现过。" class="headerlink" title="2、还要注意有时候是编译错误，错误的话 GitHub 会给你的邮件发信息，目前我没有复现过。"></a>2、还要注意有时候是编译错误，错误的话 GitHub 会给你的邮件发信息，目前我没有复现过。</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;GitHub-Page-缓存分析&quot;&gt;&lt;a href=&quot;#GitHub-Page-缓存分析&quot; class=&quot;headerlink&quot; title=&quot;GitHub Page 缓存分析&quot;&gt;&lt;/a&gt;GitHub Page 缓存分析&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;文</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    
+    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub Page 缓存分析</title>
+    <link href="http://example.com/2022/01/06/GitHub%20Page%20%E7%BC%93%E5%AD%98%E5%88%86%E6%9E%90%20copy%202/"/>
+    <id>http://example.com/2022/01/06/GitHub%20Page%20%E7%BC%93%E5%AD%98%E5%88%86%E6%9E%90%20copy%202/</id>
+    <published>2022-01-06T12:08:09.668Z</published>
+    <updated>2022-01-06T12:08:09.668Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="GitHub-Page-缓存分析"><a href="#GitHub-Page-缓存分析" class="headerlink" title="GitHub Page 缓存分析"></a>GitHub Page 缓存分析</h1><blockquote><p>文章通不过去之后，页面刷新不过来。</p></blockquote><h2 id="1、如果-Active-是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。"><a href="#1、如果-Active-是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。" class="headerlink" title="1、如果 Active 是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。"></a>1、如果 Active 是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。</h2><h2 id="2、还要注意有时候是编译错误，错误的话-GitHub-会给你的邮件发信息，目前我没有复现过。"><a href="#2、还要注意有时候是编译错误，错误的话-GitHub-会给你的邮件发信息，目前我没有复现过。" class="headerlink" title="2、还要注意有时候是编译错误，错误的话 GitHub 会给你的邮件发信息，目前我没有复现过。"></a>2、还要注意有时候是编译错误，错误的话 GitHub 会给你的邮件发信息，目前我没有复现过。</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;GitHub-Page-缓存分析&quot;&gt;&lt;a href=&quot;#GitHub-Page-缓存分析&quot; class=&quot;headerlink&quot; title=&quot;GitHub Page 缓存分析&quot;&gt;&lt;/a&gt;GitHub Page 缓存分析&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;文</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    
+    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub Page 缓存分析</title>
+    <link href="http://example.com/2022/01/06/GitHub%20Page%20%E7%BC%93%E5%AD%98%E5%88%86%E6%9E%90%20copy/"/>
+    <id>http://example.com/2022/01/06/GitHub%20Page%20%E7%BC%93%E5%AD%98%E5%88%86%E6%9E%90%20copy/</id>
+    <published>2022-01-06T12:08:02.516Z</published>
+    <updated>2022-01-06T12:08:02.516Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="GitHub-Page-缓存分析"><a href="#GitHub-Page-缓存分析" class="headerlink" title="GitHub Page 缓存分析"></a>GitHub Page 缓存分析</h1><blockquote><p>文章通不过去之后，页面刷新不过来。</p></blockquote><h2 id="1、如果-Active-是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。"><a href="#1、如果-Active-是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。" class="headerlink" title="1、如果 Active 是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。"></a>1、如果 Active 是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。</h2><h2 id="2、还要注意有时候是编译错误，错误的话-GitHub-会给你的邮件发信息，目前我没有复现过。"><a href="#2、还要注意有时候是编译错误，错误的话-GitHub-会给你的邮件发信息，目前我没有复现过。" class="headerlink" title="2、还要注意有时候是编译错误，错误的话 GitHub 会给你的邮件发信息，目前我没有复现过。"></a>2、还要注意有时候是编译错误，错误的话 GitHub 会给你的邮件发信息，目前我没有复现过。</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;GitHub-Page-缓存分析&quot;&gt;&lt;a href=&quot;#GitHub-Page-缓存分析&quot; class=&quot;headerlink&quot; title=&quot;GitHub Page 缓存分析&quot;&gt;&lt;/a&gt;GitHub Page 缓存分析&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;文</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    
+    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+  </entry>
   
   <entry>
     <title>GitHub 的地址域名解析</title>
