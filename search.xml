@@ -4,6 +4,41 @@
   
     
     <entry>
+      <title>openwrt 配置下载 bittorrent 文件</title>
+      <link href="/2022/01/07/openwrt%20%E9%85%8D%E7%BD%AE%E4%B8%8B%E8%BD%BD%20bittorrent%20%E6%96%87%E4%BB%B6/"/>
+      <url>/2022/01/07/openwrt%20%E9%85%8D%E7%BD%AE%E4%B8%8B%E8%BD%BD%20bittorrent%20%E6%96%87%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<p>Transmission 是一个简单的 bittorrent 客户端，在这里您可以配置其设置。  </p><h1 id="1、设置文件下载目录"><a href="#1、设置文件下载目录" class="headerlink" title="1、设置文件下载目录"></a>1、设置文件下载目录</h1><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201072308242.png"></p><h1 id="2、打开-Peer-端口转发"><a href="#2、打开-Peer-端口转发" class="headerlink" title="2、打开 Peer 端口转发"></a>2、打开 Peer 端口转发</h1><p>![image-20220107231029648](/Users/dongqinuo/Library/Application Support/typora-user-images/image-20220107231029648.png)</p><h1 id="3、9091-端口就可以进入到-web-管理界面"><a href="#3、9091-端口就可以进入到-web-管理界面" class="headerlink" title="3、9091 端口就可以进入到 web 管理界面"></a>3、9091 端口就可以进入到 web 管理界面</h1><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201072310220.png"></p><p>常用电影下载网站</p><p><a href="https://www.hdtvbt.com/">HDTV</a> </p><p><a href="https://www.yinfans.net/">音范丝</a></p><p>[推荐站](</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+          <category> 下载 </category>
+          
+          <category> 娱乐 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> openwrt </tag>
+            
+            <tag> 下载 </tag>
+            
+            <tag> 语音 </tag>
+            
+            <tag> 娱乐 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>基于 Butterfly 主题的双栏卡片主页文章 css 样式</title>
       <link href="/2022/01/07/%E5%8F%8C%E6%A0%8F%E7%9B%AE%E6%96%87%E7%AB%A0%E5%B8%83%E5%B1%80/"/>
       <url>/2022/01/07/%E5%8F%8C%E6%A0%8F%E7%9B%AE%E6%96%87%E7%AB%A0%E5%B8%83%E5%B1%80/</url>

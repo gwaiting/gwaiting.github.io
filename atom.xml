@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-07T09:59:13.627Z</updated>
+  <updated>2022-01-07T15:16:05.459Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>openwrt 配置下载 bittorrent 文件</title>
+    <link href="http://example.com/2022/01/07/openwrt%20%E9%85%8D%E7%BD%AE%E4%B8%8B%E8%BD%BD%20bittorrent%20%E6%96%87%E4%BB%B6/"/>
+    <id>http://example.com/2022/01/07/openwrt%20%E9%85%8D%E7%BD%AE%E4%B8%8B%E8%BD%BD%20bittorrent%20%E6%96%87%E4%BB%B6/</id>
+    <published>2022-01-07T15:14:15.237Z</published>
+    <updated>2022-01-07T15:16:05.459Z</updated>
+    
+    <content type="html"><![CDATA[<p>Transmission 是一个简单的 bittorrent 客户端，在这里您可以配置其设置。  </p><h1 id="1、设置文件下载目录"><a href="#1、设置文件下载目录" class="headerlink" title="1、设置文件下载目录"></a>1、设置文件下载目录</h1><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201072308242.png"></p><h1 id="2、打开-Peer-端口转发"><a href="#2、打开-Peer-端口转发" class="headerlink" title="2、打开 Peer 端口转发"></a>2、打开 Peer 端口转发</h1><p>![image-20220107231029648](/Users/dongqinuo/Library/Application Support/typora-user-images/image-20220107231029648.png)</p><h1 id="3、9091-端口就可以进入到-web-管理界面"><a href="#3、9091-端口就可以进入到-web-管理界面" class="headerlink" title="3、9091 端口就可以进入到 web 管理界面"></a>3、9091 端口就可以进入到 web 管理界面</h1><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201072310220.png"></p><p>常用电影下载网站</p><p><a href="https://www.hdtvbt.com/">HDTV</a> </p><p><a href="https://www.yinfans.net/">音范丝</a></p><p>[推荐站](</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Transmission 是一个简单的 bittorrent 客户端，在这里您可以配置其设置。  &lt;/p&gt;
+&lt;h1 id=&quot;1、设置文件下载目录&quot;&gt;&lt;a href=&quot;#1、设置文件下载目录&quot; class=&quot;headerlink&quot; title=&quot;1、设置文件下载目录&quot;&gt;&lt;/a</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="下载" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/%E4%B8%8B%E8%BD%BD/"/>
+    
+    <category term="娱乐" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/%E4%B8%8B%E8%BD%BD/%E5%A8%B1%E4%B9%90/"/>
+    
+    
+    <category term="openwrt" scheme="http://example.com/tags/openwrt/"/>
+    
+    <category term="下载" scheme="http://example.com/tags/%E4%B8%8B%E8%BD%BD/"/>
+    
+    <category term="语音" scheme="http://example.com/tags/%E8%AF%AD%E9%9F%B3/"/>
+    
+    <category term="娱乐" scheme="http://example.com/tags/%E5%A8%B1%E4%B9%90/"/>
+    
+  </entry>
   
   <entry>
     <title>基于 Butterfly 主题的双栏卡片主页文章 css 样式</title>
