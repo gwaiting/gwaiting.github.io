@@ -1461,6 +1461,19 @@ body {
 input::placeholder {
   color: var(--font-color);
 }
+#web_bg {
+  position: fixed;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
+  background: url( https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201061313398.jpg );
+  background-attachment: local;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 h1,
 h2,
 h3,
@@ -1500,7 +1513,7 @@ hr:before {
   left: 5%;
   z-index: 1;
   color: var(--hr-before-color);
-  content: '\f0c4';
+  content: '\f197';
   font-size: 20px;
   line-height: 1;
   -webkit-transition: all 1s ease-in-out;

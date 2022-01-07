@@ -1,4 +1,6 @@
-
+#web_bg {
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    }
 
 
 /* 页脚透明化 */
@@ -82,7 +84,27 @@ display:none;/*隐藏文章详情*/
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
     margin-bottom: 1rem;/*控制标题meta信息的底部间距*/
 }
-@media screen and (max-width: 768px) {
-#recent-posts > .recent-post-item {
- width:100%;/*控制手机自适应*/
+
+
+
+/*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
+@media screen and (max-width: 800px) {
+    #aside_content
+    div:not(:last-child) {
+        display: none;
+        font-size: 13px;
+    }
+}
+
+
+/* 文章页背景 */
+.layout_post>#post {
+    /* 以下代表透明度为0.5 可以自行修改*/
+    background: rgba(255,255,255,.5);
+}
+
+/* 所有页面背景 */
+#aside_content .card-widget, #recent-posts>.recent-post-item, .layout_page>div:first-child:not(.recent-posts), .layout_post>#page, .layout_post>#post, .read-mode .layout_post>#post{
+    /* 以下代表透明度为0.5 */
+    background: rgba(255,255,255,.4);
 }
