@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://example.com/2022/01/06/ipic%20%E9%85%8D%E7%BD%AE/</loc>
+    
+    <lastmod>2022-01-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/link/index.html</loc>
+    
+    <lastmod>2022-01-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/messageboard/index.html</loc>
+    
+    <lastmod>2022-01-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://example.com/categories/index.html</loc>
     
     <lastmod>2022-01-06</lastmod>
@@ -39,15 +66,6 @@
   
   <url>
     <loc>http://example.com/2022/01/06/OpenWrt%20%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E5%90%8E%E5%8F%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
-    
-    <lastmod>2022-01-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/2022/01/06/ipic%20%E9%85%8D%E7%BD%AE/</loc>
     
     <lastmod>2022-01-06</lastmod>
     
@@ -118,19 +136,10 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>http://example.com/link/index.html</loc>
-    
-    <lastmod>2022-01-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2022-01-06</lastmod>
+    <lastmod>2022-01-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,49 +147,49 @@
   
   <url>
     <loc>http://example.com/tags/GitHub/</loc>
-    <lastmod>2022-01-06</lastmod>
+    <lastmod>2022-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E5%9F%9F%E5%90%8D/</loc>
-    <lastmod>2022-01-06</lastmod>
+    <lastmod>2022-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/Blog/</loc>
-    <lastmod>2022-01-06</lastmod>
+    <lastmod>2022-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/OpenWrt/</loc>
-    <lastmod>2022-01-06</lastmod>
+    <lastmod>2022-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/</loc>
-    <lastmod>2022-01-06</lastmod>
+    <lastmod>2022-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/%E5%9B%BE%E5%BA%8A/</loc>
-    <lastmod>2022-01-06</lastmod>
+    <lastmod>2022-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/CDN/</loc>
-    <lastmod>2022-01-06</lastmod>
+    <lastmod>2022-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -189,35 +198,35 @@
   
   <url>
     <loc>http://example.com/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2022-01-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/</loc>
-    <lastmod>2022-01-06</lastmod>
+    <lastmod>2022-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/OpenWrt/</loc>
-    <lastmod>2022-01-06</lastmod>
+    <lastmod>2022-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E6%95%99%E7%A8%8B/%E5%9B%BE%E5%BA%8A/</loc>
-    <lastmod>2022-01-06</lastmod>
+    <loc>http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/</loc>
+    <lastmod>2022-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/categories/OpenWrt/%E8%B7%AF%E7%94%B1%E5%99%A8/</loc>
-    <lastmod>2022-01-06</lastmod>
+    <lastmod>2022-01-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/%E6%95%99%E7%A8%8B/%E5%9B%BE%E5%BA%8A/</loc>
+    <lastmod>2022-01-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

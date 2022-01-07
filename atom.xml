@@ -67,11 +67,11 @@
   </entry>
   
   <entry>
-    <title>iPic 图床配置 GitHub 图床</title>
+    <title>iPic 图床配置 GitHub 图床 文章举例</title>
     <link href="http://example.com/2022/01/06/ipic%20%E9%85%8D%E7%BD%AE/"/>
     <id>http://example.com/2022/01/06/ipic%20%E9%85%8D%E7%BD%AE/</id>
     <published>2022-01-06T15:48:34.699Z</published>
-    <updated>2022-01-06T15:48:38.186Z</updated>
+    <updated>2022-01-07T08:07:26.755Z</updated>
     
     <content type="html"><![CDATA[<h1 id="iPic-图床配置-GitHub图床"><a href="#iPic-图床配置-GitHub图床" class="headerlink" title="iPic 图床配置 GitHub图床"></a>iPic 图床配置 GitHub图床</h1><h2 id="1、GitHub-仓库新建图床"><a href="#1、GitHub-仓库新建图床" class="headerlink" title="1、GitHub 仓库新建图床"></a>1、GitHub 仓库新建图床</h2><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051414727.png"></p><h2 id="2、GitHub-生成-token"><a href="#2、GitHub-生成-token" class="headerlink" title="2、GitHub 生成 token"></a>2、GitHub 生成 token</h2><p><a href="https://github.com/settings/tokens">地址</a></p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051425122.png"></p><p>注意勾选 repo 和仓库名称</p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051425122.png"></p><h2 id="3、iPic-配置填写"><a href="#3、iPic-配置填写" class="headerlink" title="3、iPic 配置填写"></a>3、iPic 配置填写</h2><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051425381.png"></p><h1 id="jsdelivr-CDN-加速"><a href="#jsdelivr-CDN-加速" class="headerlink" title="jsdelivr CDN 加速"></a>jsdelivr CDN 加速</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="comment">//cdn.jsdelivr.net/gh/GitHub 用户名/仓户名/文件夹</span></span><br><span class="line">例如 我的配置 </span><br><span class="line">(https:<span class="comment">//cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051425381.png</span></span><br></pre></td></tr></table></figure><p>参考</p><p><a href="https://iknow.fun/2021/07/21/shi-yong-jsdelivr-jia-su-github-zi-yuan-jia-kuai-bo-ke-da-kai-su-du/">使用 jsDelivr 加速 Github 资源，加快博客打开速度</a></p>]]></content>
     
@@ -215,37 +215,6 @@
   </entry>
   
   <entry>
-    <title>GitHub 的地址域名解析</title>
-    <link href="http://example.com/2020/01/05/Github%20pages%20%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/"/>
-    <id>http://example.com/2020/01/05/Github%20pages%20%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/</id>
-    <published>2020-01-04T16:00:00.000Z</published>
-    <updated>2022-01-06T11:44:04.480Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="GitHub-的地址域名解析"><a href="#GitHub-的地址域名解析" class="headerlink" title="GitHub 的地址域名解析"></a>GitHub 的地址域名解析</h1><blockquote><p>将 GitHub 上面部署的 Page 的域名更换到自己定义的域名</p></blockquote><h2 id="1、在阿里云的域名控制台添加解析记录"><a href="#1、在阿里云的域名控制台添加解析记录" class="headerlink" title="1、在阿里云的域名控制台添加解析记录"></a>1、在阿里云的域名控制台添加解析记录</h2><p><a href="https://dns.console.aliyun.com/?spm=5176.100251.111252.17.72014f15ybmxxo#/dns/setting/xdtx.xyz">解析地址</a></p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051618726.png"></p><p>这里的记录纸最好填写 ip 地址，这样加载会更快，可以在一下<a href="https://ip.chinaz.com/gwaiting.github.io">网址</a>查看域名的 ip。</p><h2 id="2、GitHub-绑定自己的域名"><a href="#2、GitHub-绑定自己的域名" class="headerlink" title="2、GitHub 绑定自己的域名"></a>2、GitHub 绑定自己的域名</h2><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051621865.png"></p><p>参考</p><p> <a href="https://segmentfault.com/a/1190000011203711">绑定个人域名https://segmentfault.com/a/1190000011203711</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;GitHub-的地址域名解析&quot;&gt;&lt;a href=&quot;#GitHub-的地址域名解析&quot; class=&quot;headerlink&quot; title=&quot;GitHub 的地址域名解析&quot;&gt;&lt;/a&gt;GitHub 的地址域名解析&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;将 GitHub </summary>
-      
-    
-    
-    
-    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
-    
-    
-    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
-    
-    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
-    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo 框架部署安装</title>
     <link href="http://example.com/2020/01/05/Hexo%20%E6%A1%86%E6%9E%B6%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/"/>
     <id>http://example.com/2020/01/05/Hexo%20%E6%A1%86%E6%9E%B6%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/</id>
@@ -273,6 +242,37 @@
     <category term="OpenWrt" scheme="http://example.com/tags/OpenWrt/"/>
     
     <category term="路由器" scheme="http://example.com/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub 的地址域名解析</title>
+    <link href="http://example.com/2020/01/05/Github%20pages%20%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/"/>
+    <id>http://example.com/2020/01/05/Github%20pages%20%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/</id>
+    <published>2020-01-04T16:00:00.000Z</published>
+    <updated>2022-01-06T11:44:04.480Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="GitHub-的地址域名解析"><a href="#GitHub-的地址域名解析" class="headerlink" title="GitHub 的地址域名解析"></a>GitHub 的地址域名解析</h1><blockquote><p>将 GitHub 上面部署的 Page 的域名更换到自己定义的域名</p></blockquote><h2 id="1、在阿里云的域名控制台添加解析记录"><a href="#1、在阿里云的域名控制台添加解析记录" class="headerlink" title="1、在阿里云的域名控制台添加解析记录"></a>1、在阿里云的域名控制台添加解析记录</h2><p><a href="https://dns.console.aliyun.com/?spm=5176.100251.111252.17.72014f15ybmxxo#/dns/setting/xdtx.xyz">解析地址</a></p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051618726.png"></p><p>这里的记录纸最好填写 ip 地址，这样加载会更快，可以在一下<a href="https://ip.chinaz.com/gwaiting.github.io">网址</a>查看域名的 ip。</p><h2 id="2、GitHub-绑定自己的域名"><a href="#2、GitHub-绑定自己的域名" class="headerlink" title="2、GitHub 绑定自己的域名"></a>2、GitHub 绑定自己的域名</h2><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051621865.png"></p><p>参考</p><p> <a href="https://segmentfault.com/a/1190000011203711">绑定个人域名https://segmentfault.com/a/1190000011203711</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;GitHub-的地址域名解析&quot;&gt;&lt;a href=&quot;#GitHub-的地址域名解析&quot; class=&quot;headerlink&quot; title=&quot;GitHub 的地址域名解析&quot;&gt;&lt;/a&gt;GitHub 的地址域名解析&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;将 GitHub </summary>
+      
+    
+    
+    
+    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
     
   </entry>
   
