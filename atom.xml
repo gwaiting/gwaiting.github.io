@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-08T06:48:38.022Z</updated>
+  <updated>2022-01-08T17:18:18.269Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,41 +17,55 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Butterfly 的 MarkDown 语法解析样例</title>
-    <link href="http://example.com/2022/01/08/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH%20copy%202/"/>
-    <id>http://example.com/2022/01/08/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH%20copy%202/</id>
-    <published>2022-01-08T04:49:21.321Z</published>
-    <updated>2022-01-08T06:48:38.022Z</updated>
+    <title></title>
+    <link href="http://example.com/2022/01/09/%E4%B8%8D%E8%A6%81%E5%86%8D%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2%E4%BA%86/"/>
+    <id>http://example.com/2022/01/09/%E4%B8%8D%E8%A6%81%E5%86%8D%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2%E4%BA%86/</id>
+    <published>2022-01-08T17:15:08.618Z</published>
+    <updated>2022-01-08T17:18:18.269Z</updated>
     
-    <content type="html"><![CDATA[<p>小董同学 注释：行内文本样式 text</p><ol><li>带 <u>下划线</u> 的文本</li><li>带 <emp>着重号</emp> 的文本</li><li>带 <wavy>波浪线</wavy> 的文本</li><li>带 <del>删除线</del> 的文本</li><li>键盘样式的文本 <kbd>command</kbd> + <kbd>D</kbd></li><li>密码样式的文本：<psw>这里没有验证码</psw></li></ol><p>小董同学 注释 行内文本 </p><ul><li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<span class='p red'>红色</span>、<span class='p yellow'>黄色</span>、<span class='p green'>绿色</span>、<span class='p cyan'>青色</span>、<span class='p blue'>蓝色</span>、<span class='p gray'>灰色</span>。</li><li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<span class='p center logo large'>Volantis</span><span class='p center small'>A Wonderful Theme for Hexo</span></li></ul><p>小董同学 ：段落文本样式</p><ul><li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<p class='p red'>红色</p>、<p class='p yellow'>黄色</p>、<p class='p green'>绿色</p>、<p class='p cyan'>青色</p>、<p class='p blue'>蓝色</p>、<p class='p gray'>灰色</p>。- 超大号文字文档「开始」页面中的标题部分就是超大号文字。<p class='p center logo large'>Volantis</p><p class='p center small'>A Wonderful Theme for Hexo</p>小董同学 ：moder 文本样式<div class="note modern"><p>默认 提示块标签</p></div><div class="note default modern"><p>default 提示块标签</p></div><div class="note primary modern"><p>primary 提示块标签</p></div><div class="note success modern"><p>success 提示块标签</p></div><div class="note info modern"><p>info 提示块标签</p></div><div class="note warning modern"><p>warning 提示块标签</p></div><div class="note danger modern"><p>danger 提示块标签</p></div><div class="note icon flat"><i class="note-icon fab fa-cc-visa"></i><p>你是刷 Visa 还是 UnionPay</p></div><div class="note blue icon flat"><i class="note-icon fas fa-bullhorn"></i><p>2021年快到了….</p></div><div class="note pink icon flat"><i class="note-icon fas fa-car-crash"></i><p>小心开车 安全至上</p></div><div class="note red icon flat"><i class="note-icon fas fa-fan"></i><p>这是三片呢？还是四片？</p></div><div class="note orange icon flat"><i class="note-icon fas fa-battery-half"></i><p>你是刷 Visa 还是 UnionPay</p></div><div class="note purple icon flat"><i class="note-icon far fa-hand-scissors"></i><p>剪刀石头布</p></div><div class="note green icon flat"><i class="note-icon fab fa-internet-explorer"></i><p>前端最讨厌的浏览器</p></div>小董同学  上标标签 tip<div class="tip "><p>默认情况</p></div><div class="tip success"><p>success</p></div><div class="tip error"><p>error</p></div><div class="tip warning"><p>warning</p></div><div class="tip bolt"><p>bolt</p></div><div class="tip ban"><p>ban</p></div><div class="tip home"><p>home</p></div><div class="tip sync"><p>sync</p></div><div class="tip cogs"><p>cogs</p></div><div class="tip key"><p>key</p></div><div class="tip bell"><p>bell</p></div><div class="tip fa-atom"><p>自定义font awesome图标</p></div>小董同学 动态标签<div class="tip warning faa-horizontal animated"><p>warning</p></div><div class="tip ban faa-flash animated"><p>ban</p></div>小董同学 复选列表<div class='checkbox'><input type="checkbox" />            <p>纯文本测试</p>            </div><div class='checkbox checked'><input type="checkbox" checked="checked"/>            <p>支持简单的 <a href="https://guides.github.com/features/mastering-markdown/">markdown</a> 语法</p>            </div><div class='checkbox red'><input type="checkbox" />            <p>支持自定义颜色</p>            </div><div class='checkbox green checked'><input type="checkbox" checked="checked"/>            <p>绿色 + 默认选中</p>            </div><div class='checkbox yellow checked'><input type="checkbox" checked="checked"/>            <p>黄色 + 默认选中</p>            </div><div class='checkbox cyan checked'><input type="checkbox" checked="checked"/>            <p>青色 + 默认选中</p>            </div><div class='checkbox blue checked'><input type="checkbox" checked="checked"/>            <p>蓝色 + 默认选中</p>            </div><div class='checkbox plus green checked'><input type="checkbox" checked="checked"/>            <p>增加</p>            </div><div class='checkbox minus yellow checked'><input type="checkbox" checked="checked"/>            <p>减少</p>            </div><div class='checkbox times red checked'><input type="checkbox" checked="checked"/>            <p>叉</p>            </div><div class='checkbox'><input type="radio" />            <p>纯文本测试</p>            </div><div class='checkbox checked'><input type="radio" checked="checked"/>            <p>支持简单的 <a href="https://guides.github.com/features/mastering-markdown/">markdown</a> 语法</p>            </div><div class='checkbox red'><input type="radio" />            <p>支持自定义颜色</p>            </div><div class='checkbox green'><input type="radio" />            <p>绿色</p>            </div><div class='checkbox yellow'><input type="radio" />            <p>黄色</p>            </div><div class='checkbox cyan'><input type="radio" />            <p>青色</p>            </div><div class='checkbox blue'><input type="radio" />            <p>蓝色</p>            </div><div class="tag link"><a class="link-card" title="糖果屋教程贴" href="https://akilar.top/posts/615e2dec/"><div class="left"><img src="https://unpkg.zhimg.com/akilar-candyassets/image/siteicon/favicon.ico"/></div><div class="right"><p class="text">糖果屋教程贴</p><p class="url">https://akilar.top/posts/615e2dec/</p></div></a></div>小董同学 圆形图标 + 标题 + 描述 + 图片 + 网格 5 列 + 居中<div class="btns circle center grid5">            <a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'>  <i class='fab fa-apple'></i>  <b>心率管家</b>  <p class='p red'>专业版</p>  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/heartmate_pro.png'></a><a href='https://apps.apple.com/cn/app/heart-mate-lite-hrm-utility/id1475747930?ls=1'>  <i class='fab fa-apple'></i>  <b>心率管家</b>  <p class='p green'>免费版</p>  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/qrcode/heartmate_lite.png'></a>          </div># GitHub 标签| <a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/xaoxuu"><img src="https://github-readme-stats.vercel.app/api/?username=xaoxuu&show_owner=true"/></a> | <a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/xaoxuu"><img src="https://github-readme-stats.vercel.app/api/?username=xaoxuu&theme=vue&show_owner=true"/></a> || -- | -- || <a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/xaoxuu"><img src="https://github-readme-stats.vercel.app/api/?username=xaoxuu&theme=buefy&show_owner=true"/></a> | <a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/xaoxuu"><img src="https://github-readme-stats.vercel.app/api/?username=xaoxuu&theme=solarized-light&show_owner=true"/></a> || <a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/xaoxuu"><img src="https://github-readme-stats.vercel.app/api/?username=xaoxuu&theme=onedark&show_owner=true"/></a> | <a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/xaoxuu"><img src="https://github-readme-stats.vercel.app/api/?username=xaoxuu&theme=solarized-dark&show_owner=true"/></a> || <a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/xaoxuu"><img src="https://github-readme-stats.vercel.app/api/?username=xaoxuu&theme=algolia&show_owner=true"/></a> | <a class="ghcard" rel="external nofollow noopener noreferrer" href="https://github.com/xaoxuu"><img src="https://github-readme-stats.vercel.app/api/?username=xaoxuu&theme=calm&show_owner=true"/></a> |小董同学 图片 <div class="img-wrap"><div class="img-bg"><img class="img" src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper-minimalist/2020/025.jpg" alt="每天下课回宿舍的路，没有什么故事。"/></div><span class="image-caption">每天下课回宿舍的路，没有什么故事。</span></div>小董同学 折叠<details class="folding-tag" ><summary> 查看图片测试 </summary>              <div class='content'>              <p><img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg"></p>              </div>            </details><details class="folding-tag" cyan open><summary> 查看默认打开的折叠框 </summary>              <div class='content'>              <p>这是一个默认打开的折叠框。</p>              </div>            </details><details class="folding-tag" green><summary> 查看代码测试 </summary>              <div class='content'>              <p>假装这里有代码块（代码块没法嵌套代码块）</p>              </div>            </details><details class="folding-tag" yellow><summary> 查看列表测试 </summary>              <div class='content'>              <ul><li>haha</li><li>hehe</li></ul>              </div>            </details><details class="folding-tag" red><summary> 查看嵌套测试 </summary>              <div class='content'>              <details class="folding-tag" blue><summary> 查看嵌套测试2 </summary>              <div class='content'>              <details class="folding-tag" ><summary> 查看嵌套测试3 </summary>              <div class='content'>              <p>hahaha <span><img src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/tieba/%E6%BB%91%E7%A8%BD.png' style='height:24px'></span></p>              </div>            </details>              </div>            </details>              </div>            </details>小董同学 分栏<div class="tabs" id="test1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test1-1">test1 1</button></li><li class="tab"><button type="button" data-href="#test1-2">test1 2</button></li><li class="tab"><button type="button" data-href="#test1-3">test1 3</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>小董同学 诗词合计<div class='poem'><div class='poem-title'>水调歌头</div><div class='poem-author'>苏轼</div><p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>明月几时有？把酒问青天。<br>不知天上宫阙，今夕是何年？<br>我欲乘风归去，又恐琼楼玉宇，高处不胜寒。<br>起舞弄清影，何似在人间？</p><p>转朱阁，低绮户，照无眠。<br>不应有恨，何事长向别时圆？<br>人有悲欢离合，月有阴晴圆缺，此事古难全。<br>但愿人长久，千里共婵娟。</p></div></li></ul><div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-red"  style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"><p>进度条样式预览</p></div></div><div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-yellow"  style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><p>进度条样式预览</p></div></div><div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-green"  style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><p>进度条样式预览</p></div></div><div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-cyan"  style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"><p>进度条样式预览</p></div></div><div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-blue"  style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><p>进度条样式预览</p></div></div><div class="progress"><div class="progress-bar-animated progress-bar progress-bar-striped bg-gray"  style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><p>进度条样式预览</p></div></div><span class='nota' data-nota='可以看到注解内容出现在顶栏'>把鼠标移动到我上面试试</span>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: 不再折腾美化插件博客了</span><br><span class="line">tags: [Hexo, 教程, 博客, 记录]</span><br><span class="line">categories : [Hexo, 感悟, 博客]</span><br><span class="line">cover: https://pic2.zhimg.com/v2-fe0b805aefd7653d5d79f1b86ad49be5_b.jpg</span><br></pre></td></tr></table></figure><p>之前看很多人的文章都是自己如何搭建的博客，无论是 wordpress，还是静态的 jekyll, hexo，hugo 等，还是现在的 node 直出，vuepress 等等，各种搭建博客系统的博客。即使是使用第三方的博客平台（如博客园、掘金、csdn 等），也要把界面和功能改造一番。</p><p>有的人还不过瘾，还在各种博客技能和多个第三方博客平台上，反复横跳。最后发现他并没有写几篇实在的文章，满心思都在优化系统上了。例如：</p><ul><li>折腾累了就换 Wordpress 了，不过最近又打算自己从头写一套了；</li><li>一开始用 jekyll，后来到 WordPress，再后来到 typecho，然后 mediawiki、dokuwiki，ghost 诞生了！切换到 ghost，切回 WordPress，开始使用 hexo，vue.js 来了开始使用 vuepress，Hugo ！</li><li>从 hexo 折腾到 ghost，后来不想折腾了就用 wordpress；</li></ul><p><img src="https://pic1.zhimg.com/v2-eb51f24ab7d0c22320d3f6c8bbe5b4c4_b.jpg" alt="img"></p><p>搭建博客的教程，从网上能搜出无数个结果，但用什么博客系统重要吗？</p><h3 id="不要再折腾"><a href="#不要再折腾" class="headerlink" title="不要再折腾"></a>不要再折腾</h3><p>做为一个写了 10 年博客的人，博客系统使用真的不怎么重要。例如司徒正美就在博客园上写了好多年的博客，张鑫旭是在 wordpress 上耕耘了好多年，我本人从 2014 年用 php 搭建了博客系统之后，也基本没怎么改动过了。上半年时，我本想把博客从 php 改造成 node 技术栈，后来在一番心理斗争，两分钟，两分钟后，我放弃了这个想法。</p><p>我们搭建博客的目的，是为了更好地写博客，写的博客文章才是重点，不要本末倒置了。而且，现在的博客系统又不是不能用。</p><p>也有的人说搭建博客，是想锻炼自己的能力，这也能算说的过去。向着能使用当前最流行的技术搭建一套博客系统出来，然后进行总结。例如早期的 javaphp 博客系统，到后来的 hexo, hugo 静态博客生成器，还有现在前端工程师喜欢搞的 node 直出博客系统等等。你搭建博客系统的过程，也能沉淀下来东西，要再形成博客文章，就更好了。如果只是闲不住，我劝，年轻人，耗子尾汁。</p><p>对于想写文章的人，我有几个建议：</p><ol><li>不想折腾，只想写文章的，推荐使用成熟的博客平台，不用关心博客，专心码字，同时索引也很快，阅读量会比较多，也有相应的评论系统，例如博客园、知乎、掘金等；而且现在比如语雀、飞书文档等也不错，也可以用来写文章；</li><li>想有自己博客的，首推静态博客，可以自定义主题，例如 hexo, hugo, vuepress 等，搭配着 git 命令，发布也很方便，自动构建，托管在免费的 GitHub 上，但评论上欠缺一些；</li><li>其次一些成熟的博客也很不错，如 wordpress。</li><li>最想折腾的，从前端，到后端，再到数据库，都想着自己一手操控的，那就从零搭建吧；</li></ol><h3 id="如何写好博客"><a href="#如何写好博客" class="headerlink" title="如何写好博客"></a>如何写好博客</h3><p>这个问题也有很多的讨论了！首先就是要确定当前文章的主题，然后划分目录，每个目录讲什么内容，是否要配备 demo 样例。</p><p>我博客文章主题的灵感，通常来源于工作中，例如工作遇到的重点难点，一个比较酷炫的功能我是怎样实现的，使用的这个第三方组件内部原理是什么，等等，现在没时间写关系，这个转瞬即逝的想法要记录下来，并写几个关键点，等有空的时候，可以进行深入研究，并形成博客文章。</p><p><img src="https://pic2.zhimg.com/v2-fe0b805aefd7653d5d79f1b86ad49be5_b.jpg" alt="img"></p><p>例如这些是我在企业微信上创建的代办事项，一个个完成后，就变成了已完成状态。</p><h3 id="你的写作坚持多久了"><a href="#你的写作坚持多久了" class="headerlink" title="你的写作坚持多久了"></a>你的写作坚持多久了</h3><p>就不说个人博客吧，无论您是在哪个地方写作的，您到现在坚持有几年了呢？我想，您现在应该试试，再重新开始写起来。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;小董同学 注释：行内文本样式 text&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;带 &lt;u&gt;下划线&lt;/u&gt; 的文本&lt;/li&gt;
-&lt;li&gt;带 &lt;emp&gt;着重号&lt;/emp&gt; 的文本&lt;/li&gt;
-&lt;li&gt;带 &lt;wavy&gt;波浪线&lt;/wavy&gt; 的文本&lt;/li&gt;
-&lt;li&gt;带 &lt;del&gt;删除线&lt;/del&gt;</summary>
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span c</summary>
       
     
     
     
-    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="网站" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/%E7%BD%91%E7%AB%99/"/>
+  </entry>
+  
+  <entry>
+    <title>又拍云图床配置</title>
+    <link href="http://example.com/2022/01/08/%E5%8F%88%E6%8B%8D%E4%BA%91%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE/"/>
+    <id>http://example.com/2022/01/08/%E5%8F%88%E6%8B%8D%E4%BA%91%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE/</id>
+    <published>2022-01-08T13:20:08.008Z</published>
+    <updated>2022-01-08T15:20:25.606Z</updated>
     
-    <category term="主题" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/%E7%BD%91%E7%AB%99/%E4%B8%BB%E9%A2%98/"/>
-    
-    <category term="网站" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/%E7%BD%91%E7%AB%99/%E4%B8%BB%E9%A2%98/%E7%BD%91%E7%AB%99/"/>
+    <content type="html"><![CDATA[<h1 id="注册并进行实名认证"><a href="#注册并进行实名认证" class="headerlink" title="注册并进行实名认证"></a>注册并进行实名认证</h1><p>这里选择 云存储 </p><p><img src="http://xdtx32.test.upcdn.net/202201082320758.png"></p><p>进入服务管理云存储</p><p><img src="http://xdtx32.test.upcdn.net/202201082128721.png"></p><p>加速域名填写注意 http://</p><p><img src="http://xdtx32.test.upcdn.net/202201082128177.png"></p>]]></content>
     
     
-    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+      
+      
+    <summary type="html">&lt;h1 id=&quot;注册并进行实名认证&quot;&gt;&lt;a href=&quot;#注册并进行实名认证&quot; class=&quot;headerlink&quot; title=&quot;注册并进行实名认证&quot;&gt;&lt;/a&gt;注册并进行实名认证&lt;/h1&gt;&lt;p&gt;这里选择 云存储 &lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://xdtx32.t</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
+    
+    <category term="教程" scheme="http://example.com/categories/Hexo/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="美化" scheme="http://example.com/categories/Hexo/%E6%95%99%E7%A8%8B/%E7%BE%8E%E5%8C%96/"/>
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
     
     <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="主题" scheme="http://example.com/tags/%E4%B8%BB%E9%A2%98/"/>
+    <category term="美化" scheme="http://example.com/tags/%E7%BE%8E%E5%8C%96/"/>
     
   </entry>
   
@@ -205,9 +219,9 @@
     
     <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
     
-    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
     <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
@@ -336,9 +350,9 @@
     
     <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
     
-    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
     <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
@@ -367,9 +381,9 @@
     
     <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
     
-    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
     <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
