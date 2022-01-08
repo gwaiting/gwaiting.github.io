@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-07T15:16:05.459Z</updated>
+  <updated>2022-01-08T04:49:30.551Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,126 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>免密输入 GitHub 部署项目，采用 SSH</title>
+    <link href="http://example.com/2022/01/08/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH%20copy%204/"/>
+    <id>http://example.com/2022/01/08/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH%20copy%204/</id>
+    <published>2022-01-08T04:49:29.195Z</published>
+    <updated>2022-01-08T04:49:30.551Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="免密输入-GitHub-部署项目，采用-SSH"><a href="#免密输入-GitHub-部署项目，采用-SSH" class="headerlink" title="免密输入 GitHub 部署项目，采用 SSH"></a>免密输入 GitHub 部署项目，采用 SSH</h1><p>之前一直采用 GitHub Desktop 图形化草棉，难免有些操作复杂，但是研究命令行部署，有没有正好。</p><h2 id="1、生成-SSH-密钥"><a href="#1、生成-SSH-密钥" class="headerlink" title="1、生成 SSH 密钥"></a>1、生成 SSH 密钥</h2><h2 id="2、设置-GitHub-中的-SSH-keys"><a href="#2、设置-GitHub-中的-SSH-keys" class="headerlink" title="2、设置 GitHub 中的 SSH keys"></a>2、设置 GitHub 中的 SSH keys</h2><p>这里可以选择在用户设置中添加密钥（Settings –&gt; SSH GPG keys）或者往单个项目中添加密钥。这里以用户设置中添加 SSH 密钥为例。</p><p>向用户设置中添加：打开 github 首页，点击右上角的用户头像，选择 <code>Settings</code> 左边找到 <code>SSH and GPG keys</code> ，选择 <code>New SSH key</code> ,将 <code>.ssh</code> 目录下 <code>id_rsa.pub</code> 文件里的全部内容复制进去，点击 <code>Add SSH key</code> 完成密钥的添加。</p><p>向单个项目中添加：打开 <code>username.github.io</code> 的 <code>repository</code> ，在菜单中选择 <code>Settings</code> -&gt; <code>Deploy keys</code> -&gt; <code>Add deploy key</code> ，后面的步骤和上面一样。</p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201062214988.png"></p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201062215778.png" alt="添加本地秘钥"></p><p>输入以下命令测试是否成功</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>如果出现以下内容则表示配置成功</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi username! You<span class="string">&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span></span><br></pre></td></tr></table></figure><h2 id="3、把-Hexo-的认证方式改为-SSH"><a href="#3、把-Hexo-的认证方式改为-SSH" class="headerlink" title="3、把 Hexo 的认证方式改为 SSH"></a>3、把 Hexo 的认证方式改为 SSH</h2><p>打开 <code>Hexo</code> 的配置文件 <code>_config.yml</code> ，把 <code>deploy</code> 改为</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git <span class="comment">#部署类型, 本文使用Github</span></span><br><span class="line">  repository: git@github.com:gwaiting/gwaiting.github.io.git</span><br><span class="line">        <span class="comment">#部署的仓库的SSH</span></span><br><span class="line">  branch: main2 <span class="comment">#部署分支,一般使用master主分支</span></span><br></pre></td></tr></table></figure><p>最后，在终端执行命令 <code>$ hexo clean &amp;&amp; hexo g -d</code> 进行部署并上传，检验是否成功。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;免密输入-GitHub-部署项目，采用-SSH&quot;&gt;&lt;a href=&quot;#免密输入-GitHub-部署项目，采用-SSH&quot; class=&quot;headerlink&quot; title=&quot;免密输入 GitHub 部署项目，采用 SSH&quot;&gt;&lt;/a&gt;免密输入 GitHub 部署项目，</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>免密输入 GitHub 部署项目，采用 SSH</title>
+    <link href="http://example.com/2022/01/08/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH%20copy%203/"/>
+    <id>http://example.com/2022/01/08/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH%20copy%203/</id>
+    <published>2022-01-08T04:49:26.464Z</published>
+    <updated>2022-01-08T04:49:26.464Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="免密输入-GitHub-部署项目，采用-SSH"><a href="#免密输入-GitHub-部署项目，采用-SSH" class="headerlink" title="免密输入 GitHub 部署项目，采用 SSH"></a>免密输入 GitHub 部署项目，采用 SSH</h1><p>之前一直采用 GitHub Desktop 图形化草棉，难免有些操作复杂，但是研究命令行部署，有没有正好。</p><h2 id="1、生成-SSH-密钥"><a href="#1、生成-SSH-密钥" class="headerlink" title="1、生成 SSH 密钥"></a>1、生成 SSH 密钥</h2><h2 id="2、设置-GitHub-中的-SSH-keys"><a href="#2、设置-GitHub-中的-SSH-keys" class="headerlink" title="2、设置 GitHub 中的 SSH keys"></a>2、设置 GitHub 中的 SSH keys</h2><p>这里可以选择在用户设置中添加密钥（Settings –&gt; SSH GPG keys）或者往单个项目中添加密钥。这里以用户设置中添加 SSH 密钥为例。</p><p>向用户设置中添加：打开 github 首页，点击右上角的用户头像，选择 <code>Settings</code> 左边找到 <code>SSH and GPG keys</code> ，选择 <code>New SSH key</code> ,将 <code>.ssh</code> 目录下 <code>id_rsa.pub</code> 文件里的全部内容复制进去，点击 <code>Add SSH key</code> 完成密钥的添加。</p><p>向单个项目中添加：打开 <code>username.github.io</code> 的 <code>repository</code> ，在菜单中选择 <code>Settings</code> -&gt; <code>Deploy keys</code> -&gt; <code>Add deploy key</code> ，后面的步骤和上面一样。</p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201062214988.png"></p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201062215778.png" alt="添加本地秘钥"></p><p>输入以下命令测试是否成功</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>如果出现以下内容则表示配置成功</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi username! You<span class="string">&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span></span><br></pre></td></tr></table></figure><h2 id="3、把-Hexo-的认证方式改为-SSH"><a href="#3、把-Hexo-的认证方式改为-SSH" class="headerlink" title="3、把 Hexo 的认证方式改为 SSH"></a>3、把 Hexo 的认证方式改为 SSH</h2><p>打开 <code>Hexo</code> 的配置文件 <code>_config.yml</code> ，把 <code>deploy</code> 改为</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git <span class="comment">#部署类型, 本文使用Github</span></span><br><span class="line">  repository: git@github.com:gwaiting/gwaiting.github.io.git</span><br><span class="line">        <span class="comment">#部署的仓库的SSH</span></span><br><span class="line">  branch: main2 <span class="comment">#部署分支,一般使用master主分支</span></span><br></pre></td></tr></table></figure><p>最后，在终端执行命令 <code>$ hexo clean &amp;&amp; hexo g -d</code> 进行部署并上传，检验是否成功。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;免密输入-GitHub-部署项目，采用-SSH&quot;&gt;&lt;a href=&quot;#免密输入-GitHub-部署项目，采用-SSH&quot; class=&quot;headerlink&quot; title=&quot;免密输入 GitHub 部署项目，采用 SSH&quot;&gt;&lt;/a&gt;免密输入 GitHub 部署项目，</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>免密输入 GitHub 部署项目，采用 SSH</title>
+    <link href="http://example.com/2022/01/08/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH%20copy%202/"/>
+    <id>http://example.com/2022/01/08/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH%20copy%202/</id>
+    <published>2022-01-08T04:49:21.321Z</published>
+    <updated>2022-01-08T04:49:21.321Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="免密输入-GitHub-部署项目，采用-SSH"><a href="#免密输入-GitHub-部署项目，采用-SSH" class="headerlink" title="免密输入 GitHub 部署项目，采用 SSH"></a>免密输入 GitHub 部署项目，采用 SSH</h1><p>之前一直采用 GitHub Desktop 图形化草棉，难免有些操作复杂，但是研究命令行部署，有没有正好。</p><h2 id="1、生成-SSH-密钥"><a href="#1、生成-SSH-密钥" class="headerlink" title="1、生成 SSH 密钥"></a>1、生成 SSH 密钥</h2><h2 id="2、设置-GitHub-中的-SSH-keys"><a href="#2、设置-GitHub-中的-SSH-keys" class="headerlink" title="2、设置 GitHub 中的 SSH keys"></a>2、设置 GitHub 中的 SSH keys</h2><p>这里可以选择在用户设置中添加密钥（Settings –&gt; SSH GPG keys）或者往单个项目中添加密钥。这里以用户设置中添加 SSH 密钥为例。</p><p>向用户设置中添加：打开 github 首页，点击右上角的用户头像，选择 <code>Settings</code> 左边找到 <code>SSH and GPG keys</code> ，选择 <code>New SSH key</code> ,将 <code>.ssh</code> 目录下 <code>id_rsa.pub</code> 文件里的全部内容复制进去，点击 <code>Add SSH key</code> 完成密钥的添加。</p><p>向单个项目中添加：打开 <code>username.github.io</code> 的 <code>repository</code> ，在菜单中选择 <code>Settings</code> -&gt; <code>Deploy keys</code> -&gt; <code>Add deploy key</code> ，后面的步骤和上面一样。</p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201062214988.png"></p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201062215778.png" alt="添加本地秘钥"></p><p>输入以下命令测试是否成功</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>如果出现以下内容则表示配置成功</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi username! You<span class="string">&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span></span><br></pre></td></tr></table></figure><h2 id="3、把-Hexo-的认证方式改为-SSH"><a href="#3、把-Hexo-的认证方式改为-SSH" class="headerlink" title="3、把 Hexo 的认证方式改为 SSH"></a>3、把 Hexo 的认证方式改为 SSH</h2><p>打开 <code>Hexo</code> 的配置文件 <code>_config.yml</code> ，把 <code>deploy</code> 改为</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git <span class="comment">#部署类型, 本文使用Github</span></span><br><span class="line">  repository: git@github.com:gwaiting/gwaiting.github.io.git</span><br><span class="line">        <span class="comment">#部署的仓库的SSH</span></span><br><span class="line">  branch: main2 <span class="comment">#部署分支,一般使用master主分支</span></span><br></pre></td></tr></table></figure><p>最后，在终端执行命令 <code>$ hexo clean &amp;&amp; hexo g -d</code> 进行部署并上传，检验是否成功。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;免密输入-GitHub-部署项目，采用-SSH&quot;&gt;&lt;a href=&quot;#免密输入-GitHub-部署项目，采用-SSH&quot; class=&quot;headerlink&quot; title=&quot;免密输入 GitHub 部署项目，采用 SSH&quot;&gt;&lt;/a&gt;免密输入 GitHub 部署项目，</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>免密输入 GitHub 部署项目，采用 SSH</title>
+    <link href="http://example.com/2022/01/08/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH%20copy/"/>
+    <id>http://example.com/2022/01/08/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH%20copy/</id>
+    <published>2022-01-08T04:49:18.580Z</published>
+    <updated>2022-01-08T04:49:18.580Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="免密输入-GitHub-部署项目，采用-SSH"><a href="#免密输入-GitHub-部署项目，采用-SSH" class="headerlink" title="免密输入 GitHub 部署项目，采用 SSH"></a>免密输入 GitHub 部署项目，采用 SSH</h1><p>之前一直采用 GitHub Desktop 图形化草棉，难免有些操作复杂，但是研究命令行部署，有没有正好。</p><h2 id="1、生成-SSH-密钥"><a href="#1、生成-SSH-密钥" class="headerlink" title="1、生成 SSH 密钥"></a>1、生成 SSH 密钥</h2><h2 id="2、设置-GitHub-中的-SSH-keys"><a href="#2、设置-GitHub-中的-SSH-keys" class="headerlink" title="2、设置 GitHub 中的 SSH keys"></a>2、设置 GitHub 中的 SSH keys</h2><p>这里可以选择在用户设置中添加密钥（Settings –&gt; SSH GPG keys）或者往单个项目中添加密钥。这里以用户设置中添加 SSH 密钥为例。</p><p>向用户设置中添加：打开 github 首页，点击右上角的用户头像，选择 <code>Settings</code> 左边找到 <code>SSH and GPG keys</code> ，选择 <code>New SSH key</code> ,将 <code>.ssh</code> 目录下 <code>id_rsa.pub</code> 文件里的全部内容复制进去，点击 <code>Add SSH key</code> 完成密钥的添加。</p><p>向单个项目中添加：打开 <code>username.github.io</code> 的 <code>repository</code> ，在菜单中选择 <code>Settings</code> -&gt; <code>Deploy keys</code> -&gt; <code>Add deploy key</code> ，后面的步骤和上面一样。</p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201062214988.png"></p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201062215778.png" alt="添加本地秘钥"></p><p>输入以下命令测试是否成功</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>如果出现以下内容则表示配置成功</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi username! You<span class="string">&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span></span><br></pre></td></tr></table></figure><h2 id="3、把-Hexo-的认证方式改为-SSH"><a href="#3、把-Hexo-的认证方式改为-SSH" class="headerlink" title="3、把 Hexo 的认证方式改为 SSH"></a>3、把 Hexo 的认证方式改为 SSH</h2><p>打开 <code>Hexo</code> 的配置文件 <code>_config.yml</code> ，把 <code>deploy</code> 改为</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git <span class="comment">#部署类型, 本文使用Github</span></span><br><span class="line">  repository: git@github.com:gwaiting/gwaiting.github.io.git</span><br><span class="line">        <span class="comment">#部署的仓库的SSH</span></span><br><span class="line">  branch: main2 <span class="comment">#部署分支,一般使用master主分支</span></span><br></pre></td></tr></table></figure><p>最后，在终端执行命令 <code>$ hexo clean &amp;&amp; hexo g -d</code> 进行部署并上传，检验是否成功。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;免密输入-GitHub-部署项目，采用-SSH&quot;&gt;&lt;a href=&quot;#免密输入-GitHub-部署项目，采用-SSH&quot; class=&quot;headerlink&quot; title=&quot;免密输入 GitHub 部署项目，采用 SSH&quot;&gt;&lt;/a&gt;免密输入 GitHub 部署项目，</summary>
+      
+    
+    
+    
+    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
+    
+    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+  </entry>
   
   <entry>
     <title>openwrt 配置下载 bittorrent 文件</title>
