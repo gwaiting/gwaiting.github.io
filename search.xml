@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>openwrt 挂载阿里云盘</title>
+      <link href="/2022/01/10/%E6%8C%82%E8%BD%BD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/"/>
+      <url>/2022/01/10/%E6%8C%82%E8%BD%BD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>想法：阿里云盘有很多的资源和文件，随着社区升级以后的资源肯定会越来越多的，我想的是给树莓派的 openwrt 挂载上硬盘，然后通过 openwrt 下载阿里云的资源到移动硬盘上。这样就不会占用我的主机资源和保护 SSD 的寿命。</p></blockquote><p>所需材料</p><ol><li>openwrt 操作系统的树莓派</li><li>Aria 下载服务</li><li>自己的笔记本电脑</li></ol><h2 id="1、下载适当的镜像包"><a href="#1、下载适当的镜像包" class="headerlink" title="1、下载适当的镜像包"></a>1、下载适当的镜像包</h2><p>偶然在这个上面发现的<a href="https://www.right.com.cn/forum/thread-5841157-1-1.html%EF%BC%8C%E7%84%B6%E5%90%8E%E6%88%91%E8%A2%AB%E5%AF%BC%E8%88%AA%E5%88%B0%E4%BA%86">https://www.right.com.cn/forum/thread-5841157-1-1.html，然后我被导航到了</a> GitHub 上的开源项目 <a href="https://github.com/messense/aliyundrive-webdav">https://github.com/messense/aliyundrive-webdav</a></p><p>在这个页面下载适合自己路由器的版本的文件<a href="https://github.com/messense/aliyundrive-webdav/releases">https://github.com/messense/aliyundrive-webdav/releases</a> ，使用 opkg print-architecture 这个代码来查看自己路由器的架构信息。比如我的就是 aarch64_cortex-a72</p><p><img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201101748808.png"></p><p>之后我们在这个页面检索，aarch64_cortex-a72</p><p><img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201101748451.png"></p><p>在 openwrt 终端内使用  <code>wget</code> 命令把这玩意儿下载下来，之后再使用 <code>opkg install</code> 进行安装</p><h2 id="2、web-页面的启动"><a href="#2、web-页面的启动" class="headerlink" title="2、web 页面的启动"></a>2、web 页面的启动</h2><p>在这里我的服务列表里面并没有这样的 web 界面，我也不想去解决了，就命令行去启动。</p><p><img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201101748902.png"></p><p>启动命令如下</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">aliyundrive-webdav --auto-index --port 8111 --refresh-token xxxxx</span><br></pre></td></tr></table></figure><p>这里没有图形界面，是因为还缺两个安装包。如下</p><p><img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201101748313.png"></p><p>之后就会看到阿里云 web dev 了</p><p>之后在浏览器输入 <a href="http://192.168.4.100:8111/">http://192.168.4.100:8111/</a> 就可以查看到已经介入的阿里云盘的文件信息</p><p>这里的 token 的获取参考</p><p><img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201101749176.png"></p><h2 id="3、文件下载"><a href="#3、文件下载" class="headerlink" title="3、文件下载"></a>3、文件下载</h2><p>这里的文件下载采用的是离线下载也就是并不占用我的电脑的硬盘。采用 AriaNg 下载。服务端配置如下</p><p><img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201101749207.png"></p><p><img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201101749260.png"></p><p><img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201101750938.png"></p><p>客户端的配置采到aria2装在Chrome 浏览器，用于监听下载的端口信息。</p><p><img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201101750610.png"></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> openwrt </tag>
+            
+            <tag> 树莓派 </tag>
+            
+            <tag> 家庭网络 </tag>
+            
+            <tag> 云盘 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>iPic 图床配置 和 腾讯COS</title>
       <link href="/2022/01/09/iPic%20%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE%20%E5%92%8C%20%E8%85%BE%E8%AE%AFCOS/"/>
       <url>/2022/01/09/iPic%20%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE%20%E5%92%8C%20%E8%85%BE%E8%AE%AFCOS/</url>
@@ -20,9 +45,9 @@
       
         <tags>
             
-            <tag> 图床 </tag>
-            
             <tag> 博客 </tag>
+            
+            <tag> 图床 </tag>
             
             <tag> 教程 </tag>
             
@@ -84,9 +109,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> 教程 </tag>
             
             <tag> 美化 </tag>
             
@@ -152,9 +177,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> 教程 </tag>
             
             <tag> 美化 </tag>
             
