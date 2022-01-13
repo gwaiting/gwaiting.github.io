@@ -257,20 +257,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/Hexo/</loc>
-    <lastmod>2022-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/</loc>
-    <lastmod>2022-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/tags/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -306,14 +292,14 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/openwrt/</loc>
+    <loc>http://example.com/tags/Hexo/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E7%BD%91%E7%BB%9C/</loc>
+    <loc>http://example.com/tags/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -327,14 +313,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2022-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.com/tags/%E8%AE%B0%E5%BD%95/</loc>
+    <loc>http://example.com/tags/openwrt/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -363,6 +342,27 @@
   
   <url>
     <loc>http://example.com/tags/%E7%BE%8E%E5%8C%96/</loc>
+    <lastmod>2022-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E7%BD%91%E7%BB%9C/</loc>
+    <lastmod>2022-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2022-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/tags/%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -399,13 +399,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/Hexo/</loc>
-    <lastmod>2022-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/categories/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -427,7 +420,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/Hexo/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/</loc>
+    <loc>http://example.com/categories/Hexo/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -441,13 +434,6 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-01-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://example.com/categories/%E6%95%99%E7%A8%8B/%E4%B8%8B%E8%BD%BD/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -455,7 +441,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/Hexo/%E6%95%99%E7%A8%8B/</loc>
+    <loc>http://example.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -469,7 +455,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/Hexo/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/GitHub/</loc>
+    <loc>http://example.com/categories/Hexo/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -477,6 +463,20 @@
   
   <url>
     <loc>http://example.com/categories/%E6%95%99%E7%A8%8B/%E4%B8%8B%E8%BD%BD/%E5%A8%B1%E4%B9%90/</loc>
+    <lastmod>2022-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Hexo/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2022-01-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/categories/Hexo/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/GitHub/</loc>
     <lastmod>2022-01-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
