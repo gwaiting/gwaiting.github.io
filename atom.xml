@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-01-13T06:39:59.477Z</updated>
+  <updated>2022-01-13T06:56:50.561Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo 的简单命令</title>
+    <link href="http://example.com/2022/01/13/hexo%20%E5%91%BD%E4%BB%A4/"/>
+    <id>http://example.com/2022/01/13/hexo%20%E5%91%BD%E4%BB%A4/</id>
+    <published>2022-01-13T06:45:09.000Z</published>
+    <updated>2022-01-13T06:56:50.561Z</updated>
+    
+    <content type="html"><![CDATA[<p>新建一个文章页面，默认在 _post 下面，文章的文件名就是 page 。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page </span><br></pre></td></tr></table></figure><p>新建一个文章文件名为 page ，在文件夹 post1 下面</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page post1</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;新建一个文章页面，默认在 _post 下面，文章的文件名就是 page 。&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/sp</summary>
+      
+    
+    
+    
+    
+    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+    <category term="Linux" scheme="http://example.com/tags/Linux/"/>
+    
+    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>openwrt 路由器安装</title>
-    <link href="http://example.com/2022/01/13/page/"/>
-    <id>http://example.com/2022/01/13/page/</id>
+    <link href="http://example.com/2022/01/13/openwrt%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/"/>
+    <id>http://example.com/2022/01/13/openwrt%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/</id>
     <published>2022-01-13T06:38:06.000Z</published>
-    <updated>2022-01-13T06:39:59.477Z</updated>
+    <updated>2022-01-13T06:56:56.967Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>1、华为路由器</p><p>2、树莓派</p><p>3、OpenWrt 镜像包</p></blockquote><h2 id="烧录镜像"><a href="#烧录镜像" class="headerlink" title="烧录镜像"></a>烧录镜像</h2><p>镜像选择：openwrt-bcm27xx-bcm2711-rpi-4-ext4-factory.img</p><p>软件选择：<img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201131417868.png"></p><h2 id="进入路由器（树莓派）"><a href="#进入路由器（树莓派）" class="headerlink" title="进入路由器（树莓派）"></a>进入路由器（树莓派）</h2><blockquote><p>这一步要线连接到光猫的网线出口，不能直接查到路由器的 lan 口。否则就不能进入后台界面，先接入到光猫进行配置。</p></blockquote><p>连接到网线并供电，就会找到一个 OpenWrt 名字的无线网络。</p><p>登录地址：192.168.1.1</p><p>登录账号：root</p><p>登录密码：password</p><p>这是不变的，不管家里的什么品牌路由器，或者移动联通还是电信的网络。</p><p>这样就会登录到 openwrt 的后台页面。</p><p><img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201131422716.png"></p><h2 id="配置-openwrt-的后台，使其能够上网。"><a href="#配置-openwrt-的后台，使其能够上网。" class="headerlink" title="配置 openwrt 的后台，使其能够上网。"></a>配置 openwrt 的后台，使其能够上网。</h2><p>首先肯定要更改掉登录地址，因为这个 192.168.1.1 肯定是有重复的。</p><ul><li>点击「网络 -&gt; 接口 -&gt; LAN -&gt; 修改」</li><li>IPv4 地址改为 192.168.4.100（也就是把路由器的 IP 最后一位更改掉）</li><li>点击「保存&amp;应用」</li></ul><p><img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201131424218.png"></p><p>其次，重启之后。更改网关和广播地址。</p><ul><li>登陆 <a href="http://192.168.4.100/">http://192.168.4.100/</a></li><li>点击「网络 -&gt; 接口 -&gt; LAN -&gt; 修改」<ul><li>协议：静态地址</li><li>IPV4 地址：192.168.4.100（之前修改过，现在保持不变）</li><li>IPv4 子网掩码: 255.255.255.0</li><li>IPv4 网关：改为上级路由器管理界面 IP：192.168.4.1</li><li>Pv4 广播：把上级路由网段 IP 最后一段改为 255： 192.168.4.255</li><li>使用自定义的 DNS 服务器：同样为上级路由器 IP：192.168.4.1</li><li>忽略此接口/不在此接口提供 DHCP 服务 （在页面底部）：打勾</li></ul></li><li>点击「保存&amp;应用」</li></ul><p><img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201131426746.png"></p><p>重新启动之后，就会发现。网络已经连接成功了。</p><h2 id="网络的简单调整"><a href="#网络的简单调整" class="headerlink" title="网络的简单调整"></a>网络的简单调整</h2><h2 id="修改-WIFI-密码"><a href="#修改-WIFI-密码" class="headerlink" title="修改 WIFI 密码"></a>修改 WIFI 密码</h2><p>为了防止别人连上 WIFI 捣蛋，先修改 WIFI 密码。</p><ol><li>点击「网络 -&gt; 无线 -&gt; 修改」</li><li>点击「基本设置」，在「ESSID」填入 WIFI 名称</li><li>点击「无线安全」，在「密码」填入新密码</li><li>点击「保存&amp;应用」</li></ol><p><img src="https://blog-1257103277.cos.ap-nanjing.myqcloud.com/blog/202201131428493.png"></p><p>OK  配置完成</p><p>其他的自己捣鼓。</p><p>[参考](</p>]]></content>
     
@@ -39,9 +66,9 @@
     
     
     
-    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="路由器" scheme="http://example.com/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    
+    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="openwrt" scheme="http://example.com/tags/openwrt/"/>
     
@@ -101,11 +128,11 @@
     <category term="博客" scheme="http://example.com/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
+    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
     <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
     <category term="图床" scheme="http://example.com/tags/%E5%9B%BE%E5%BA%8A/"/>
-    
-    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -164,9 +191,9 @@
     <category term="美化" scheme="http://example.com/categories/Hexo/%E6%95%99%E7%A8%8B/%E7%BE%8E%E5%8C%96/"/>
     
     
-    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="美化" scheme="http://example.com/tags/%E7%BE%8E%E5%8C%96/"/>
     
@@ -232,9 +259,9 @@
     <category term="美化" scheme="http://example.com/categories/Hexo/%E6%95%99%E7%A8%8B/%E7%BE%8E%E5%8C%96/"/>
     
     
-    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    
+    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="美化" scheme="http://example.com/tags/%E7%BE%8E%E5%8C%96/"/>
     
@@ -322,9 +349,9 @@
     
     <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
     
-    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
     <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
@@ -453,9 +480,9 @@
     
     <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
     
-    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
     <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
@@ -484,9 +511,9 @@
     
     <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
     
-    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
     <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
