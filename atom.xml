@@ -86,9 +86,9 @@
     
     
     
-    <category term="路由器" scheme="http://example.com/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
-    
     <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="路由器" scheme="http://example.com/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
     
     <category term="openwrt" scheme="http://example.com/tags/openwrt/"/>
     
@@ -150,9 +150,9 @@
     
     <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
     <category term="图床" scheme="http://example.com/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
     
   </entry>
   
@@ -369,9 +369,9 @@
     
     <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
     
-    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
     <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
@@ -437,11 +437,11 @@
     <category term="GitHub" scheme="http://example.com/categories/Hexo/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/GitHub/"/>
     
     
-    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
-    
     <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
     
     <category term="网站部署" scheme="http://example.com/tags/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/"/>
+    
+    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
     
   </entry>
   
@@ -498,9 +498,9 @@
     
     <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
     
-    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
     <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
@@ -529,9 +529,9 @@
     
     <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
     
-    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
-    
     <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    
+    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
     
   </entry>
   
