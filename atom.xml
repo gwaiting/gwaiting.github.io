@@ -3,11 +3,11 @@
   <title>小董同学</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://dtongxue.top/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2022-01-23T12:49:44.266Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://dtongxue.top/"/>
+  <updated>2022-01-24T13:57:02.463Z</updated>
+  <id>https://dtongxue.top/</id>
   
   <author>
     <name>小董同学</name>
@@ -17,9 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>hexo markdown 语法配置</title>
+    <link href="https://dtongxue.top/2022/01/24/1/"/>
+    <id>https://dtongxue.top/2022/01/24/1/</id>
+    <published>2022-01-24T13:04:23.000Z</published>
+    <updated>2022-01-24T13:57:02.463Z</updated>
+    
+    <content type="html"><![CDATA[<div class="tip "><p>文章内容基于糖果屋博客站点 <a href="https://akilar.top/posts/615e2dec/#%E6%97%B6%E9%97%B4%E8%BD%B4-timeline">https://akilar.top/posts/615e2dec/#%E6%97%B6%E9%97%B4%E8%BD%B4-timeline</a> 博客的 js 和 CSS 动效，这仅仅是一部分，有的太花里胡哨了。其中表格标签参考<a href="https://www.antmoe.com/posts/3b43914f/#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BE%E6%A0%87">https://www.antmoe.com/posts/3b43914f/#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9B%BE%E6%A0%87</a> 这是一个比刚才那个简洁点的博主。</p></div><h1 id="解释器语法"><a href="#解释器语法" class="headerlink" title="解释器语法"></a><span class='p green'>页面</span>解释器语法</h1><div class="table-container"><table><thead><tr><th style="text-align:center">写法</th><th style="text-align:center">解释</th></tr></thead><tbody><tr><td style="text-align:center">title</td><td style="text-align:center">【必需】页面标题</td></tr><tr><td style="text-align:center">date</td><td style="text-align:center">【必需】页面创建日期</td></tr><tr><td style="text-align:center">type</td><td style="text-align:center">【必需】标籤、分类和友情链接三个页面需要配置</td></tr><tr><td style="text-align:center">updated</td><td style="text-align:center">【可选】页面更新日期</td></tr><tr><td style="text-align:center">description</td><td style="text-align:center">【可选】页面描述</td></tr><tr><td style="text-align:center">keywords</td><td style="text-align:center">【可选】页面关键字</td></tr><tr><td style="text-align:center">comments</td><td style="text-align:center">【可选】显示页面评论模块 (默认 true)</td></tr><tr><td style="text-align:center">top_img</td><td style="text-align:center">【可选】页面顶部图片</td></tr><tr><td style="text-align:center">mathjax</td><td style="text-align:center">【可选】显示 mathjax (当设置 mathjax 的 per_page: false 时，才需要配置，默认 false)</td></tr><tr><td style="text-align:center">katex</td><td style="text-align:center">【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false)</td></tr><tr><td style="text-align:center">aside</td><td style="text-align:center">【可选】显示侧边栏 (默认 true)</td></tr><tr><td style="text-align:center">aplayer</td><td style="text-align:center">【可选】在需要的页面加载 aplayer 的 js 和 css, 请参考文章下面的<code>音乐</code> 配置</td></tr><tr><td style="text-align:center">highlight_shrink</td><td style="text-align:center">【可选】配置代码框是否展开 (true/false)(默认为设置中 highlight_shrink 的配置)</td></tr></tbody></table></div><h1 id="文章解释器语法"><a href="#文章解释器语法" class="headerlink" title="文章解释器语法"></a>文章解释器语法</h1><div class="table-container"><table><thead><tr><th style="text-align:center">写法</th><th style="text-align:center">解释</th></tr></thead><tbody><tr><td style="text-align:center">title</td><td style="text-align:center">【必需】文章标题</td></tr><tr><td style="text-align:center">date</td><td style="text-align:center">【必需】文章创建日期</td></tr><tr><td style="text-align:center">updated</td><td style="text-align:center">【可选】文章更新日期</td></tr><tr><td style="text-align:center">tags</td><td style="text-align:center">【可选】文章标籤</td></tr><tr><td style="text-align:center">categories</td><td style="text-align:center">【可选】文章分类</td></tr><tr><td style="text-align:center">keywords</td><td style="text-align:center">【可选】文章关键字</td></tr><tr><td style="text-align:center">description</td><td style="text-align:center">【可选】文章描述</td></tr><tr><td style="text-align:center">top_img</td><td style="text-align:center">【可选】文章顶部图片</td></tr><tr><td style="text-align:center">cover</td><td style="text-align:center">【可选】文章缩略图 (如果没有设置 top_img, 文章页顶部将显示缩略图，可设为 false / 图片地址 / 留空)</td></tr><tr><td style="text-align:center">comments</td><td style="text-align:center">【可选】显示文章评论模块 (默认 true)</td></tr><tr><td style="text-align:center">toc</td><td style="text-align:center">【可选】显示文章 TOC (默认为设置中 toc 的 enable 配置)</td></tr><tr><td style="text-align:center">toc_number</td><td style="text-align:center">【可选】显示 toc_number (默认为设置中 toc 的 number 配置)</td></tr><tr><td style="text-align:center">copyright</td><td style="text-align:center">【可选】显示文章版权模块 (默认为设置中 post_copyright 的 enable 配置)</td></tr><tr><td style="text-align:center">copyright_author</td><td style="text-align:center">【可选】文章版权模块的<code>文章作者</code></td></tr><tr><td style="text-align:center">copyright_author_href</td><td style="text-align:center">【可选】文章版权模块的<code>文章作者</code>链接</td></tr><tr><td style="text-align:center">copyright_url</td><td style="text-align:center">【可选】文章版权模块的<code>文章连结</code>链接</td></tr><tr><td style="text-align:center">copyright_info</td><td style="text-align:center">【可选】文章版权模块的<code>版权声明</code>文字</td></tr><tr><td style="text-align:center">mathjax</td><td style="text-align:center">【可选】显示 mathjax (当设置 mathjax 的 per_page: false 时，才需要配置，默认 false)</td></tr><tr><td style="text-align:center">katex</td><td style="text-align:center">【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false)</td></tr><tr><td style="text-align:center">aplayer</td><td style="text-align:center">【可选】在需要的页面加载 aplayer 的 js 和 css, 请参考文章下面的<code>音乐</code> 配置</td></tr><tr><td style="text-align:center">highlight_shrink</td><td style="text-align:center">【可选】配置代码框是否展开 (true/false)(默认为设置中 highlight_shrink 的配置)</td></tr><tr><td style="text-align:center">aside</td><td style="text-align:center">【可选】显示侧边栏 (默认 true)</td></tr><tr><td style="text-align:center">hide</td><td style="text-align:center">【可选】隐藏文章</td></tr><tr><td style="text-align:center">sticky</td><td style="text-align:center">【可选】文章置顶，值越大越考上</td></tr><tr><td style="text-align:center">完了</td><td style="text-align:center">表格多了一行，哈哈哈</td></tr></tbody></table></div><h1 id="行内文本样式-text"><a href="#行内文本样式-text" class="headerlink" title="行内文本样式 text"></a>行内文本样式 text</h1><div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">样式预览</button></li><li class="tab"><button type="button" data-href="#test4-2">样式源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><ol><li>带 <u>下划线</u> 的文本</li><li>带 <emp>着重号</emp> 的文本</li><li>带 <wavy>波浪线</wavy> 的文本</li><li>带 <del>删除线</del> 的文本</li><li>键盘样式的文本 <kbd>command</kbd> + <kbd>D</kbd></li><li>密码样式的文本：<psw>这里没有验证码</psw></li></ol><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1. 带 &#123;% u 下划线 %&#125; 的文本</span><br><span class="line">2. 带 &#123;% emp 着重号 %&#125; 的文本</span><br><span class="line">3. 带 &#123;% wavy 波浪线 %&#125; 的文本</span><br><span class="line">4. 带 &#123;% del 删除线 %&#125; 的文本</span><br><span class="line">5. 键盘样式的文本 &#123;% kbd command %&#125; + &#123;% kbd D %&#125;</span><br><span class="line">6. 密码样式的文本：&#123;% psw 这里没有验证码 %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h1 id="行内文本-span"><a href="#行内文本-span" class="headerlink" title="行内文本 span"></a>行内文本 span</h1><div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">样式预览</button></li><li class="tab"><button type="button" data-href="#test4-2">样式源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><ul><li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<span class='p red'>红色</span>、<span class='p yellow'>黄色</span>、<span class='p green'>绿色</span>、<span class='p cyan'>青色</span>、<span class='p blue'>蓝色</span>、<span class='p gray'>灰色</span>。</li><li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<br><span class='p center logo large'>Volantis</span><br><span class='p center small'>A Wonderful Theme for Hexo</span></li></ul><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">- 彩色文字</span><br><span class="line">在一段话中方便插入各种颜色的标签，包括：&#123;% span red, 红色 %&#125;、&#123;% span yellow, 黄色 %&#125;、&#123;% span green, 绿色 %&#125;、&#123;% span cyan, 青色 %&#125;、&#123;% span blue, 蓝色 %&#125;、&#123;% span gray, 灰色 %&#125;。</span><br><span class="line">- 超大号文字</span><br><span class="line">文档「开始」页面中的标题部分就是超大号文字。</span><br><span class="line">&#123;% span center logo large, Volantis %&#125;</span><br><span class="line">&#123;% span center small, A Wonderful Theme for Hexo %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h1 id="上标标签-tip"><a href="#上标标签-tip" class="headerlink" title="上标标签 tip"></a>上标标签 tip</h1><div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">样式预览</button></li><li class="tab"><button type="button" data-href="#test4-2">样式源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><div class="tip "><p>默认情况</p></div><div class="tip success"><p>success</p></div><div class="tip error"><p>error</p></div><div class="tip warning"><p>warning</p></div><div class="tip bolt"><p>bolt</p></div><div class="tip ban"><p>ban</p></div><div class="tip home"><p>home</p></div><div class="tip sync"><p>sync</p></div><div class="tip cogs"><p>cogs</p></div><div class="tip key"><p>key</p></div><div class="tip bell"><p>bell</p></div><div class="tip fa-atom"><p>自定义font awesome图标</p></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#123;% tip %&#125;默认情况&#123;% endtip %&#125;</span><br><span class="line">&#123;% tip success %&#125;success&#123;% endtip %&#125;</span><br><span class="line">&#123;% tip error %&#125;error&#123;% endtip %&#125;</span><br><span class="line">&#123;% tip warning %&#125;warning&#123;% endtip %&#125;</span><br><span class="line">&#123;% tip bolt %&#125;bolt&#123;% endtip %&#125;</span><br><span class="line">&#123;% tip ban %&#125;ban&#123;% endtip %&#125;</span><br><span class="line">&#123;% tip home %&#125;home&#123;% endtip %&#125;</span><br><span class="line">&#123;% tip sync %&#125;sync&#123;% endtip %&#125;</span><br><span class="line">&#123;% tip cogs %&#125;cogs&#123;% endtip %&#125;</span><br><span class="line">&#123;% tip key %&#125;key&#123;% endtip %&#125;</span><br><span class="line">&#123;% tip bell %&#125;bell&#123;% endtip %&#125;</span><br><span class="line">&#123;% tip fa-atom %&#125;自定义font awesome图标&#123;% endtip %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h1 id="连接卡片"><a href="#连接卡片" class="headerlink" title="连接卡片"></a>连接卡片</h1><div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">样式预览</button></li><li class="tab"><button type="button" data-href="#test4-2">样式源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><div class="tag link"><a class="link-card" title="糖果屋教程贴" href="https://akilar.top/posts/615e2dec/"><div class="left"><img src="https://unpkg.zhimg.com/akilar-candyassets/image/siteicon/favicon.ico"/></div><div class="right"><p class="text">糖果屋教程贴</p><p class="url">https://akilar.top/posts/615e2dec/</p></div></a></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% link 糖果屋教程贴, https://akilar.top/posts/615e2dec/, https://unpkg.zhimg.com/akilar-candyassets/image/siteicon/favicon.ico %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h1 id="网站徽标"><a href="#网站徽标" class="headerlink" title="网站徽标"></a>网站徽标</h1><div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">样式预览</button></li><li class="tab"><button type="button" data-href="#test4-2">样式源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><object class="ghbdage" style="margin-inline:5px" title="" standby="loading..." data="https://img.shields.io/badge/Butterfly-Theme-orange?logo=&color=orange&link=&"></object><object class="ghbdage" style="margin-inline:5px" title="" standby="loading..." data="https://img.shields.io/badge/Hexo-Frame-orange?logo=hexo&color=orange&link=&"></object><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&#123;% bdage Theme,Butterfly %&#125;</span><br><span class="line">&#123;% bdage Frame,Hexo,hexo %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h1 id="网站卡片"><a href="#网站卡片" class="headerlink" title="网站卡片"></a>网站卡片</h1><div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">样式预览</button></li><li class="tab"><button type="button" data-href="#test4-2">样式源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><div class="site-card-group"><a class="site-card" href="https://xaoxuu.com"><div class="img"><img src="https://i.loli.net/2020/08/21/VuSwWZ1xAeUHEBC.jpg"/></div><div class="info"><img src="https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png"/><span class="title">xaoxuu</span><span class="desc">简约风格</span></div></a><a class="site-card" href="https://inkss.cn"><div class="img"><img src="https://i.loli.net/2020/08/21/Vzbu3i8fXs6Nh5Y.jpg"/></div><div class="info"><img src="https://cdn.jsdelivr.net/gh/inkss/common@master/static/web/avatar.jpg"/><span class="title">inkss</span><span class="desc">这是一段关于这个网站的描述文字</span></div></a><a class="site-card" href="https://blog.mhuig.top"><div class="img"><img src="https://i.loli.net/2020/08/22/d24zpPlhLYWX6D1.png"/></div><div class="info"><img src="https://cdn.jsdelivr.net/gh/MHuiG/imgbed@master/data/p.png"/><span class="title">MHuiG</span><span class="desc">这是一段关于这个网站的描述文字</span></div></a><a class="site-card" href="https://colsrch.top"><div class="img"><img src="https://i.loli.net/2020/08/22/dFRWXm52OVu8qfK.png"/></div><div class="info"><img src="https://cdn.jsdelivr.net/gh/Colsrch/images/Colsrch/avatar.jpg"/><span class="title">Colsrch</span><span class="desc">这是一段关于这个网站的描述文字</span></div></a><a class="site-card" href="https://linhk1606.github.io"><div class="img"><img src="https://i.loli.net/2020/08/21/3PmGLCKicnfow1x.png"/></div><div class="info"><img src="https://i.loli.net/2020/02/09/PN7I5RJfFtA93r2.png"/><span class="title">Linhk1606</span><span class="desc">这是一段关于这个网站的描述文字</span></div></a></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;% sitegroup %&#125;</span><br><span class="line">&#123;% site xaoxuu, url=https://xaoxuu.com, screenshot=https://i.loli.net/2020/08/21/VuSwWZ1xAeUHEBC.jpg, avatar=https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png, description=简约风格 %&#125;</span><br><span class="line">&#123;% site inkss, url=https://inkss.cn, screenshot=https://i.loli.net/2020/08/21/Vzbu3i8fXs6Nh5Y.jpg, avatar=https://cdn.jsdelivr.net/gh/inkss/common@master/static/web/avatar.jpg, description=这是一段关于这个网站的描述文字 %&#125;</span><br><span class="line">&#123;% site MHuiG, url=https://blog.mhuig.top, screenshot=https://i.loli.net/2020/08/22/d24zpPlhLYWX6D1.png, avatar=https://cdn.jsdelivr.net/gh/MHuiG/imgbed@master/data/p.png, description=这是一段关于这个网站的描述文字 %&#125;</span><br><span class="line">&#123;% site Colsrch, url=https://colsrch.top, screenshot=https://i.loli.net/2020/08/22/dFRWXm52OVu8qfK.png, avatar=https://cdn.jsdelivr.net/gh/Colsrch/images/Colsrch/avatar.jpg, description=这是一段关于这个网站的描述文字 %&#125;</span><br><span class="line">&#123;% site Linhk1606, url=https://linhk1606.github.io, screenshot=https://i.loli.net/2020/08/21/3PmGLCKicnfow1x.png, avatar=https://i.loli.net/2020/02/09/PN7I5RJfFtA93r2.png, description=这是一段关于这个网站的描述文字 %&#125;</span><br><span class="line">&#123;% endsitegroup %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h1 id="视频引入"><a href="#视频引入" class="headerlink" title="视频引入"></a>视频引入</h1><div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">样式预览</button></li><li class="tab"><button type="button" data-href="#test4-2">样式源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><div class="videos" col='2'><div class="video"><video controls preload><source src='https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov' type='video/mp4'>Your browser does not support the video tag.</video></div><div class="video"><video controls preload><source src='https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov' type='video/mp4'>Your browser does not support the video tag.</video></div><div class="video"><video controls preload><source src='https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov' type='video/mp4'>Your browser does not support the video tag.</video></div><div class="video"><video controls preload><source src='https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov' type='video/mp4'>Your browser does not support the video tag.</video></div></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;% videos, 2 %&#125;</span><br><span class="line">&#123;% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% video https://github.com/volantis-x/volantis-docs/releases/download/assets/IMG_0341.mov %&#125;</span><br><span class="line">&#123;% endvideos %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h1 id="折叠框-folding"><a href="#折叠框-folding" class="headerlink" title="折叠框 folding"></a>折叠框 folding</h1><div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">样式预览</button></li><li class="tab"><button type="button" data-href="#test4-2">样式源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><details class="folding-tag" ><summary> 查看图片测试 </summary>              <div class='content'>              <p><img src="https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg" alt=""></p>              </div>            </details><details class="folding-tag" cyan open><summary> 查看默认打开的折叠框 </summary>              <div class='content'>              <p>这是一个默认打开的折叠框。</p>              </div>            </details><details class="folding-tag" green><summary> 查看代码测试 </summary>              <div class='content'>              <p>假装这里有代码块（代码块没法嵌套代码块）</p>              </div>            </details><details class="folding-tag" yellow><summary> 查看列表测试 </summary>              <div class='content'>              <ul><li>haha</li><li>hehe</li></ul>              </div>            </details><details class="folding-tag" red><summary> 查看嵌套测试 </summary>              <div class='content'>              <details class="folding-tag" blue><summary> 查看嵌套测试2 </summary>              <div class='content'>              <details class="folding-tag" ><summary> 查看嵌套测试3 </summary>              <div class='content'>              <p>hahaha <span><img src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/tieba/%E6%BB%91%E7%A8%BD.png' style='height:24px'></span></p>              </div>            </details>              </div>            </details>              </div>            </details><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">&#123;% folding 查看图片测试 %&#125;</span><br><span class="line"></span><br><span class="line">![](https://cdn.jsdelivr.net/gh/volantis-x/cdn-wallpaper/abstract/41F215B9-261F-48B4-80B5-4E86E165259E.jpeg)</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% folding cyan open, 查看默认打开的折叠框 %&#125;</span><br><span class="line"></span><br><span class="line">这是一个默认打开的折叠框。</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% folding green, 查看代码测试 %&#125;</span><br><span class="line">假装这里有代码块（代码块没法嵌套代码块）</span><br><span class="line">&#123;% endfolding %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% folding yellow, 查看列表测试 %&#125;</span><br><span class="line"></span><br><span class="line">- haha</span><br><span class="line">- hehe</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% folding red, 查看嵌套测试 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% folding blue, 查看嵌套测试2 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% folding 查看嵌套测试3 %&#125;</span><br><span class="line"></span><br><span class="line">hahaha &lt;span&gt;&lt;img src=&#x27;https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/tieba/%E6%BB%91%E7%A8%BD.png&#x27; style=&#x27;height:24px&#x27;&gt;&lt;/span&gt;</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% endfolding %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h1 id="阿里图标库"><a href="#阿里图标库" class="headerlink" title="阿里图标库"></a>阿里图标库</h1><div class="tabs" id="test4"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#test4-1">样式预览</button></li><li class="tab"><button type="button" data-href="#test4-2">样式源码</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="test4-1"><svg class="icon" style="width:1em; height:1em" aria-hidden="true"><use xlink:href="#icon-rat_zi"></use></svg><svg class="icon" style="width:2em; height:2em" aria-hidden="true"><use xlink:href="#icon-rat"></use></svg><svg class="icon" style="width:3em; height:3em" aria-hidden="true"><use xlink:href="#icon-ox_chou"></use></svg><svg class="icon" style="width:4em; height:4em" aria-hidden="true"><use xlink:href="#icon-ox"></use></svg><svg class="icon" style="width:5em; height:5em" aria-hidden="true"><use xlink:href="#icon-tiger_yin"></use></svg><svg class="icon" style="width:6em; height:6em" aria-hidden="true"><use xlink:href="#icon-tiger"></use></svg><svg class="icon" style="width:1em; height:1em" aria-hidden="true"><use xlink:href="#icon-rabbit_mao"></use></svg><svg class="icon" style="width:2em; height:2em" aria-hidden="true"><use xlink:href="#icon-rabbit"></use></svg><svg class="icon" style="width:3em; height:3em" aria-hidden="true"><use xlink:href="#icon-dragon_chen"></use></svg><svg class="icon" style="width:4em; height:4em" aria-hidden="true"><use xlink:href="#icon-dragon"></use></svg><svg class="icon" style="width:5em; height:5em" aria-hidden="true"><use xlink:href="#icon-snake_si"></use></svg><svg class="icon" style="width:6em; height:6em" aria-hidden="true"><use xlink:href="#icon-snake"></use></svg><svg class="icon" style="width:1em; height:1em" aria-hidden="true"><use xlink:href="#icon-horse_wu"></use></svg><svg class="icon" style="width:2em; height:2em" aria-hidden="true"><use xlink:href="#icon-horse"></use></svg><svg class="icon" style="width:3em; height:3em" aria-hidden="true"><use xlink:href="#icon-goat_wei"></use></svg><svg class="icon" style="width:4em; height:4em" aria-hidden="true"><use xlink:href="#icon-goat"></use></svg><svg class="icon" style="width:5em; height:5em" aria-hidden="true"><use xlink:href="#icon-monkey_shen"></use></svg><svg class="icon" style="width:6em; height:6em" aria-hidden="true"><use xlink:href="#icon-monkey"></use></svg><svg class="icon" style="width:1em; height:1em" aria-hidden="true"><use xlink:href="#icon-rooster_you"></use></svg><svg class="icon" style="width:2em; height:2em" aria-hidden="true"><use xlink:href="#icon-rooster"></use></svg><svg class="icon" style="width:3em; height:3em" aria-hidden="true"><use xlink:href="#icon-dog_xu"></use></svg><svg class="icon" style="width:4em; height:4em" aria-hidden="true"><use xlink:href="#icon-dog"></use></svg><svg class="icon" style="width:5em; height:5em" aria-hidden="true"><use xlink:href="#icon-boar_hai"></use></svg><svg class="icon" style="width:6em; height:6em" aria-hidden="true"><use xlink:href="#icon-boar"></use></svg><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="test4-2"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">&#123;% icon icon-rat_zi %&#125;&#123;% icon icon-rat,2 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% icon icon-ox_chou,3 %&#125;&#123;% icon icon-ox,4 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% icon icon-tiger_yin,5 %&#125;&#123;% icon icon-tiger,6 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% icon icon-rabbit_mao,1 %&#125;&#123;% icon icon-rabbit,2 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% icon icon-dragon_chen,3 %&#125;&#123;% icon icon-dragon,4 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% icon icon-snake_si,5 %&#125;&#123;% icon icon-snake,6 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% icon icon-horse_wu %&#125;&#123;% icon icon-horse,2 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% icon icon-goat_wei,3 %&#125;&#123;% icon icon-goat,4 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% icon icon-monkey_shen,5 %&#125;&#123;% icon icon-monkey,6 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% icon icon-rooster_you %&#125;&#123;% icon icon-rooster,2 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% icon icon-dog_xu,3 %&#125;&#123;% icon icon-dog,4 %&#125;</span><br><span class="line"></span><br><span class="line">&#123;% icon icon-boar_hai,5 %&#125;&#123;% icon icon-boar,6 %&#125;</span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div class=&quot;tip &quot;&gt;&lt;p&gt;文章内容基于糖果屋博客站点 &lt;a href=&quot;https://akilar.top/posts/615e2dec/#%E6%97%B6%E9%97%B4%E8%BD%B4-timeline&quot;&gt;https://akilar.top/post</summary>
+      
+    
+    
+    
+    
+    <category term="博客" scheme="https://dtongxue.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="语法" scheme="https://dtongxue.top/tags/%E8%AF%AD%E6%B3%95/"/>
+    
+    <category term="美化" scheme="https://dtongxue.top/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
     <title>宝塔面板的使用</title>
-    <link href="http://example.com/2022/01/23/page/"/>
-    <id>http://example.com/2022/01/23/page/</id>
+    <link href="https://dtongxue.top/2022/01/23/page/"/>
+    <id>https://dtongxue.top/2022/01/23/page/</id>
     <published>2022-01-23T12:44:48.000Z</published>
     <updated>2022-01-23T12:49:44.266Z</updated>
     
@@ -38,8 +66,8 @@
   
   <entry>
     <title>Hexo 的简单命令</title>
-    <link href="http://example.com/2022/01/13/hexo%20%E5%91%BD%E4%BB%A4/"/>
-    <id>http://example.com/2022/01/13/hexo%20%E5%91%BD%E4%BB%A4/</id>
+    <link href="https://dtongxue.top/2022/01/13/hexo%20%E5%91%BD%E4%BB%A4/"/>
+    <id>https://dtongxue.top/2022/01/13/hexo%20%E5%91%BD%E4%BB%A4/</id>
     <published>2022-01-13T06:45:09.000Z</published>
     <updated>2022-01-13T07:09:09.044Z</updated>
     
@@ -55,18 +83,18 @@
     
     
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="Linux" scheme="http://example.com/tags/Linux/"/>
+    <category term="Hexo" scheme="https://dtongxue.top/tags/Hexo/"/>
     
-    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="Linux" scheme="https://dtongxue.top/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>openwrt 路由器安装</title>
-    <link href="http://example.com/2022/01/13/openwrt%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/"/>
-    <id>http://example.com/2022/01/13/openwrt%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/</id>
+    <link href="https://dtongxue.top/2022/01/13/openwrt%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/"/>
+    <id>https://dtongxue.top/2022/01/13/openwrt%20%E8%B7%AF%E7%94%B1%E5%99%A8%E5%AE%89%E8%A3%85/</id>
     <published>2022-01-13T06:38:06.000Z</published>
     <updated>2022-01-13T06:56:56.967Z</updated>
     
@@ -86,20 +114,20 @@
     
     
     
-    <category term="路由器" scheme="http://example.com/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="路由器" scheme="https://dtongxue.top/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
     
-    <category term="openwrt" scheme="http://example.com/tags/openwrt/"/>
+    <category term="openwrt" scheme="https://dtongxue.top/tags/openwrt/"/>
     
-    <category term="网络" scheme="http://example.com/tags/%E7%BD%91%E7%BB%9C/"/>
+    <category term="网络" scheme="https://dtongxue.top/tags/%E7%BD%91%E7%BB%9C/"/>
     
   </entry>
   
   <entry>
     <title>openwrt 挂载阿里云盘</title>
-    <link href="http://example.com/2022/01/10/%E6%8C%82%E8%BD%BD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/"/>
-    <id>http://example.com/2022/01/10/%E6%8C%82%E8%BD%BD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/</id>
+    <link href="https://dtongxue.top/2022/01/10/%E6%8C%82%E8%BD%BD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/"/>
+    <id>https://dtongxue.top/2022/01/10/%E6%8C%82%E8%BD%BD%E9%98%BF%E9%87%8C%E4%BA%91%E7%9B%98/</id>
     <published>2022-01-10T09:46:48.000Z</published>
     <updated>2022-01-10T09:55:14.396Z</updated>
     
@@ -116,20 +144,20 @@
     
     
     
-    <category term="openwrt" scheme="http://example.com/tags/openwrt/"/>
+    <category term="openwrt" scheme="https://dtongxue.top/tags/openwrt/"/>
     
-    <category term="树莓派" scheme="http://example.com/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
+    <category term="树莓派" scheme="https://dtongxue.top/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/"/>
     
-    <category term="家庭网络" scheme="http://example.com/tags/%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C/"/>
+    <category term="家庭网络" scheme="https://dtongxue.top/tags/%E5%AE%B6%E5%BA%AD%E7%BD%91%E7%BB%9C/"/>
     
-    <category term="云盘" scheme="http://example.com/tags/%E4%BA%91%E7%9B%98/"/>
+    <category term="云盘" scheme="https://dtongxue.top/tags/%E4%BA%91%E7%9B%98/"/>
     
   </entry>
   
   <entry>
     <title>iPic 图床配置 和 腾讯COS</title>
-    <link href="http://example.com/2022/01/09/iPic%20%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE%20%E5%92%8C%20%E8%85%BE%E8%AE%AFCOS/"/>
-    <id>http://example.com/2022/01/09/iPic%20%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE%20%E5%92%8C%20%E8%85%BE%E8%AE%AFCOS/</id>
+    <link href="https://dtongxue.top/2022/01/09/iPic%20%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE%20%E5%92%8C%20%E8%85%BE%E8%AE%AFCOS/"/>
+    <id>https://dtongxue.top/2022/01/09/iPic%20%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE%20%E5%92%8C%20%E8%85%BE%E8%AE%AFCOS/</id>
     <published>2022-01-09T07:41:04.318Z</published>
     <updated>2022-01-09T07:44:53.114Z</updated>
     
@@ -145,25 +173,25 @@
     
     
     
-    <category term="博客" scheme="http://example.com/categories/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://dtongxue.top/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="博客" scheme="https://dtongxue.top/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="图床" scheme="http://example.com/tags/%E5%9B%BE%E5%BA%8A/"/>
+    <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="图床" scheme="https://dtongxue.top/tags/%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   
   <entry>
     <title>别再折腾博客美化啦孩子</title>
-    <link href="http://example.com/2022/01/09/%E4%B8%8D%E8%A6%81%E5%86%8D%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2%E4%BA%86/"/>
-    <id>http://example.com/2022/01/09/%E4%B8%8D%E8%A6%81%E5%86%8D%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2%E4%BA%86/</id>
+    <link href="https://dtongxue.top/2022/01/09/%E4%B8%8D%E8%A6%81%E5%86%8D%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2%E4%BA%86/"/>
+    <id>https://dtongxue.top/2022/01/09/%E4%B8%8D%E8%A6%81%E5%86%8D%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2%E4%BA%86/</id>
     <published>2022-01-08T17:15:08.618Z</published>
-    <updated>2022-01-08T17:27:49.317Z</updated>
+    <updated>2022-01-24T13:51:55.279Z</updated>
     
-    <content type="html"><![CDATA[<p>之前看很多人的文章都是自己如何搭建的博客，无论是 wordpress，还是静态的 jekyll, hexo，hugo 等，还是现在的 node 直出，vuepress 等等，各种搭建博客系统的博客。即使是使用第三方的博客平台（如博客园、掘金、csdn 等），也要把界面和功能改造一番。</p><p>有的人还不过瘾，还在各种博客技能和多个第三方博客平台上，反复横跳。最后发现他并没有写几篇实在的文章，满心思都在优化系统上了。例如：</p><ul><li>折腾累了就换 Wordpress 了，不过最近又打算自己从头写一套了；</li><li>一开始用 jekyll，后来到 WordPress，再后来到 typecho，然后 mediawiki、dokuwiki，ghost 诞生了！切换到 ghost，切回 WordPress，开始使用 hexo，vue.js 来了开始使用 vuepress，Hugo ！</li><li>从 hexo 折腾到 ghost，后来不想折腾了就用 wordpress；</li></ul><p><img src="https://pic1.zhimg.com/v2-eb51f24ab7d0c22320d3f6c8bbe5b4c4_b.jpg" alt="img"></p><p>搭建博客的教程，从网上能搜出无数个结果，但用什么博客系统重要吗？</p><h3 id="不要再折腾"><a href="#不要再折腾" class="headerlink" title="不要再折腾"></a>不要再折腾</h3><p>做为一个写了 10 年博客的人，博客系统使用真的不怎么重要。例如司徒正美就在博客园上写了好多年的博客，张鑫旭是在 wordpress 上耕耘了好多年，我本人从 2014 年用 php 搭建了博客系统之后，也基本没怎么改动过了。上半年时，我本想把博客从 php 改造成 node 技术栈，后来在一番心理斗争，两分钟，两分钟后，我放弃了这个想法。</p><p>我们搭建博客的目的，是为了更好地写博客，写的博客文章才是重点，不要本末倒置了。而且，现在的博客系统又不是不能用。</p><p>也有的人说搭建博客，是想锻炼自己的能力，这也能算说的过去。向着能使用当前最流行的技术搭建一套博客系统出来，然后进行总结。例如早期的 javaphp 博客系统，到后来的 hexo, hugo 静态博客生成器，还有现在前端工程师喜欢搞的 node 直出博客系统等等。你搭建博客系统的过程，也能沉淀下来东西，要再形成博客文章，就更好了。如果只是闲不住，我劝，年轻人，耗子尾汁。</p><p>对于想写文章的人，我有几个建议：</p><ol><li>不想折腾，只想写文章的，推荐使用成熟的博客平台，不用关心博客，专心码字，同时索引也很快，阅读量会比较多，也有相应的评论系统，例如博客园、知乎、掘金等；而且现在比如语雀、飞书文档等也不错，也可以用来写文章；</li><li>想有自己博客的，首推静态博客，可以自定义主题，例如 hexo, hugo, vuepress 等，搭配着 git 命令，发布也很方便，自动构建，托管在免费的 GitHub 上，但评论上欠缺一些；</li><li>其次一些成熟的博客也很不错，如 wordpress。</li><li>最想折腾的，从前端，到后端，再到数据库，都想着自己一手操控的，那就从零搭建吧；</li></ol><h3 id="如何写好博客"><a href="#如何写好博客" class="headerlink" title="如何写好博客"></a>如何写好博客</h3><p>这个问题也有很多的讨论了！首先就是要确定当前文章的主题，然后划分目录，每个目录讲什么内容，是否要配备 demo 样例。</p><p>我博客文章主题的灵感，通常来源于工作中，例如工作遇到的重点难点，一个比较酷炫的功能我是怎样实现的，使用的这个第三方组件内部原理是什么，等等，现在没时间写关系，这个转瞬即逝的想法要记录下来，并写几个关键点，等有空的时候，可以进行深入研究，并形成博客文章。</p><p><img src="https://pic2.zhimg.com/v2-fe0b805aefd7653d5d79f1b86ad49be5_b.jpg" alt="img"></p><p>例如这些是我在企业微信上创建的代办事项，一个个完成后，就变成了已完成状态。</p><h3 id="你的写作坚持多久了"><a href="#你的写作坚持多久了" class="headerlink" title="你的写作坚持多久了"></a>你的写作坚持多久了</h3><p>就不说个人博客吧，无论您是在哪个地方写作的，您到现在坚持有几年了呢？我想，您现在应该试试，再重新开始写起来。</p>]]></content>
+    <content type="html"><![CDATA[<p>之前看很多人的文章都是自己如何搭建的博客，无论是 wordpress，还是静态的 jekyll, hexo，hugo 等，还是现在的 node 直出，vuepress 等等，各种搭建博客系统的博客。即使是使用第三方的博客平台（如博客园、掘金、csdn 等），也要把界面和功能改造一番。</p><p>有的人还不过瘾，还在各种博客技能和多个第三方博客平台上，反复横跳。最后发现他并没有写几篇实在的文章，满心思都在优化系统上了。例如：</p><ul><li><p>折腾累了就换 Wordpress 了，不过最近又打算自己从头写一套了；</p></li><li><p>一开始用 jekyll，后来到 WordPress，再后来到 typecho，然后 mediawiki、dokuwiki，ghost 诞生了！切换到 ghost，切回 WordPress，开始使用 hexo，vue.js 来了开始使用 vuepress，Hugo ！</p></li><li><p>从 hexo 折腾到 ghost，后来不想折腾了就用 wordpress；</p></li></ul><p><img src="https://pic1.zhimg.com/v2-eb51f24ab7d0c22320d3f6c8bbe5b4c4_b.jpg" alt="img"></p><p>搭建博客的教程，从网上能搜出无数个结果，但用什么博客系统重要吗？</p><h3 id="不要再折腾"><a href="#不要再折腾" class="headerlink" title="不要再折腾"></a>不要再折腾</h3><p>做为一个写了 10 年博客的人，博客系统使用真的不怎么重要。例如司徒正美就在博客园上写了好多年的博客，张鑫旭是在 wordpress 上耕耘了好多年，我本人从 2014 年用 php 搭建了博客系统之后，也基本没怎么改动过了。上半年时，我本想把博客从 php 改造成 node 技术栈，后来在一番心理斗争，两分钟，两分钟后，我放弃了这个想法。</p><p>我们搭建博客的目的，是为了更好地写博客，写的博客文章才是重点，不要本末倒置了。而且，现在的博客系统又不是不能用。</p><p>也有的人说搭建博客，是想锻炼自己的能力，这也能算说的过去。向着能使用当前最流行的技术搭建一套博客系统出来，然后进行总结。例如早期的 javaphp 博客系统，到后来的 hexo, hugo 静态博客生成器，还有现在前端工程师喜欢搞的 node 直出博客系统等等。你搭建博客系统的过程，也能沉淀下来东西，要再形成博客文章，就更好了。如果只是闲不住，我劝，年轻人，耗子尾汁。</p><p>对于想写文章的人，我有几个建议：</p><ol><li><p>不想折腾，只想写文章的，推荐使用成熟的博客平台，不用关心博客，专心码字，同时索引也很快，阅读量会比较多，也有相应的评论系统，例如博客园、知乎、掘金等；而且现在比如语雀、飞书文档等也不错，也可以用来写文章；</p></li><li><p>想有自己博客的，首推静态博客，可以自定义主题，例如 hexo, hugo, vuepress 等，搭配着 git 命令，发布也很方便，自动构建，托管在免费的 GitHub 上，但评论上欠缺一些；</p></li><li><p>其次一些成熟的博客也很不错，如 wordpress。</p></li><li><p>最想折腾的，从前端，到后端，再到数据库，都想着自己一手操控的，那就从零搭建吧；</p></li></ol><h3 id="如何写好博客"><a href="#如何写好博客" class="headerlink" title="如何写好博客"></a>如何写好博客</h3><p>这个问题也有很多的讨论了！首先就是要确定当前文章的主题，然后划分目录，每个目录讲什么内容，是否要配备 demo 样例。</p><p>我博客文章主题的灵感，通常来源于工作中，例如工作遇到的重点难点，一个比较酷炫的功能我是怎样实现的，使用的这个第三方组件内部原理是什么，等等，现在没时间写关系，这个转瞬即逝的想法要记录下来，并写几个关键点，等有空的时候，可以进行深入研究，并形成博客文章。</p><p><img src="https://pic2.zhimg.com/v2-fe0b805aefd7653d5d79f1b86ad49be5_b.jpg" alt="img"></p><p>例如这些是我在企业微信上创建的代办事项，一个个完成后，就变成了已完成状态。</p><h3 id="你的写作坚持多久了"><a href="#你的写作坚持多久了" class="headerlink" title="你的写作坚持多久了"></a>你的写作坚持多久了</h3><p>就不说个人博客吧，无论您是在哪个地方写作的，您到现在坚持有几年了呢？我想，您现在应该试试，再重新开始写起来。</p>]]></content>
     
     
       
@@ -173,23 +201,23 @@
     
     
     
-    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="博客" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://dtongxue.top/tags/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="学习" scheme="http://example.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+    <category term="学习" scheme="https://dtongxue.top/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-    <category term="记录" scheme="http://example.com/tags/%E8%AE%B0%E5%BD%95/"/>
+    <category term="记录" scheme="https://dtongxue.top/tags/%E8%AE%B0%E5%BD%95/"/>
     
   </entry>
   
   <entry>
     <title>又拍云图床配置</title>
-    <link href="http://example.com/2022/01/08/%E5%8F%88%E6%8B%8D%E4%BA%91%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE/"/>
-    <id>http://example.com/2022/01/08/%E5%8F%88%E6%8B%8D%E4%BA%91%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE/</id>
+    <link href="https://dtongxue.top/2022/01/08/%E5%8F%88%E6%8B%8D%E4%BA%91%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE/"/>
+    <id>https://dtongxue.top/2022/01/08/%E5%8F%88%E6%8B%8D%E4%BA%91%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE/</id>
     <published>2022-01-08T13:20:08.008Z</published>
     <updated>2022-01-08T15:44:37.748Z</updated>
     
@@ -204,25 +232,25 @@
     
     
     
-    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://dtongxue.top/categories/Hexo/"/>
     
-    <category term="教程" scheme="http://example.com/categories/Hexo/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://dtongxue.top/categories/Hexo/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="美化" scheme="http://example.com/categories/Hexo/%E6%95%99%E7%A8%8B/%E7%BE%8E%E5%8C%96/"/>
+    <category term="美化" scheme="https://dtongxue.top/categories/Hexo/%E6%95%99%E7%A8%8B/%E7%BE%8E%E5%8C%96/"/>
     
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="美化" scheme="https://dtongxue.top/tags/%E7%BE%8E%E5%8C%96/"/>
     
-    <category term="美化" scheme="http://example.com/tags/%E7%BE%8E%E5%8C%96/"/>
+    <category term="Hexo" scheme="https://dtongxue.top/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>openwrt 配置下载 bittorrent 文件</title>
-    <link href="http://example.com/2022/01/07/openwrt%20%E9%85%8D%E7%BD%AE%E4%B8%8B%E8%BD%BD%20bittorrent%20%E6%96%87%E4%BB%B6/"/>
-    <id>http://example.com/2022/01/07/openwrt%20%E9%85%8D%E7%BD%AE%E4%B8%8B%E8%BD%BD%20bittorrent%20%E6%96%87%E4%BB%B6/</id>
+    <link href="https://dtongxue.top/2022/01/07/openwrt%20%E9%85%8D%E7%BD%AE%E4%B8%8B%E8%BD%BD%20bittorrent%20%E6%96%87%E4%BB%B6/"/>
+    <id>https://dtongxue.top/2022/01/07/openwrt%20%E9%85%8D%E7%BD%AE%E4%B8%8B%E8%BD%BD%20bittorrent%20%E6%96%87%E4%BB%B6/</id>
     <published>2022-01-07T15:14:15.237Z</published>
     <updated>2022-01-07T15:16:05.459Z</updated>
     
@@ -237,27 +265,27 @@
     
     
     
-    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="下载" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/%E4%B8%8B%E8%BD%BD/"/>
+    <category term="下载" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/%E4%B8%8B%E8%BD%BD/"/>
     
-    <category term="娱乐" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/%E4%B8%8B%E8%BD%BD/%E5%A8%B1%E4%B9%90/"/>
+    <category term="娱乐" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/%E4%B8%8B%E8%BD%BD/%E5%A8%B1%E4%B9%90/"/>
     
     
-    <category term="openwrt" scheme="http://example.com/tags/openwrt/"/>
+    <category term="openwrt" scheme="https://dtongxue.top/tags/openwrt/"/>
     
-    <category term="下载" scheme="http://example.com/tags/%E4%B8%8B%E8%BD%BD/"/>
+    <category term="下载" scheme="https://dtongxue.top/tags/%E4%B8%8B%E8%BD%BD/"/>
     
-    <category term="语音" scheme="http://example.com/tags/%E8%AF%AD%E9%9F%B3/"/>
+    <category term="语音" scheme="https://dtongxue.top/tags/%E8%AF%AD%E9%9F%B3/"/>
     
-    <category term="娱乐" scheme="http://example.com/tags/%E5%A8%B1%E4%B9%90/"/>
+    <category term="娱乐" scheme="https://dtongxue.top/tags/%E5%A8%B1%E4%B9%90/"/>
     
   </entry>
   
   <entry>
     <title>基于 Butterfly 主题的双栏卡片主页文章 css 样式</title>
-    <link href="http://example.com/2022/01/07/%E5%8F%8C%E6%A0%8F%E7%9B%AE%E6%96%87%E7%AB%A0%E5%B8%83%E5%B1%80/"/>
-    <id>http://example.com/2022/01/07/%E5%8F%8C%E6%A0%8F%E7%9B%AE%E6%96%87%E7%AB%A0%E5%B8%83%E5%B1%80/</id>
+    <link href="https://dtongxue.top/2022/01/07/%E5%8F%8C%E6%A0%8F%E7%9B%AE%E6%96%87%E7%AB%A0%E5%B8%83%E5%B1%80/"/>
+    <id>https://dtongxue.top/2022/01/07/%E5%8F%8C%E6%A0%8F%E7%9B%AE%E6%96%87%E7%AB%A0%E5%B8%83%E5%B1%80/</id>
     <published>2022-01-07T09:56:51.487Z</published>
     <updated>2022-01-07T09:59:13.627Z</updated>
     
@@ -272,25 +300,25 @@
     
     
     
-    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://dtongxue.top/categories/Hexo/"/>
     
-    <category term="教程" scheme="http://example.com/categories/Hexo/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://dtongxue.top/categories/Hexo/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="美化" scheme="http://example.com/categories/Hexo/%E6%95%99%E7%A8%8B/%E7%BE%8E%E5%8C%96/"/>
+    <category term="美化" scheme="https://dtongxue.top/categories/Hexo/%E6%95%99%E7%A8%8B/%E7%BE%8E%E5%8C%96/"/>
     
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="教程" scheme="http://example.com/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="美化" scheme="https://dtongxue.top/tags/%E7%BE%8E%E5%8C%96/"/>
     
-    <category term="美化" scheme="http://example.com/tags/%E7%BE%8E%E5%8C%96/"/>
+    <category term="Hexo" scheme="https://dtongxue.top/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>OpenWrt 无法进入后台解决方案</title>
-    <link href="http://example.com/2022/01/06/OpenWrt%20%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E5%90%8E%E5%8F%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
-    <id>http://example.com/2022/01/06/OpenWrt%20%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E5%90%8E%E5%8F%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
+    <link href="https://dtongxue.top/2022/01/06/OpenWrt%20%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E5%90%8E%E5%8F%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
+    <id>https://dtongxue.top/2022/01/06/OpenWrt%20%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E5%90%8E%E5%8F%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
     <published>2022-01-06T15:48:57.667Z</published>
     <updated>2022-01-06T15:49:04.344Z</updated>
     
@@ -304,21 +332,21 @@
     
     
     
-    <category term="OpenWrt" scheme="http://example.com/categories/OpenWrt/"/>
+    <category term="OpenWrt" scheme="https://dtongxue.top/categories/OpenWrt/"/>
     
-    <category term="路由器" scheme="http://example.com/categories/OpenWrt/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    <category term="路由器" scheme="https://dtongxue.top/categories/OpenWrt/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
     
     
-    <category term="OpenWrt" scheme="http://example.com/tags/OpenWrt/"/>
+    <category term="OpenWrt" scheme="https://dtongxue.top/tags/OpenWrt/"/>
     
-    <category term="路由器" scheme="http://example.com/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    <category term="路由器" scheme="https://dtongxue.top/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
     
   </entry>
   
   <entry>
     <title>iPic 图床配置 GitHub 图床 文章举例</title>
-    <link href="http://example.com/2022/01/06/ipic%20%E9%85%8D%E7%BD%AE/"/>
-    <id>http://example.com/2022/01/06/ipic%20%E9%85%8D%E7%BD%AE/</id>
+    <link href="https://dtongxue.top/2022/01/06/ipic%20%E9%85%8D%E7%BD%AE/"/>
+    <id>https://dtongxue.top/2022/01/06/ipic%20%E9%85%8D%E7%BD%AE/</id>
     <published>2022-01-06T15:48:34.699Z</published>
     <updated>2022-01-07T08:07:26.755Z</updated>
     
@@ -332,23 +360,23 @@
     
     
     
-    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="图床" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/%E5%9B%BE%E5%BA%8A/"/>
+    <category term="图床" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/%E5%9B%BE%E5%BA%8A/"/>
     
     
-    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>
     
-    <category term="图床" scheme="http://example.com/tags/%E5%9B%BE%E5%BA%8A/"/>
+    <category term="图床" scheme="https://dtongxue.top/tags/%E5%9B%BE%E5%BA%8A/"/>
     
-    <category term="CDN" scheme="http://example.com/tags/CDN/"/>
+    <category term="CDN" scheme="https://dtongxue.top/tags/CDN/"/>
     
   </entry>
   
   <entry>
     <title>C开发环境 适用于VS CODE编辑器</title>
-    <link href="http://example.com/2022/01/06/C%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/"/>
-    <id>http://example.com/2022/01/06/C%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/</id>
+    <link href="https://dtongxue.top/2022/01/06/C%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/"/>
+    <id>https://dtongxue.top/2022/01/06/C%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/</id>
     <published>2022-01-06T15:47:32.054Z</published>
     <updated>2022-01-06T15:48:10.498Z</updated>
     
@@ -362,23 +390,23 @@
     
     
     
-    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
     
     
-    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>
     
-    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
+    <category term="域名" scheme="https://dtongxue.top/tags/%E5%9F%9F%E5%90%8D/"/>
     
-    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    <category term="Blog" scheme="https://dtongxue.top/tags/Blog/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客美化和插件安装</title>
-    <link href="http://example.com/2022/01/06/Hexo%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E5%92%8C%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
-    <id>http://example.com/2022/01/06/Hexo%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E5%92%8C%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</id>
+    <link href="https://dtongxue.top/2022/01/06/Hexo%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E5%92%8C%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
+    <id>https://dtongxue.top/2022/01/06/Hexo%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E5%92%8C%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</id>
     <published>2022-01-06T15:46:15.770Z</published>
     <updated>2022-01-07T09:48:47.954Z</updated>
     
@@ -393,21 +421,21 @@
     
     
     
-    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
     
     
-    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>
     
-    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    <category term="Blog" scheme="https://dtongxue.top/tags/Blog/"/>
     
   </entry>
   
   <entry>
     <title>Hexo 框架部署安装</title>
-    <link href="http://example.com/2022/01/06/Hexo%20%E6%A1%86%E6%9E%B6%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/"/>
-    <id>http://example.com/2022/01/06/Hexo%20%E6%A1%86%E6%9E%B6%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/</id>
+    <link href="https://dtongxue.top/2022/01/06/Hexo%20%E6%A1%86%E6%9E%B6%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/"/>
+    <id>https://dtongxue.top/2022/01/06/Hexo%20%E6%A1%86%E6%9E%B6%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/</id>
     <published>2022-01-06T15:44:28.792Z</published>
     <updated>2022-01-13T07:09:32.693Z</updated>
     
@@ -429,25 +457,25 @@
     
     
     
-    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
+    <category term="Hexo" scheme="https://dtongxue.top/categories/Hexo/"/>
     
-    <category term="网站部署" scheme="http://example.com/categories/Hexo/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/"/>
+    <category term="网站部署" scheme="https://dtongxue.top/categories/Hexo/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/"/>
     
-    <category term="GitHub" scheme="http://example.com/categories/Hexo/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/categories/Hexo/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/GitHub/"/>
     
     
-    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>
     
-    <category term="Hexo" scheme="http://example.com/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://dtongxue.top/tags/Hexo/"/>
     
-    <category term="网站部署" scheme="http://example.com/tags/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/"/>
+    <category term="网站部署" scheme="https://dtongxue.top/tags/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/"/>
     
   </entry>
   
   <entry>
     <title>GitHub Page 缓存分析</title>
-    <link href="http://example.com/2022/01/06/GitHub%20Page%20%E7%BC%93%E5%AD%98%E5%88%86%E6%9E%90/"/>
-    <id>http://example.com/2022/01/06/GitHub%20Page%20%E7%BC%93%E5%AD%98%E5%88%86%E6%9E%90/</id>
+    <link href="https://dtongxue.top/2022/01/06/GitHub%20Page%20%E7%BC%93%E5%AD%98%E5%88%86%E6%9E%90/"/>
+    <id>https://dtongxue.top/2022/01/06/GitHub%20Page%20%E7%BC%93%E5%AD%98%E5%88%86%E6%9E%90/</id>
     <published>2022-01-06T15:43:17.281Z</published>
     <updated>2022-01-06T15:43:38.040Z</updated>
     
@@ -462,21 +490,21 @@
     
     
     
-    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
     
     
-    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>
     
-    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    <category term="Blog" scheme="https://dtongxue.top/tags/Blog/"/>
     
   </entry>
   
   <entry>
     <title>免密输入 GitHub 部署项目，采用 SSH</title>
-    <link href="http://example.com/2022/01/06/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH/"/>
-    <id>http://example.com/2022/01/06/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH/</id>
+    <link href="https://dtongxue.top/2022/01/06/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH/"/>
+    <id>https://dtongxue.top/2022/01/06/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH/</id>
     <published>2022-01-06T15:25:21.921Z</published>
     <updated>2022-01-06T15:26:45.117Z</updated>
     
@@ -490,23 +518,23 @@
     
     
     
-    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
     
     
-    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>
     
-    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
+    <category term="域名" scheme="https://dtongxue.top/tags/%E5%9F%9F%E5%90%8D/"/>
     
-    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    <category term="Blog" scheme="https://dtongxue.top/tags/Blog/"/>
     
   </entry>
   
   <entry>
     <title>GitHub 的地址域名解析</title>
-    <link href="http://example.com/2020/01/05/Github%20pages%20%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/"/>
-    <id>http://example.com/2020/01/05/Github%20pages%20%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/</id>
+    <link href="https://dtongxue.top/2020/01/05/Github%20pages%20%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/"/>
+    <id>https://dtongxue.top/2020/01/05/Github%20pages%20%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/</id>
     <published>2020-01-04T16:00:00.000Z</published>
     <updated>2022-01-06T11:44:04.480Z</updated>
     
@@ -521,16 +549,16 @@
     
     
     
-    <category term="教程" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="GitHub" scheme="http://example.com/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
     
     
-    <category term="GitHub" scheme="http://example.com/tags/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>
     
-    <category term="域名" scheme="http://example.com/tags/%E5%9F%9F%E5%90%8D/"/>
+    <category term="域名" scheme="https://dtongxue.top/tags/%E5%9F%9F%E5%90%8D/"/>
     
-    <category term="Blog" scheme="http://example.com/tags/Blog/"/>
+    <category term="Blog" scheme="https://dtongxue.top/tags/Blog/"/>
     
   </entry>
   
