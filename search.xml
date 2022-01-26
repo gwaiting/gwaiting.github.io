@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>主机面板部署 WordPress</title>
+      <link href="/2022/01/27/%E4%B8%BB%E6%9C%BA%E9%9D%A2%E6%9D%BF%E9%83%A8%E7%BD%B2%20WordPress/"/>
+      <url>/2022/01/27/%E4%B8%BB%E6%9C%BA%E9%9D%A2%E6%9D%BF%E9%83%A8%E7%BD%B2%20WordPress/</url>
+      
+        <content type="html"><![CDATA[<h1 id="1、WordPress-依赖下载"><a href="#1、WordPress-依赖下载" class="headerlink" title="1、WordPress 依赖下载"></a>1、WordPress 依赖下载</h1><p>1、进入到 WordPress 的FTP 文件目录，选择远程下载。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/202201270108887.png" alt=""></p><p>下载地址输入：<code>https://wordpress.org/latest.zip</code></p><p>位置输入：<code>/</code> 也就是下载到根目录</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/202201270110097.png" alt=""></p><h1 id="2、刷新页面，解压文件夹"><a href="#2、刷新页面，解压文件夹" class="headerlink" title="2、刷新页面，解压文件夹"></a>2、刷新页面，解压文件夹</h1><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/202201270111960.png" alt=""></p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/202201270111904.png" alt=""></p><p>完成后会有出现一个wordpress文件夹</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/202201270111167.png" alt=""></p><h1 id="3、更该域名的绑定位置"><a href="#3、更该域名的绑定位置" class="headerlink" title="3、更该域名的绑定位置"></a>3、更该域名的绑定位置</h1><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/202201270112099.png" alt=""></p><p>之后点击该域名的链接就可以进入到 WordPress 的配置页面中。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/202201270113733.png" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> WordPress </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> WordPress </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【有效】免费薅羊毛一年 VPS 服务器</title>
+      <link href="/2022/01/27/%E5%85%8D%E8%B4%B9%E8%96%85%E7%BE%8A%E6%AF%9B%E4%B8%80%E5%B9%B4%20VPS%20%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+      <url>/2022/01/27/%E5%85%8D%E8%B4%B9%E8%96%85%E7%BE%8A%E6%AF%9B%E4%B8%80%E5%B9%B4%20VPS%20%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>主要可以用来部署 WordPress 网站，其他的话，暂时没想好怎么用</p></blockquote><h1 id="小鱼云"><a href="#小鱼云" class="headerlink" title="小鱼云"></a><a href="https://www.xyyun.cc/index.php">小鱼云</a></h1><p><a href="https://www.xyyun.cc/register.php">注册</a>，这里手机号竟然没有验证码，鬼知道啥时候会跑路。</p><h1 id="型号选择"><a href="#型号选择" class="headerlink" title="型号选择"></a><a href="https://www.xyyun.cc/cart.php">型号选择</a></h1><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/202201270059595.png" alt=""></p><font size=3>点击最下面立即订购，随便绑定一个域名，也可以选择无，之后选择一年，现在是 60 元，点击继续。然后在新打开的页面右侧输入优惠码【hostloc】最后付款是 6 毛钱一个。</font><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/202201270101875.png" alt=""></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 服务器 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 服务器 </tag>
+            
+            <tag> 薅羊毛 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo markdown 语法配置</title>
       <link href="/2022/01/24/2hexo%20markdown%20%E8%AF%AD%E6%B3%95%E9%85%8D%E7%BD%AE/"/>
       <url>/2022/01/24/2hexo%20markdown%20%E8%AF%AD%E6%B3%95%E9%85%8D%E7%BD%AE/</url>
@@ -390,9 +444,9 @@
       
         <tags>
             
-            <tag> GitHub </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> GitHub </tag>
             
             <tag> 网站部署 </tag>
             
