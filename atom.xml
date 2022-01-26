@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>小董同学</title>
+  <title>同 学 博 客</title>
   
   
   <link href="https://dtongxue.top/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>https://dtongxue.top/</id>
   
   <author>
-    <name>小董同学</name>
+    <name>同学博客</name>
     
   </author>
   
@@ -34,9 +34,9 @@
     
     
     
-    <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="博客" scheme="https://dtongxue.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="语法" scheme="https://dtongxue.top/tags/%E8%AF%AD%E6%B3%95/"/>
     
@@ -49,7 +49,7 @@
     <link href="https://dtongxue.top/2022/01/23/page/"/>
     <id>https://dtongxue.top/2022/01/23/page/</id>
     <published>2022-01-23T12:44:48.000Z</published>
-    <updated>2022-01-23T12:49:44.266Z</updated>
+    <updated>2022-01-26T14:10:29.239Z</updated>
     
     <content type="html"><![CDATA[<h2 id="宝塔面板的使用"><a href="#宝塔面板的使用" class="headerlink" title="宝塔面板的使用"></a>宝塔面板的使用</h2>]]></content>
     
@@ -82,11 +82,11 @@
     
     
     
+    <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
+    
     <category term="Hexo" scheme="https://dtongxue.top/tags/Hexo/"/>
     
     <category term="Linux" scheme="https://dtongxue.top/tags/Linux/"/>
-    
-    <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
@@ -175,9 +175,9 @@
     <category term="博客" scheme="https://dtongxue.top/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
-    
     <category term="博客" scheme="https://dtongxue.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="图床" scheme="https://dtongxue.top/tags/%E5%9B%BE%E5%BA%8A/"/>
     
@@ -188,7 +188,7 @@
     <link href="https://dtongxue.top/2022/01/09/%E4%B8%8D%E8%A6%81%E5%86%8D%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2%E4%BA%86/"/>
     <id>https://dtongxue.top/2022/01/09/%E4%B8%8D%E8%A6%81%E5%86%8D%E6%8A%98%E8%85%BE%E5%8D%9A%E5%AE%A2%E4%BA%86/</id>
     <published>2022-01-08T17:15:08.618Z</published>
-    <updated>2022-01-24T13:51:55.279Z</updated>
+    <updated>2022-01-26T14:08:47.206Z</updated>
     
     <content type="html"><![CDATA[<p>之前看很多人的文章都是自己如何搭建的博客，无论是 wordpress，还是静态的 jekyll, hexo，hugo 等，还是现在的 node 直出，vuepress 等等，各种搭建博客系统的博客。即使是使用第三方的博客平台（如博客园、掘金、csdn 等），也要把界面和功能改造一番。</p><p>有的人还不过瘾，还在各种博客技能和多个第三方博客平台上，反复横跳。最后发现他并没有写几篇实在的文章，满心思都在优化系统上了。例如：</p><ul><li><p>折腾累了就换 Wordpress 了，不过最近又打算自己从头写一套了；</p></li><li><p>一开始用 jekyll，后来到 WordPress，再后来到 typecho，然后 mediawiki、dokuwiki，ghost 诞生了！切换到 ghost，切回 WordPress，开始使用 hexo，vue.js 来了开始使用 vuepress，Hugo ！</p></li><li><p>从 hexo 折腾到 ghost，后来不想折腾了就用 wordpress；</p></li></ul><p><img src="https://pic1.zhimg.com/v2-eb51f24ab7d0c22320d3f6c8bbe5b4c4_b.jpg" alt="img"></p><p>搭建博客的教程，从网上能搜出无数个结果，但用什么博客系统重要吗？</p><h3 id="不要再折腾"><a href="#不要再折腾" class="headerlink" title="不要再折腾"></a>不要再折腾</h3><p>做为一个写了 10 年博客的人，博客系统使用真的不怎么重要。例如司徒正美就在博客园上写了好多年的博客，张鑫旭是在 wordpress 上耕耘了好多年，我本人从 2014 年用 php 搭建了博客系统之后，也基本没怎么改动过了。上半年时，我本想把博客从 php 改造成 node 技术栈，后来在一番心理斗争，两分钟，两分钟后，我放弃了这个想法。</p><p>我们搭建博客的目的，是为了更好地写博客，写的博客文章才是重点，不要本末倒置了。而且，现在的博客系统又不是不能用。</p><p>也有的人说搭建博客，是想锻炼自己的能力，这也能算说的过去。向着能使用当前最流行的技术搭建一套博客系统出来，然后进行总结。例如早期的 javaphp 博客系统，到后来的 hexo, hugo 静态博客生成器，还有现在前端工程师喜欢搞的 node 直出博客系统等等。你搭建博客系统的过程，也能沉淀下来东西，要再形成博客文章，就更好了。如果只是闲不住，我劝，年轻人，耗子尾汁。</p><p>对于想写文章的人，我有几个建议：</p><ol><li><p>不想折腾，只想写文章的，推荐使用成熟的博客平台，不用关心博客，专心码字，同时索引也很快，阅读量会比较多，也有相应的评论系统，例如博客园、知乎、掘金等；而且现在比如语雀、飞书文档等也不错，也可以用来写文章；</p></li><li><p>想有自己博客的，首推静态博客，可以自定义主题，例如 hexo, hugo, vuepress 等，搭配着 git 命令，发布也很方便，自动构建，托管在免费的 GitHub 上，但评论上欠缺一些；</p></li><li><p>其次一些成熟的博客也很不错，如 wordpress。</p></li><li><p>最想折腾的，从前端，到后端，再到数据库，都想着自己一手操控的，那就从零搭建吧；</p></li></ol><h3 id="如何写好博客"><a href="#如何写好博客" class="headerlink" title="如何写好博客"></a>如何写好博客</h3><p>这个问题也有很多的讨论了！首先就是要确定当前文章的主题，然后划分目录，每个目录讲什么内容，是否要配备 demo 样例。</p><p>我博客文章主题的灵感，通常来源于工作中，例如工作遇到的重点难点，一个比较酷炫的功能我是怎样实现的，使用的这个第三方组件内部原理是什么，等等，现在没时间写关系，这个转瞬即逝的想法要记录下来，并写几个关键点，等有空的时候，可以进行深入研究，并形成博客文章。</p><p><img src="https://pic2.zhimg.com/v2-fe0b805aefd7653d5d79f1b86ad49be5_b.jpg" alt="img"></p><p>例如这些是我在企业微信上创建的代办事项，一个个完成后，就变成了已完成状态。</p><h3 id="你的写作坚持多久了"><a href="#你的写作坚持多久了" class="headerlink" title="你的写作坚持多久了"></a>你的写作坚持多久了</h3><p>就不说个人博客吧，无论您是在哪个地方写作的，您到现在坚持有几年了呢？我想，您现在应该试试，再重新开始写起来。</p>]]></content>
     
@@ -200,9 +200,7 @@
     
     
     
-    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="博客" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://dtongxue.top/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
     <category term="博客" scheme="https://dtongxue.top/tags/%E5%8D%9A%E5%AE%A2/"/>
@@ -218,7 +216,7 @@
     <link href="https://dtongxue.top/2022/01/08/%E5%8F%88%E6%8B%8D%E4%BA%91%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE/"/>
     <id>https://dtongxue.top/2022/01/08/%E5%8F%88%E6%8B%8D%E4%BA%91%E5%9B%BE%E5%BA%8A%E9%85%8D%E7%BD%AE/</id>
     <published>2022-01-08T13:20:08.008Z</published>
-    <updated>2022-01-08T15:44:37.748Z</updated>
+    <updated>2022-01-26T14:09:25.351Z</updated>
     
     <content type="html"><![CDATA[<h1 id="注册并进行实名认证"><a href="#注册并进行实名认证" class="headerlink" title="注册并进行实名认证"></a>注册并进行实名认证</h1><p>这里选择 云存储 </p><p><img src="http://xdtx32.test.upcdn.net/202201082320758.png" alt=""></p><p>进入服务管理云存储</p><p><img src="http://xdtx32.test.upcdn.net/202201082128721.png" alt=""></p><p>加速域名填写注意 http://</p><p><img src="http://xdtx32.test.upcdn.net/202201082128177.png" alt=""></p>]]></content>
     
@@ -231,18 +229,14 @@
     
     
     
-    <category term="Hexo" scheme="https://dtongxue.top/categories/Hexo/"/>
+    <category term="博客" scheme="https://dtongxue.top/categories/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="教程" scheme="https://dtongxue.top/categories/Hexo/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="美化" scheme="https://dtongxue.top/categories/Hexo/%E6%95%99%E7%A8%8B/%E7%BE%8E%E5%8C%96/"/>
-    
-    
-    <category term="Hexo" scheme="https://dtongxue.top/tags/Hexo/"/>
     
     <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="美化" scheme="https://dtongxue.top/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+    <category term="Hexo" scheme="https://dtongxue.top/tags/Hexo/"/>
     
   </entry>
   
@@ -251,7 +245,7 @@
     <link href="https://dtongxue.top/2022/01/07/openwrt%20%E9%85%8D%E7%BD%AE%E4%B8%8B%E8%BD%BD%20bittorrent%20%E6%96%87%E4%BB%B6/"/>
     <id>https://dtongxue.top/2022/01/07/openwrt%20%E9%85%8D%E7%BD%AE%E4%B8%8B%E8%BD%BD%20bittorrent%20%E6%96%87%E4%BB%B6/</id>
     <published>2022-01-07T15:14:15.237Z</published>
-    <updated>2022-01-07T15:16:05.459Z</updated>
+    <updated>2022-01-26T14:10:19.898Z</updated>
     
     <content type="html"><![CDATA[<p>Transmission 是一个简单的 bittorrent 客户端，在这里您可以配置其设置。  </p><h1 id="1、设置文件下载目录"><a href="#1、设置文件下载目录" class="headerlink" title="1、设置文件下载目录"></a>1、设置文件下载目录</h1><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201072308242.png" alt=""></p><h1 id="2、打开-Peer-端口转发"><a href="#2、打开-Peer-端口转发" class="headerlink" title="2、打开 Peer 端口转发"></a>2、打开 Peer 端口转发</h1><p><img src="/Users/dongqinuo/Library/Application Support/typora-user-images/image-20220107231029648.png" alt="image-20220107231029648"></p><h1 id="3、9091-端口就可以进入到-web-管理界面"><a href="#3、9091-端口就可以进入到-web-管理界面" class="headerlink" title="3、9091 端口就可以进入到 web 管理界面"></a>3、9091 端口就可以进入到 web 管理界面</h1><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201072310220.png" alt=""></p><p>常用电影下载网站</p><p><a href="https://www.hdtvbt.com/">HDTV</a> </p><p><a href="https://www.yinfans.net/">音范丝</a></p><p>[推荐站](</p>]]></content>
     
@@ -264,11 +258,7 @@
     
     
     
-    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="下载" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/%E4%B8%8B%E8%BD%BD/"/>
-    
-    <category term="娱乐" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/%E4%B8%8B%E8%BD%BD/%E5%A8%B1%E4%B9%90/"/>
+    <category term="openwrt" scheme="https://dtongxue.top/categories/openwrt/"/>
     
     
     <category term="openwrt" scheme="https://dtongxue.top/tags/openwrt/"/>
@@ -286,7 +276,7 @@
     <link href="https://dtongxue.top/2022/01/07/%E5%8F%8C%E6%A0%8F%E7%9B%AE%E6%96%87%E7%AB%A0%E5%B8%83%E5%B1%80/"/>
     <id>https://dtongxue.top/2022/01/07/%E5%8F%8C%E6%A0%8F%E7%9B%AE%E6%96%87%E7%AB%A0%E5%B8%83%E5%B1%80/</id>
     <published>2022-01-07T09:56:51.487Z</published>
-    <updated>2022-01-07T09:59:13.627Z</updated>
+    <updated>2022-01-26T14:09:20.574Z</updated>
     
     <content type="html"><![CDATA[<h2 id="步骤-1：调整文章图片布局"><a href="#步骤-1：调整文章图片布局" class="headerlink" title="步骤 1：调整文章图片布局"></a>步骤 1：调整文章图片布局</h2><p>首先你需要确保文章的图片位置为左侧布局。</p><p>打开主题配置文件，搜索封面顯示的位置。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">CODE</span><br><span class="line"># the position of cover in home page (封面顯示的位置)</span><br><span class="line">  # left/right/both</span><br><span class="line">  position: left</span><br></pre></td></tr></table></figure><p>将 position 改为 left。</p><p>同时设置 hexo 的页面展示文章数首页文章数最好大于 20 篇。</p><p>目前已修复，不过最好多一点不然侧边栏会显得过长。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">CODE</span><br><span class="line"># Home page setting</span><br><span class="line"># path: Root path for your blogs index page. (default = &#x27;&#x27;)</span><br><span class="line"># per_page: Posts displayed per page. (0 = disable pagination)</span><br><span class="line"># order_by: Posts order. (Order by date descending by default)</span><br><span class="line">index_generator:</span><br><span class="line">  path: &#x27;&#x27;</span><br><span class="line">  per_page: 20</span><br><span class="line">  order_by: -date</span><br></pre></td></tr></table></figure><hr><h2 id="步骤-2：接入-CSS"><a href="#步骤-2：接入-CSS" class="headerlink" title="步骤 2：接入 CSS"></a>步骤 2：接入 CSS</h2><p>打开”\themes\butterfly” 路径下的”_config.yml”</p><p>搜索到”inject:” 设置处</p><p>原生添加以下代码或下载 css 从本地导入：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br></pre></td><td class="code"><pre><span class="line">YML</span><br><span class="line">inject:</span><br><span class="line">  head:</span><br><span class="line">    - &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.css&quot;/&gt;</span><br><span class="line">  bottom:</span><br><span class="line">CSS</span><br><span class="line">#recent-posts&#123;</span><br><span class="line">    margin-top:-1rem;  /*头部为空时抵消间隔，若有磁贴或日历请注释掉该行*/</span><br><span class="line">    align-content:flex-start;</span><br><span class="line">    display: flex;</span><br><span class="line">    flex-wrap: wrap; /*规定灵活的项目在必要的时候拆行或拆列。*/</span><br><span class="line">    justify-content: space-between; /*。*/</span><br><span class="line">&#125;</span><br><span class="line">#recent-posts &gt; .recent-post-item &#123;</span><br><span class="line">  /*max-height:324px;*/  /*文章容器最大高度*/</span><br><span class="line">  margin-top: 1rem; /*最小间距*/</span><br><span class="line">  display: inline-block;</span><br><span class="line">  height:auto; /*高度自动*/</span><br><span class="line">  width:49%;/*文章容器容器宽度*/</span><br><span class="line">&#125;</span><br><span class="line">#recent-posts &gt; .recent-post-item .post_cover &#123;</span><br><span class="line">  width: 100%; /*图片封面宽度*/</span><br><span class="line">    height: 200px;/*图片封面高度*/</span><br><span class="line">&#125;</span><br><span class="line">#recent-posts &gt; .recent-post-item .post_cover img.post_bg &#123;</span><br><span class="line">  width: 100%;/*图片宽度*/</span><br><span class="line">  height: 100%;/*图片高度*/</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#recent-posts &gt; .recent-post-item &gt;.recent-post-info &gt; .content &#123;</span><br><span class="line">display:none;/*隐藏文章详情*/</span><br><span class="line">&#125;</span><br><span class="line">#recent-posts &gt; .recent-post-item &#123;</span><br><span class="line"></span><br><span class="line">  -webkit-flex-direction: column; /*容器内部纵向排列*/</span><br><span class="line">  -ms-flex-direction: column; /*容器内部纵向排列*/</span><br><span class="line">  flex-direction: column; /*容器内部纵向排列*/</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">#recent-posts &gt; .recent-post-item .left_radius &#123;</span><br><span class="line">    border-radius: 8px 8px 0 0;/*圆角修改*/</span><br><span class="line">&#125;</span><br><span class="line">#recent-posts &gt; .recent-post-item .right_radius &#123;</span><br><span class="line">    border-radius: 8px 8px 0 0;/*圆角修改*/</span><br><span class="line">&#125;</span><br><span class="line">.recent-post-item&#123;</span><br><span class="line">    height:auto !important;/*容器高度自动*/</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.recent-post-info &#123;</span><br><span class="line"></span><br><span class="line">  padding: 0 40px;/*容器内部文字左右间距*/</span><br><span class="line">  margin-top: 1em;/*容器内部文字上间距*/</span><br><span class="line">  width: 100%!important;/*容器宽度*/</span><br><span class="line">&#125;</span><br><span class="line">#recent-posts &gt; .recent-post-item &gt; .recent-post-info &gt; .article-title &#123;</span><br><span class="line">    -webkit-line-clamp: 1;/*控制标题的行数*/</span><br><span class="line">    margin-top: 0.3rem; /*控制标题的上间距*/</span><br><span class="line">    margin-bottom: 0.3rem;/*控制标题的下间距*/</span><br><span class="line">    color: var(--text-highlight-color);</span><br><span class="line">    font-size: 1.2em; /*控制标题的字体大小*/</span><br><span class="line">    line-height: 1.4;/*控制标题的行高*/</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line">#recent-posts &gt; .recent-post-item &gt;.recent-post-info &gt; .article-meta-wrap &#123;</span><br><span class="line">    margin-bottom: 1rem;/*控制标题meta信息的底部间距*/</span><br><span class="line">&#125;</span><br><span class="line">@media screen and (max-width: 768px) &#123;</span><br><span class="line">#recent-posts &gt; .recent-post-item &#123;</span><br><span class="line"> width:100%;/*控制手机自适应*/</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>链接进入后，你会发现，布局神奇地变成了双栏布局。</p>]]></content>
     
@@ -299,18 +289,14 @@
     
     
     
-    <category term="Hexo" scheme="https://dtongxue.top/categories/Hexo/"/>
+    <category term="博客" scheme="https://dtongxue.top/categories/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="教程" scheme="https://dtongxue.top/categories/Hexo/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="美化" scheme="https://dtongxue.top/categories/Hexo/%E6%95%99%E7%A8%8B/%E7%BE%8E%E5%8C%96/"/>
-    
-    
-    <category term="Hexo" scheme="https://dtongxue.top/tags/Hexo/"/>
     
     <category term="教程" scheme="https://dtongxue.top/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="美化" scheme="https://dtongxue.top/tags/%E7%BE%8E%E5%8C%96/"/>
+    
+    <category term="Hexo" scheme="https://dtongxue.top/tags/Hexo/"/>
     
   </entry>
   
@@ -319,7 +305,7 @@
     <link href="https://dtongxue.top/2022/01/06/OpenWrt%20%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E5%90%8E%E5%8F%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
     <id>https://dtongxue.top/2022/01/06/OpenWrt%20%E6%97%A0%E6%B3%95%E8%BF%9B%E5%85%A5%E5%90%8E%E5%8F%B0%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
     <published>2022-01-06T15:48:57.667Z</published>
-    <updated>2022-01-06T15:49:04.344Z</updated>
+    <updated>2022-01-26T14:10:26.563Z</updated>
     
     <content type="html"><![CDATA[<h1 id="OpenWrt-无法进入后台解决方案"><a href="#OpenWrt-无法进入后台解决方案" class="headerlink" title="OpenWrt 无法进入后台解决方案"></a>OpenWrt 无法进入后台解决方案</h1><blockquote><p>取消桥接后，导致无法通过 ip 来进入管理器。我们通过物理方法修改内存卡的文件，加入桥接设置。</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051621865.png" alt=""></p><h2 id="1、内存卡插入电脑"><a href="#1、内存卡插入电脑" class="headerlink" title="1、内存卡插入电脑"></a>1、内存卡插入电脑</h2><p>把内存卡取出来，插到 PC 上，通过修改文件的方式，我们来恢复桥接。这里的内存卡的根目录 Mac 和 PC 都不能读取，PC 上采用 Disk Ginues 这款软件。Mac 上？Mac 砸了换 PC。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#先切换到根目录</span></span><br><span class="line"><span class="built_in">cd</span> /</span><br><span class="line"><span class="comment">#然后打开network配置文件</span></span><br><span class="line"> vi etc/config/network</span><br></pre></td></tr></table></figure><h2 id="2、修改文件"><a href="#2、修改文件" class="headerlink" title="2、修改文件"></a>2、修改文件</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line">&quot;etc/config/network&quot;</span><br><span class="line"></span><br><span class="line">config interface &#x27;loopback&#x27;</span><br><span class="line">        option ifname &#x27;lo&#x27;</span><br><span class="line">        option proto &#x27;static&#x27;</span><br><span class="line">        option ipaddr &#x27;127.0.0.1&#x27;</span><br><span class="line">        option netmask &#x27;255.0.0.0&#x27;</span><br><span class="line"></span><br><span class="line">config globals &#x27;globals&#x27;</span><br><span class="line">        option ula_prefix &#x27;fdb1:fe5a:1c5d::/48&#x27;</span><br><span class="line"></span><br><span class="line">config interface &#x27;lan&#x27;</span><br><span class="line">        option proto &#x27;static&#x27;</span><br><span class="line">        option ipaddr &#x27;192.168.1.100&#x27;</span><br><span class="line">        option netmask &#x27;255.255.255.0&#x27;</span><br><span class="line">        option ip6assign &#x27;60&#x27;</span><br><span class="line">        option dns &#x27;192.168.1.1 8.8.4.4&#x27;</span><br><span class="line">        option gateway &#x27;192.168.1.1&#x27;</span><br><span class="line">        option _orig_ifname &#x27;eth0&#x27;</span><br><span class="line">        option _orig_bridge &#x27;false&#x27;</span><br><span class="line">        option ifname &#x27;eth0&#x27;  #添加此项</span><br><span class="line">        option delegate &#x27;0&#x27;</span><br><span class="line">        option force_link &#x27;0&#x27;</span><br><span class="line"></span><br><span class="line">config interface &#x27;vpn0&#x27;</span><br><span class="line">        option ifname &#x27;tun0&#x27;</span><br><span class="line">        option proto &#x27;none&#x27;</span><br><span class="line"></span><br></pre></td></tr></table></figure><blockquote><p>然后就可以正常进入Openwrt后台了</p><p>此次需要注意的是,取消桥接之后,一定要在接口-勾选以太网适配器:eth0(lan).</p></blockquote><p>我从小到大没有什么梦想,一直在路上不问远方,只是衷心希望自己成为一个很厉害的人。你问我什么算厉害,大概就是能有朝一日,保护好我爱的人，赡养好家人。</p>]]></content>
     
@@ -331,9 +317,7 @@
     
     
     
-    <category term="OpenWrt" scheme="https://dtongxue.top/categories/OpenWrt/"/>
-    
-    <category term="路由器" scheme="https://dtongxue.top/categories/OpenWrt/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    <category term="路由器" scheme="https://dtongxue.top/categories/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
     
     
     <category term="OpenWrt" scheme="https://dtongxue.top/tags/OpenWrt/"/>
@@ -347,7 +331,7 @@
     <link href="https://dtongxue.top/2022/01/06/ipic%20%E9%85%8D%E7%BD%AE/"/>
     <id>https://dtongxue.top/2022/01/06/ipic%20%E9%85%8D%E7%BD%AE/</id>
     <published>2022-01-06T15:48:34.699Z</published>
-    <updated>2022-01-07T08:07:26.755Z</updated>
+    <updated>2022-01-26T14:10:07.190Z</updated>
     
     <content type="html"><![CDATA[<h1 id="iPic-图床配置-GitHub图床"><a href="#iPic-图床配置-GitHub图床" class="headerlink" title="iPic 图床配置 GitHub图床"></a>iPic 图床配置 GitHub图床</h1><h2 id="1、GitHub-仓库新建图床"><a href="#1、GitHub-仓库新建图床" class="headerlink" title="1、GitHub 仓库新建图床"></a>1、GitHub 仓库新建图床</h2><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051414727.png" alt=""></p><h2 id="2、GitHub-生成-token"><a href="#2、GitHub-生成-token" class="headerlink" title="2、GitHub 生成 token"></a>2、GitHub 生成 token</h2><p><a href="https://github.com/settings/tokens">地址</a></p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051425122.png" alt=""></p><p>注意勾选 repo 和仓库名称</p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051425122.png" alt=""></p><h2 id="3、iPic-配置填写"><a href="#3、iPic-配置填写" class="headerlink" title="3、iPic 配置填写"></a>3、iPic 配置填写</h2><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051425381.png" alt=""></p><h1 id="jsdelivr-CDN-加速"><a href="#jsdelivr-CDN-加速" class="headerlink" title="jsdelivr CDN 加速"></a>jsdelivr CDN 加速</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">https:<span class="comment">//cdn.jsdelivr.net/gh/GitHub 用户名/仓户名/文件夹</span></span><br><span class="line">例如 我的配置 </span><br><span class="line">(https:<span class="comment">//cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051425381.png</span></span><br></pre></td></tr></table></figure><p>参考</p><p><a href="https://iknow.fun/2021/07/21/shi-yong-jsdelivr-jia-su-github-zi-yuan-jia-kuai-bo-ke-da-kai-su-du/">使用 jsDelivr 加速 Github 资源，加快博客打开速度</a></p>]]></content>
     
@@ -360,8 +344,6 @@
     
     
     <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="图床" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/%E5%9B%BE%E5%BA%8A/"/>
     
     
     <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>
@@ -377,7 +359,7 @@
     <link href="https://dtongxue.top/2022/01/06/C%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/"/>
     <id>https://dtongxue.top/2022/01/06/C%E8%AF%AD%E8%A8%80%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%AE%BE%E7%BD%AE/</id>
     <published>2022-01-06T15:47:32.054Z</published>
-    <updated>2022-01-06T15:48:10.498Z</updated>
+    <updated>2022-01-26T14:09:31.418Z</updated>
     
     <content type="html"><![CDATA[<h1 id="C开发环境-适用于VS-CODE编辑器"><a href="#C开发环境-适用于VS-CODE编辑器" class="headerlink" title="C开发环境 适用于VS CODE编辑器"></a><a href="https://zhuanlan.zhihu.com/p/77074009">C开发环境 适用于VS CODE编辑器</a></h1><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123019.png" alt=""></p><blockquote><p>写在前面。本文是<strong>小白启蒙文</strong>，但并不能保证每词每句都极度通俗，仍然<strong>有些专业概念因限于篇幅不能详解</strong>。</p><p>细节在编程这项活计中极具影响力，小白因背景知识薄弱而经常踩坑实属难免，但<strong>错误也是学习的重要途经</strong>，学会从错误中反省与学习是非常优秀的品质，与诸君共勉。 </p></blockquote><hr><p>所需文件：<a href="https://xxgn.lanzous.com/ijSNAe79mmj（速度很快不需要科学上网）">https://xxgn.lanzous.com/ijSNAe79mmj（速度很快不需要科学上网）</a></p><h3 id="1、安装MinGW-w64编译器套件"><a href="#1、安装MinGW-w64编译器套件" class="headerlink" title="1、安装MinGW-w64编译器套件"></a>1、安装MinGW-w64编译器套件</h3><p>要编写C/C++这样的静态语言程序，<strong>必备工具</strong>是一套可用的<strong>编译器</strong>。</p><blockquote><p>编译器：它是能<strong>将你的源代码翻译成计算机可直接执行的程序文件</strong>（Windows上即.exe文件）的<strong>程序</strong>。高级程序语言的一大特点是代码具有跨平台性，但不同的硬件和操作系统底层可直接执行的指令显然各不相同，这就决定了我们需要不同的编译器。</p></blockquote><p>本文提到的<strong>MinGW-w64</strong>是一个著名项目为<strong>Windows 64位</strong>平台提供的一套编译器，它也<strong>受到了微软官方文档的推荐</strong>，相关文件托管在SourceForge的网站上，下载地址为<a href="https://sourceforge.net/projects/mingw-w64/files/">https://sourceforge.net/projects/mingw-w64/files/</a></p><blockquote><p>至于Linux和Mac，这里限于篇幅不可能详解，但它们安装编译器都可以直接利用命令行中的包管理器完成，可自行百度“Linux 安装gcc”“Mac 安装clang”。</p></blockquote><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123320.png" alt=""></p><p>下载下来是个几十MB的压缩文件，后缀名为”.7z”，需要支持该格式的压缩软件进行解压。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123445.png" alt=""></p><p>打开bin文件夹你可以看到很多应用程序，其中就有<strong>gcc</strong>、<strong>g++</strong>等著名的编译器。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123506.png" alt=""></p><h3 id="2、环境变量添加"><a href="#2、环境变量添加" class="headerlink" title="2、环境变量添加"></a>2、环境变量添加</h3><p><strong>为使外部程序或用户（也就是你）能访问到这些编译器</strong>，需要<strong>把它们所在的目录</strong>（我这里就是<code>C:\mingw64\bin</code>，可在上图中点击地址栏进行复制）<strong>添加到环境变量Path中</strong>。按快捷键【Windows徽标】+【S】打开Win10搜索框，输入“环境变量”，在弹出的两个匹配结果中，选择“编辑<strong>账户</strong>的环境变量”（两个匹配项很相似别点错了！之所以选它是防止你误改系统变量损害系统）。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123557.png" alt=""></p><p>点击上面的用户变量Path，选择“编辑”，或者直接双击（不要去动下面的系统变量！）</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123613.png" alt=""></p><p>然后<strong>点击下方空白处</strong>，把刚才那堆应用程序所在的目录（我的是<code>C:\mingw64\bin\</code>）添加进去（建议添加在下面，<strong>不要覆盖或修改已有内容</strong>，然后选中它将其上移至顶），<strong>注意结尾是bin，别输掉了</strong>；或者选择“浏览”找到bin文件夹，然后一路确定退出。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123621.png" alt=""></p><h3 id="3、验证操作"><a href="#3、验证操作" class="headerlink" title="3、验证操作"></a>3、验证操作</h3><p>最后为了验证之前操作是否正确，我们需要实际访问一下那些编译器。还是在搜索框中，输入“cmd”，启动“命令提示符”，在命令窗口中输入以下命令并回车</p><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gcc -<span class="literal">-version</span></span><br></pre></td></tr></table></figure><p>如果结果如图所示，你的编译器就安装成功了。如果失败，请<strong>回头检查你添加的路径是否生效且与实际相符</strong>；或者请卸载你参考其他教程安装的老式MinGW编译器并清除其添加在Path中的路径。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123724.png" alt=""></p><h3 id="4、Vs-Code-配置"><a href="#4、Vs-Code-配置" class="headerlink" title="4、Vs Code 配置"></a>4、Vs Code 配置</h3><blockquote><p>文本编辑器是写代码的<strong>辅助工具</strong>，它原则上不是必需品，也不为特定编程语言服务。原则上只要是能编写<strong>纯文本文件</strong>的软件（最简单如Windows记事本），都可以编写<strong>任何语言</strong>的代码。但考虑到实际的编程体验，众多专用的编辑器被开发出来，以提供<strong>代码高亮</strong>（根据特定语言的语法给代码染色，便于阅读）、<strong>语法错误检查</strong>（在编译前提示错字漏字、不合规的语句等错误）、<strong>断点调试</strong>、<strong>多文件的管理</strong>等辅助功能。</p></blockquote><p>注意VS Code跟VS (Visual Studio)只是同属一家、名称相近，但不是一类软件别搞错了。</p><p>这里要区分集成开发环境和开发环境</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123843.png" alt=""></p><p>修改完环境变量、安装或更新完插件后，务必<strong>重启VS Code</strong>。这类属于编辑器环境的东西，大都需重启软件才能生效。</p><h2 id="配置C-C-的简单环境（重启VS-Code后进行！）"><a href="#配置C-C-的简单环境（重启VS-Code后进行！）" class="headerlink" title="配置C/C++的简单环境（重启VS Code后进行！）"></a>配置C/C++的简单环境（重启VS Code后进行！）</h2><p>这里实际上就是VS Code的具体用法，原则上并无固定章法，但几个基本点有必要提及一下：</p><ol><li>脑子里要有<strong>源代码文件</strong>这个概念。写程序不是说就在框框里写一堆代码然后就能跑了！代码都要<strong>写成文件保存起来（到硬盘里）</strong>，然后才有后续的工作；</li><li>VS Code是支持多语言的编辑器，并不只为C/C++服务，所以还要<strong>确保把代码文件的后缀名写对</strong>，C语言的后缀名是<code>.c</code>，C++的是<code>.cpp</code>。这是VS Code区分你代码类型的标志；</li><li>上面安装的”C/C++”插件提供了对这两门语言的基本支持。C跟C++是<strong>两门不同的语言</strong>，请<strong>向你的老师问清楚学的是哪一门</strong>。无论是在.c文件里敲C++代码，还是在.cpp文件里敲C代码，都是自掘天坑的行为。</li><li>编写C/C++程序有两个基本步骤，一是把代码文件变成程序文件，这叫<strong>编译</strong>或<strong>生成</strong>，是调用最开始安装的编译器做的事；二才是把刚刚生成的程序跑起来，这叫<strong>执行</strong>，是操作系统做的事；</li><li>这两个基本步骤，一般都是在<strong>命令行</strong>的环境下进行，输入输出也是在这里面。VS Code的优势之一，就是把系统的命令行集成进了软件内部，名唤“<strong>终端</strong>”，从而不必再开新窗口。</li></ol><p>进入正题，在VS Code中编写C/C++程序，<strong>不要直接新建个代码文件就开始写</strong>，应该先选择左侧“资源管理器”（两页纸的图标）后按下图操作，</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701123956.png" alt=""></p><p>或者选择菜单项【文件】→【打开文件夹…】，来<strong>打开一个工作文件夹</strong>，这样做的好处包括</p><ul><li><strong>VS Code中打开的一个文件夹下可以包含你一个项目或一段时期内的各种文件</strong>，便于我们分门别类、有序地组织代码；</li><li><strong>这个文件夹内可以保存独立的配置</strong>（自动创建子目录<code>.vscode</code>保存配置文件，能随工作文件夹一起移动），仅在这个区域内生效而不修改用户个人的全局配置，也不会与其他文件夹的配置相冲突。对于”C/C++”插件这是必需的；</li><li><strong>VS Code的集成终端在打开的文件夹内自动以该文件夹为启动目录</strong>，这样在里面编译和执行程序时可以方便地使用<strong>相对路径</strong>。</li></ul><blockquote><p><strong>路径</strong>是对计算机中文件和文件夹的指示，是编译和执行程序的<strong>必备基础知识</strong>，如有疑问请参阅以下<a href="https://zhuanlan.zhihu.com/p/85455028">扫盲贴，</a></p></blockquote><p>找到一个你觉得合适的<strong>文件夹</strong>打开后，你的侧边栏会变成这样</p><blockquote><p>注意！请务必确定选择的是“打开文件夹”而非“打开工作区”，工作区具备更强的独立特性，本文的配置方法是不适用的！<br>第一次打开时可能会自动下载”C/C++”插件的额外组件（3个），请务必确认它们下载安装成功。</p></blockquote><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124122.png" alt=""></p><h3 id="4、UI配置"><a href="#4、UI配置" class="headerlink" title="4、UI配置"></a>4、UI配置</h3><p>接下来，是要利用”C/C++”插件预定义好了的配置，稍作修改以满足我们的需要。按快捷键【Ctrl】【Shift】+【P】，打开命令面板，输入关键词”C/C++”，在弹出的诸命令中选择<strong>编辑配置 (UI)</strong>或者<strong>Edit Configurations (UI)</strong>，将弹出”C/C++”给我们的默认配置（JSON那个操作难度较大，有兴趣的可自行研究）。</p><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124154.png" alt=""></p><p>诸配置中最重要的是<strong>编译器路径</strong>和<strong>IntelliSense模式</strong>这两项，两者在右侧都有下拉三角。如果前面你正确配置了环境变量，路径的待选项中就会包含几个正确的编译器路径，<strong>编写C程序请选择gcc.exe，C++则选择g++.exe</strong>；模式选择<strong>gcc-x64</strong>。</p><blockquote><p>配置完成后你可以看到一个<code>c_cpp_properties.json</code>文件被自动保存在了<code>.vscode</code>子目录中，它只在你这个工作文件夹中生效。如果你使用一个新的工作文件夹，就重新配置一下。</p></blockquote><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124212.png" alt=""></p><blockquote><p>注意<code>.vscode</code>是你工作文件夹的子目录，下次打开时注意打开的是上一级工作文件夹（比如我上面的MYCLANG，别开到<code>.vscode</code>里面去了！</p></blockquote><p>至此配置工作已基本完成</p><h3 id="5、编译测试（建议重启PC）"><a href="#5、编译测试（建议重启PC）" class="headerlink" title="5、编译测试（建议重启PC）"></a>5、编译测试（建议重启PC）</h3><h2 id="编写”Hello-World”程序"><a href="#编写”Hello-World”程序" class="headerlink" title="编写”Hello World”程序"></a>编写”Hello World”程序</h2><p>到工作文件夹中添加一个源代码文件，命名为hello<strong>.c</strong>（或者任意你喜欢的名字，但注意后缀名.c别忘了打上），</p><blockquote><p>我这里的示例是C语言的，要试用C++的请注意后缀名为.cpp，并求教你的老师或自行编写相应代码。</p></blockquote><p><img src="https://gitee.com/xxgn/tuchuang/raw/master/img/20200701124350.png" alt=""></p><p>输完你的代码后，按快捷键【Ctrl】+【S】</p><h3 id="保存、"><a href="#保存、" class="headerlink" title="保存、"></a><strong>保</strong>存、</h3><h3 id="保存、-1"><a href="#保存、-1" class="headerlink" title="保存、"></a>保存、</h3><h3 id="保存！"><a href="#保存！" class="headerlink" title="保存！"></a>保存！</h3><p>保存后按快捷键【Ctrl】+【`】（主键盘区左上角Esc键下面那个）即可打开嵌入式终端（命令行环境），<strong>编译代码的命令</strong>为（如果是C++则将gcc替换为g++）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gcc˽-o˽目标文件路径˽源代码文件路径</span><br></pre></td></tr></table></figure><p>我用符号<code>˽</code>标记了空格，“目标文件”即你要生成的程序文件，起名和加不加.exe都随意（因为它会自动加）。在我们这，由于已经在打开的文件夹里，可以使用相对路径，</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gcc -o .\myhello .\hello.c</span><br></pre></td></tr></table></figure><p>回车，就能编译你刚刚的hello.c文件，如果成功，则在相同目录下生成一个myhello.exe程序文件。<strong>执行程序</strong>的命令为</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">程序文件路径</span><br></pre></td></tr></table></figure><p>是的形式上就是这样，只是路径可以是绝对或相对的，当然相对的一般更方便，这里要执行上面的程序就是</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.\myhello.exe</span><br></pre></td></tr></table></figure><p>注意VS Code的默认终端实际上是<strong>PowerShell，需要使用<code>.\</code>显式地指明它是当前目录下的可执行文件</strong>，如果省略它出于安全原因会拒绝你程序的执行。</p>]]></content>
     
@@ -389,9 +371,7 @@
     
     
     
-    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="GitHub" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    <category term="开发环境" scheme="https://dtongxue.top/categories/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
     
     
     <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>
@@ -407,7 +387,7 @@
     <link href="https://dtongxue.top/2022/01/06/Hexo%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E5%92%8C%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/"/>
     <id>https://dtongxue.top/2022/01/06/Hexo%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96%E5%92%8C%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85/</id>
     <published>2022-01-06T15:46:15.770Z</published>
-    <updated>2022-01-07T09:48:47.954Z</updated>
+    <updated>2022-01-26T14:09:56.174Z</updated>
     
     <content type="html"><![CDATA[<h1 id="1、Hexo新增看板娘"><a href="#1、Hexo新增看板娘" class="headerlink" title="1、Hexo新增看板娘"></a>1、Hexo新增看板娘</h1><blockquote><p>小白水平，exo的官方是支持看板娘的，已经封装好了插件，但只是模型，不能说话、不能换装、功能较少。<br>效果预览</p></blockquote><p><img src="/Users/dongqinuo/Library/Application Support/typora-user-images/image-20220107174644204.png" alt="image-20220107174644204"></p><h2 id="1、安装模块，如下："><a href="#1、安装模块，如下：" class="headerlink" title="1、安装模块，如下："></a>1、安装模块，如下：</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure><h2 id="2、在-站点配置文件-或-主题配置文件-中新增如下内容："><a href="#2、在-站点配置文件-或-主题配置文件-中新增如下内容：" class="headerlink" title="2、在 站点配置文件 或 主题配置文件 中新增如下内容："></a>2、在 站点配置文件 或 主题配置文件 中新增如下内容：</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"># 我的配置文件，我安装的是 npm install live2d-widget-model-epsilon2_1</span><br><span class="line">#Live2D动画</span><br><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  scriptFrom: local</span><br><span class="line">  pluginRootPath: live2dw/</span><br><span class="line">  pluginJsPath: lib/</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  tagMode: false</span><br><span class="line">  debug: false</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-epsilon2_1</span><br><span class="line">    # 需要填写你下载的模型名称</span><br><span class="line">  display:</span><br><span class="line">    position: left </span><br><span class="line">    width: 200</span><br><span class="line">    height: 350</span><br><span class="line">  mobile:</span><br><span class="line">    show: true</span><br></pre></td></tr></table></figure><p>参数说明</p><ol><li>enable //是否使用</li><li>model:<br>use: live2d-widget-model-koharu //要使用的模型名称</li><li>display:<br>position: right //显示的位置<br>width: 150 //宽度<br>height: 150 //高度<br>mobile:<br>show: true //移动端是否显示</li></ol><p><a href="https://zhuanlan.zhihu.com/p/350654582">参考</a></p><h1 id="2、添加鼠标点击爱心效果"><a href="#2、添加鼠标点击爱心效果" class="headerlink" title="2、添加鼠标点击爱心效果"></a><del>2、添加鼠标点击爱心效果</del></h1><p>更换成了 Butterfly 主题，不在使用</p><h2 id="1、在-themes-fluid-source-js-下新建文件-love-js，在-love-js-文件中添加以下代码："><a href="#1、在-themes-fluid-source-js-下新建文件-love-js，在-love-js-文件中添加以下代码：" class="headerlink" title="1、在 /themes/fluid/source/js 下新建文件 love.js，在 love.js 文件中添加以下代码："></a>1、在 /themes/fluid/source/js 下新建文件 love.js，在 love.js 文件中添加以下代码：</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">!<span class="function"><span class="keyword">function</span>(<span class="params">e,t,a</span>)</span>&#123;<span class="function"><span class="keyword">function</span> <span class="title">n</span>(<span class="params"></span>)</span>&#123;c(<span class="string">&quot;.heart&#123;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);&#125;.heart:after,.heart:before&#123;content: &#x27;&#x27;;width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 500%;-moz-border-radius: 50%;position: fixed;&#125;.heart:after&#123;top: -5px;&#125;.heart:before&#123;left: -5px;&#125;&quot;</span>),o(),r()&#125;<span class="function"><span class="keyword">function</span> <span class="title">r</span>(<span class="params"></span>)</span>&#123;<span class="keyword">for</span>(<span class="keyword">var</span> e=<span class="number">0</span>;e&lt;d.length;e++)d[e].alpha&lt;=<span class="number">0</span>?(t.body.removeChild(d[e].el),d.splice(e,<span class="number">1</span>)):(d[e].y--,d[e].scale+=<span class="number">.004</span>,d[e].alpha-=<span class="number">.013</span>,d[e].el.style.cssText=<span class="string">&quot;left:&quot;</span>+d[e].x+<span class="string">&quot;px;top:&quot;</span>+d[e].y+<span class="string">&quot;px;opacity:&quot;</span>+d[e].alpha+<span class="string">&quot;;transform:scale(&quot;</span>+d[e].scale+<span class="string">&quot;,&quot;</span>+d[e].scale+<span class="string">&quot;) rotate(45deg);background:&quot;</span>+d[e].color+<span class="string">&quot;;z-index:99999&quot;</span>);requestAnimationFrame(r)&#125;<span class="function"><span class="keyword">function</span> <span class="title">o</span>(<span class="params"></span>)</span>&#123;<span class="keyword">var</span> t=<span class="string">&quot;function&quot;</span>==<span class="keyword">typeof</span> e.onclick&amp;&amp;e.onclick;e.onclick=<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;t&amp;&amp;t(),i(e)&#125;&#125;<span class="function"><span class="keyword">function</span> <span class="title">i</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">var</span> a=t.createElement(<span class="string">&quot;div&quot;</span>);a.className=<span class="string">&quot;heart&quot;</span>,d.push(&#123;<span class="attr">el</span>:a,<span class="attr">x</span>:e.clientX-<span class="number">5</span>,<span class="attr">y</span>:e.clientY-<span class="number">5</span>,<span class="attr">scale</span>:<span class="number">1</span>,<span class="attr">alpha</span>:<span class="number">1</span>,<span class="attr">color</span>:s()&#125;),t.body.appendChild(a)&#125;<span class="function"><span class="keyword">function</span> <span class="title">c</span>(<span class="params">e</span>)</span>&#123;<span class="keyword">var</span> a=t.createElement(<span class="string">&quot;style&quot;</span>);a.type=<span class="string">&quot;text/css&quot;</span>;<span class="keyword">try</span>&#123;a.appendChild(t.createTextNode(e))&#125;<span class="keyword">catch</span>(t)&#123;a.styleSheet.cssText=e&#125;t.getElementsByTagName(<span class="string">&quot;head&quot;</span>)[<span class="number">0</span>].appendChild(a)&#125;<span class="function"><span class="keyword">function</span> <span class="title">s</span>(<span class="params"></span>)</span>&#123;<span class="keyword">return</span><span class="string">&quot;rgb(&quot;</span>+~~(<span class="number">255</span>*<span class="built_in">Math</span>.random())+<span class="string">&quot;,&quot;</span>+~~(<span class="number">255</span>*<span class="built_in">Math</span>.random())+<span class="string">&quot;,&quot;</span>+~~(<span class="number">255</span>*<span class="built_in">Math</span>.random())+<span class="string">&quot;)&quot;</span>&#125;<span class="keyword">var</span> d=[];e.requestAnimationFrame=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;<span class="keyword">return</span> e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||<span class="function"><span class="keyword">function</span>(<span class="params">e</span>)</span>&#123;<span class="built_in">setTimeout</span>(e,<span class="number">1e3</span>/<span class="number">60</span>)&#125;&#125;(),n()&#125;(<span class="built_in">window</span>,<span class="built_in">document</span>);</span><br></pre></td></tr></table></figure><h2 id="2、在-themes-fluid-layout-layout-ejs-文件末尾添加以下代码："><a href="#2、在-themes-fluid-layout-layout-ejs-文件末尾添加以下代码：" class="headerlink" title="2、在 \themes\fluid\layout\layout.ejs 文件末尾添加以下代码："></a>2、在 \themes\fluid\layout\layout.ejs 文件末尾添加以下代码：</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 页面点击小红心 --&gt;</span><br><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span> <span class="attr">src</span>=<span class="string">&quot;/js/love.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure><p><a href="https://www.zhihu.com/column/p/69211731">参考</a></p>]]></content>
     
@@ -420,9 +400,7 @@
     
     
     
-    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="GitHub" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    <category term="博客" scheme="https://dtongxue.top/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
     <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>
@@ -436,7 +414,7 @@
     <link href="https://dtongxue.top/2022/01/06/Hexo%20%E6%A1%86%E6%9E%B6%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/"/>
     <id>https://dtongxue.top/2022/01/06/Hexo%20%E6%A1%86%E6%9E%B6%E9%83%A8%E7%BD%B2%E5%AE%89%E8%A3%85/</id>
     <published>2022-01-06T15:44:28.792Z</published>
-    <updated>2022-01-13T07:09:32.693Z</updated>
+    <updated>2022-01-26T14:09:59.840Z</updated>
     
     <content type="html"><![CDATA[<p>1.</p><pre><code>&gt; 1.  Github仓库建站&gt;&gt; 2.  Node.js安装&gt;&gt; 3.  Hexo安装&gt;&gt; 4.  Hexo主题</code></pre><h2 id="1、新建-GitHub-仓库"><a href="#1、新建-GitHub-仓库" class="headerlink" title="1、新建 GitHub 仓库"></a>1、新建 GitHub 仓库</h2><h2 id="2、安装-Node安装"><a href="#2、安装-Node安装" class="headerlink" title="2、安装 Node安装"></a>2、安装 <a href="https://so.csdn.net/so/search?q=Node">Node</a>安装</h2><p>进入第二步啦，我们要安装Node啦。</p><ol><li><p>什么是Node.js</p></li><li><p>我们为什么需要安装Node.js</p></li><li><p>怎么安装Node.js</p></li><li><p>错误的安装</p></li><li><p>正确的安装</p></li></ol><h3 id="2-1-怎么安装Node-js"><a href="#2-1-怎么安装Node-js" class="headerlink" title="2.1 怎么安装Node.js"></a>2.1 怎么安装Node.js</h3><blockquote><p>⚠️需要注意的是，在我们安装node.js的时候，也需要同时安装npm。而这是最容易出问题的地方。</p><p>什么是npm?</p><p>npm的全称node package manager，是一个node包的管理工具。</p><p>npm（Node Package Manager）是Node.js下的主流套件管理程式。它在Node.js v0.6.x版本之后，内建于Node系统。通过npm可以协助开发者安装、卸载、删除、更新Node.js套件。</p><p>因此安装Node.js的时候最好一起也安装npm!</p></blockquote><h3 id="2-2-错误的Node-js-和npm安装方式"><a href="#2-2-错误的Node-js-和npm安装方式" class="headerlink" title="2.2 错误的Node.js 和npm安装方式"></a>2.2 错误的Node.js 和npm安装方式</h3><p>很多教程，都建议，直接到Node官网直接下载pkg安装，这样的安装确实非常方便，但是，会出现非常大的问题。<br>出现的问题是，在后面，我们使用npm来安装hexo ,当我们输入下述命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>会报错啊，报错！！如下图?</p><p><img src="https://img-blog.csdnimg.cn/20190430205745353.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTE2MDA1NA==,size_16,color_FFFFFF,t_70" alt="img"></p><p>这个报错是什么意思呢？<br>就是说，我没有权限将hexo写入 .npm-global里面，我尝试了sudo各种权限，都不行TAT。不得不说，网络上一些教程真的害人~~</p><p>于是，我只有求助于npm的官网教程，我就哭了，人家官网说得很清楚，不建议用installer安装，为啥还有教程教人用installer安装。</p><h3 id="2-3正确的-Node-js-和-npm-安装方式"><a href="#2-3正确的-Node-js-和-npm-安装方式" class="headerlink" title="2.3正确的 Node.js 和 npm 安装方式"></a>2.3正确的 Node.js 和 npm 安装方式</h3><p>！！！重点：使用一个node version manager来安装 Node.js和npm。</p><p>到这里，就比较稳定了~我们来看看教程是怎么写的(__) 嘻嘻……</p><p>第一步：安装nvm和确认是否成功</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash</span><br></pre></td></tr></table></figure><p>第二步：然后，输入代码</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">command</span> -v nvm</span><br></pre></td></tr></table></figure><p>会出现nvm。如果没有，那么请关掉terminal，然后重启一下~</p><p>第三步：用nvm安装node</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nvm install node <span class="comment"># &quot;node&quot; is an alias for the latest version</span></span><br></pre></td></tr></table></figure><h2 id="3、Hexo-安装部署"><a href="#3、Hexo-安装部署" class="headerlink" title="3、Hexo 安装部署"></a>3、Hexo 安装部署</h2><p>先安装 Hexo 框架</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>接着，我们找一个文件夹。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init blog</span><br></pre></td></tr></table></figure><p>意思是，我们在 Blog 这个文件夹下面部署 Hexo 项目，注意，这个 Blog 就是你找的那个文件夹下载运行这个命令，仅仅为了整齐而已，没有其他原因，应该注意的是 Blog 这个项目文件夹，不应该被首先创建，而是这段命令会自动创建。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd Blog</span><br></pre></td></tr></table></figure><p>进入这个文件夹内，开始安装依赖</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> blog</span><br><span class="line"><span class="comment"># 安装hexo的扩展插件</span></span><br><span class="line">npm install</span><br><span class="line"><span class="comment"># 安装其它插件</span></span><br><span class="line">npm install hexo-server --save</span><br><span class="line">npm install hexo-admin --save</span><br><span class="line">npm install hexo-generator-archive --save</span><br><span class="line">npm install hexo-generator-feed --save</span><br><span class="line">npm install hexo-generator-search --save</span><br><span class="line">npm install hexo-generator-tag --save</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line">————————————————</span><br><span class="line">版权声明：本段为CSDN博主「xuezhisdc」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。</span><br><span class="line">原文链接：https://blog.csdn.net/xuezhisdc/article/details/53130328</span><br></pre></td></tr></table></figure><h2 id="4、Hexo-的启动"><a href="#4、Hexo-的启动" class="headerlink" title="4、Hexo 的启动"></a>4、Hexo 的启动</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 生成静态页面</span></span><br><span class="line">hexo generate</span><br><span class="line"><span class="comment"># 开启本地服务器</span></span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><ul><li><p>开浏览器，地址栏中输入：<a href="http://localhost:4000/,应该可以看见刚刚创建的博客了。">http://localhost:4000/,应该可以看见刚刚创建的博客了。</a></p></li><li><p>问题：为什么访问<a href="http://localhost:4000/，无反应？">http://localhost:4000/，无反应？</a></p><ul><li>解决方法：可能是由于端口问题引起的。使用Ctrl+C中断本地服务，使用命令hexo s -p 5000重新开启本地服务，访问**<a href="http://localhost:5000/**可以看到博客页面了。">http://localhost:5000/**可以看到博客页面了。</a></li></ul></li></ul><h2 id="5、GitHub-的远端推送"><a href="#5、GitHub-的远端推送" class="headerlink" title="5、GitHub 的远端推送"></a>5、GitHub 的远端推送</h2><p>这里不做陈述，我自己本身采用的是 GitHub 的 Desktop 版本，拥有图形化界面，以后专门写文章时再来做命令行部署。</p><h2 id="6、Hexo-的基本命令和文件解释"><a href="#6、Hexo-的基本命令和文件解释" class="headerlink" title="6、Hexo 的基本命令和文件解释"></a>6、Hexo 的基本命令和文件解释</h2><p>真正主要用的有三条，我讲出我的理解</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br></pre></td></tr></table></figure><p>在主目录的 Public 文件夹生成静态文件，这个文件就是我们需要部署在服务器（GitHub Page）上面的文件，也就是说，我们在计算机本地预览的并不是 Public 里面的文件，而是 Hexo 目录下面的动态文件。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>s 表示的是 server ，开启端口号为 4000 的 web 端口，以供我们预览我们的网站页面和一些交互懂爱过程</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d</span><br></pre></td></tr></table></figure><p>很简单了，这个 P 就是单词 deploy，拼写的对吗？意思是进行部署。也就是把我们刚才产生的 Public 文件夹里面的内容产生到 GitHub 的远端服务器中去，完成的操作有，比对服务器端和本地端的文件，之后把我们本地端发生改变的、删减的文件部署到服务器中去。这个和 GitHub Desktop 的功能就是一样喽。</p><p>/</p>]]></content>
     
@@ -456,16 +434,12 @@
     
     
     
-    <category term="Hexo" scheme="https://dtongxue.top/categories/Hexo/"/>
+    <category term="博客" scheme="https://dtongxue.top/categories/%E5%8D%9A%E5%AE%A2/"/>
     
-    <category term="网站部署" scheme="https://dtongxue.top/categories/Hexo/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/"/>
-    
-    <category term="GitHub" scheme="https://dtongxue.top/categories/Hexo/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/GitHub/"/>
-    
-    
-    <category term="Hexo" scheme="https://dtongxue.top/tags/Hexo/"/>
     
     <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>
+    
+    <category term="Hexo" scheme="https://dtongxue.top/tags/Hexo/"/>
     
     <category term="网站部署" scheme="https://dtongxue.top/tags/%E7%BD%91%E7%AB%99%E9%83%A8%E7%BD%B2/"/>
     
@@ -476,7 +450,7 @@
     <link href="https://dtongxue.top/2022/01/06/GitHub%20Page%20%E7%BC%93%E5%AD%98%E5%88%86%E6%9E%90/"/>
     <id>https://dtongxue.top/2022/01/06/GitHub%20Page%20%E7%BC%93%E5%AD%98%E5%88%86%E6%9E%90/</id>
     <published>2022-01-06T15:43:17.281Z</published>
-    <updated>2022-01-06T15:43:38.040Z</updated>
+    <updated>2022-01-26T14:09:38.276Z</updated>
     
     <content type="html"><![CDATA[<h1 id="GitHub-Page-缓存分析"><a href="#GitHub-Page-缓存分析" class="headerlink" title="GitHub Page 缓存分析"></a>GitHub Page 缓存分析</h1><blockquote><p>文章通不过去之后，页面刷新不过来。</p></blockquote><h2 id="1、如果-Active-是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。"><a href="#1、如果-Active-是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。" class="headerlink" title="1、如果 Active 是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。"></a>1、如果 Active 是正常的，就是没有刷新过来，通过清除浏览器的缓存了来解决。</h2><h2 id="2、还要注意有时候是编译错误，错误的话-GitHub-会给你的邮件发信息，目前我没有复现过。"><a href="#2、还要注意有时候是编译错误，错误的话-GitHub-会给你的邮件发信息，目前我没有复现过。" class="headerlink" title="2、还要注意有时候是编译错误，错误的话 GitHub 会给你的邮件发信息，目前我没有复现过。"></a>2、还要注意有时候是编译错误，错误的话 GitHub 会给你的邮件发信息，目前我没有复现过。</h2>]]></content>
     
@@ -489,9 +463,7 @@
     
     
     
-    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="GitHub" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/categories/GitHub/"/>
     
     
     <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>
@@ -505,7 +477,7 @@
     <link href="https://dtongxue.top/2022/01/06/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH/"/>
     <id>https://dtongxue.top/2022/01/06/%E5%85%8D%E5%AF%86%E8%BE%93%E5%85%A5%20GitHub%20%E9%83%A8%E7%BD%B2%E9%A1%B9%E7%9B%AE%EF%BC%8C%E9%87%87%E7%94%A8%20SSH/</id>
     <published>2022-01-06T15:25:21.921Z</published>
-    <updated>2022-01-06T15:26:45.117Z</updated>
+    <updated>2022-01-26T14:09:11.315Z</updated>
     
     <content type="html"><![CDATA[<h1 id="免密输入-GitHub-部署项目，采用-SSH"><a href="#免密输入-GitHub-部署项目，采用-SSH" class="headerlink" title="免密输入 GitHub 部署项目，采用 SSH"></a>免密输入 GitHub 部署项目，采用 SSH</h1><p>之前一直采用 GitHub Desktop 图形化草棉，难免有些操作复杂，但是研究命令行部署，有没有正好。</p><h2 id="1、生成-SSH-密钥"><a href="#1、生成-SSH-密钥" class="headerlink" title="1、生成 SSH 密钥"></a>1、生成 SSH 密钥</h2><h2 id="2、设置-GitHub-中的-SSH-keys"><a href="#2、设置-GitHub-中的-SSH-keys" class="headerlink" title="2、设置 GitHub 中的 SSH keys"></a>2、设置 GitHub 中的 SSH keys</h2><p>这里可以选择在用户设置中添加密钥（Settings –&gt; SSH GPG keys）或者往单个项目中添加密钥。这里以用户设置中添加 SSH 密钥为例。</p><p>向用户设置中添加：打开 github 首页，点击右上角的用户头像，选择 <code>Settings</code> 左边找到 <code>SSH and GPG keys</code> ，选择 <code>New SSH key</code> ,将 <code>.ssh</code> 目录下 <code>id_rsa.pub</code> 文件里的全部内容复制进去，点击 <code>Add SSH key</code> 完成密钥的添加。</p><p>向单个项目中添加：打开 <code>username.github.io</code> 的 <code>repository</code> ，在菜单中选择 <code>Settings</code> -&gt; <code>Deploy keys</code> -&gt; <code>Add deploy key</code> ，后面的步骤和上面一样。</p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201062214988.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201062215778.png" alt="添加本地秘钥"></p><p>输入以下命令测试是否成功</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>如果出现以下内容则表示配置成功</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi username! You<span class="string">&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span></span><br></pre></td></tr></table></figure><h2 id="3、把-Hexo-的认证方式改为-SSH"><a href="#3、把-Hexo-的认证方式改为-SSH" class="headerlink" title="3、把 Hexo 的认证方式改为 SSH"></a>3、把 Hexo 的认证方式改为 SSH</h2><p>打开 <code>Hexo</code> 的配置文件 <code>_config.yml</code> ，把 <code>deploy</code> 改为</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git <span class="comment">#部署类型, 本文使用Github</span></span><br><span class="line">  repository: git@github.com:gwaiting/gwaiting.github.io.git</span><br><span class="line">        <span class="comment">#部署的仓库的SSH</span></span><br><span class="line">  branch: main2 <span class="comment">#部署分支,一般使用master主分支</span></span><br></pre></td></tr></table></figure><p>最后，在终端执行命令 <code>$ hexo clean &amp;&amp; hexo g -d</code> 进行部署并上传，检验是否成功。</p>]]></content>
     
@@ -518,8 +490,6 @@
     
     
     <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="GitHub" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
     
     
     <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>
@@ -535,7 +505,7 @@
     <link href="https://dtongxue.top/2020/01/05/Github%20pages%20%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/"/>
     <id>https://dtongxue.top/2020/01/05/Github%20pages%20%E7%BB%91%E5%AE%9A%E4%B8%AA%E4%BA%BA%E5%9F%9F%E5%90%8D/</id>
     <published>2020-01-04T16:00:00.000Z</published>
-    <updated>2022-01-06T11:44:04.480Z</updated>
+    <updated>2022-01-26T14:09:43.247Z</updated>
     
     <content type="html"><![CDATA[<h1 id="GitHub-的地址域名解析"><a href="#GitHub-的地址域名解析" class="headerlink" title="GitHub 的地址域名解析"></a>GitHub 的地址域名解析</h1><blockquote><p>将 GitHub 上面部署的 Page 的域名更换到自己定义的域名</p></blockquote><h2 id="1、在阿里云的域名控制台添加解析记录"><a href="#1、在阿里云的域名控制台添加解析记录" class="headerlink" title="1、在阿里云的域名控制台添加解析记录"></a>1、在阿里云的域名控制台添加解析记录</h2><p><a href="https://dns.console.aliyun.com/?spm=5176.100251.111252.17.72014f15ybmxxo#/dns/setting/xdtx.xyz">解析地址</a></p><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051618726.png" alt=""></p><p>这里的记录纸最好填写 ip 地址，这样加载会更快，可以在一下<a href="https://ip.chinaz.com/gwaiting.github.io">网址</a>查看域名的 ip。</p><h2 id="2、GitHub-绑定自己的域名"><a href="#2、GitHub-绑定自己的域名" class="headerlink" title="2、GitHub 绑定自己的域名"></a>2、GitHub 绑定自己的域名</h2><p><img src="https://cdn.jsdelivr.net/gh/gwaiting/tuchuang/uPic/202201051621865.png" alt=""></p><p>参考</p><p> <a href="https://segmentfault.com/a/1190000011203711">绑定个人域名https://segmentfault.com/a/1190000011203711</a></p>]]></content>
     
@@ -548,9 +518,7 @@
     
     
     
-    <category term="教程" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/"/>
-    
-    <category term="GitHub" scheme="https://dtongxue.top/categories/%E6%95%99%E7%A8%8B/GitHub/"/>
+    <category term="GitHub" scheme="https://dtongxue.top/categories/GitHub/"/>
     
     
     <category term="GitHub" scheme="https://dtongxue.top/tags/GitHub/"/>

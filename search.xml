@@ -14,9 +14,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> 博客 </tag>
+            
+            <tag> 教程 </tag>
             
             <tag> 语法 </tag>
             
@@ -52,11 +52,11 @@
       
         <tags>
             
+            <tag> 教程 </tag>
+            
             <tag> Hexo </tag>
             
             <tag> Linux </tag>
-            
-            <tag> 教程 </tag>
             
         </tags>
       
@@ -131,9 +131,9 @@
       
         <tags>
             
-            <tag> 教程 </tag>
-            
             <tag> 博客 </tag>
+            
+            <tag> 教程 </tag>
             
             <tag> 图床 </tag>
             
@@ -152,8 +152,6 @@
       
       
       <categories>
-          
-          <category> 教程 </category>
           
           <category> 博客 </category>
           
@@ -184,22 +182,18 @@
       
       <categories>
           
-          <category> Hexo </category>
-          
-          <category> 教程 </category>
-          
-          <category> 美化 </category>
+          <category> 博客 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> 教程 </tag>
             
             <tag> 美化 </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -217,11 +211,7 @@
       
       <categories>
           
-          <category> 教程 </category>
-          
-          <category> 下载 </category>
-          
-          <category> 娱乐 </category>
+          <category> openwrt </category>
           
       </categories>
       
@@ -252,22 +242,18 @@
       
       <categories>
           
-          <category> Hexo </category>
-          
-          <category> 教程 </category>
-          
-          <category> 美化 </category>
+          <category> 博客 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> 教程 </tag>
             
             <tag> 美化 </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -284,8 +270,6 @@
       
       
       <categories>
-          
-          <category> OpenWrt </category>
           
           <category> 路由器 </category>
           
@@ -316,8 +300,6 @@
           
           <category> 教程 </category>
           
-          <category> 图床 </category>
-          
       </categories>
       
       
@@ -345,9 +327,7 @@
       
       <categories>
           
-          <category> 教程 </category>
-          
-          <category> GitHub </category>
+          <category> 开发环境 </category>
           
       </categories>
       
@@ -376,9 +356,7 @@
       
       <categories>
           
-          <category> 教程 </category>
-          
-          <category> GitHub </category>
+          <category> 博客 </category>
           
       </categories>
       
@@ -405,20 +383,16 @@
       
       <categories>
           
-          <category> Hexo </category>
-          
-          <category> 网站部署 </category>
-          
-          <category> GitHub </category>
+          <category> 博客 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> GitHub </tag>
+            
+            <tag> Hexo </tag>
             
             <tag> 网站部署 </tag>
             
@@ -437,8 +411,6 @@
       
       
       <categories>
-          
-          <category> 教程 </category>
           
           <category> GitHub </category>
           
@@ -469,8 +441,6 @@
           
           <category> 教程 </category>
           
-          <category> GitHub </category>
-          
       </categories>
       
       
@@ -497,8 +467,6 @@
       
       
       <categories>
-          
-          <category> 教程 </category>
           
           <category> GitHub </category>
           

@@ -63,6 +63,7 @@ display:none;/*隐藏文章详情*/
     border-radius: 8px 8px 0 0;/*圆角修改*/
 }
 .recent-post-item{
+    /* height:auto !important; */
     height:auto !important;/*容器高度自动*/
 }
 
